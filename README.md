@@ -31,7 +31,8 @@
       <h2 style="color: #4B0082; margin: 0; font-weight: 600; font-size: 1.5rem;">📖 หน้าปก (Cover)</h2>
     </div>
     <div style="background-color: #f9f9f9; padding: 10px; border-radius: 14px; border: 1px dashed #e0e0e0;">
-      <img src="วางรูปหน้าปกตรงนี้.png" width="100%" style="border-radius: 10px; display: block;">
+      <img src="<img width="1414" height="2000" alt="1" src="https://github.com/user-attachments/assets/18afa173-a4f8-4e4f-affe-79288cb37492" />
+.png" width="100%" style="border-radius: 10px; display: block;">
     </div>
   </div>
 
