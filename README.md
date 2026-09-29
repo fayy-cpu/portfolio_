@@ -68,25 +68,33 @@
     </div>
   </div>
 
-  <!-- CARD 5: กิจกรรมที่ภาคภูมิใจ -->
+<!-- CARD 5: กิจกรรมที่ภาคภูมิใจ (มี 3 แผ่น) -->
   <div style="background-color: #ffffff; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); margin-bottom: 40px; max-width: 800px; text-align: left; border: 1px solid #f0f0f0;">
     <div style="display: flex; align-items: center; margin-bottom: 20px;">
       <span style="background-color: #4B0082; color: #ffffff; font-weight: 700; padding: 6px 14px; border-radius: 12px; margin-right: 12px; font-size: 0.9rem;">05</span>
       <h2 style="color: #4B0082; margin: 0; font-weight: 600; font-size: 1.5rem;">🏆 กิจกรรมที่ภาคภูมิใจ (Achievements)</h2>
     </div>
     <div style="background-color: #f9f9f9; padding: 10px; border-radius: 14px; border: 1px dashed #e0e0e0;">
-      <img src="วางรูปกิจกรรมภาคภูมิใจตรงนี้.png" width="100%" style="border-radius: 10px; display: block;">
+      <!-- แผ่นที่ 1 -->
+      <img src="วางลิงก์รูปกิจกรรมภาคภูมิใจ_แผ่นที่1" width="100%" style="border-radius: 10px; display: block; margin-bottom: 15px;">
+      <!-- แผ่นที่ 2 -->
+      <img src="วางลิงก์รูปกิจกรรมภาคภูมิใจ_แผ่นที่2" width="100%" style="border-radius: 10px; display: block; margin-bottom: 15px;">
+      <!-- แผ่นที่ 3 -->
+      <img src="วางลิงก์รูปกิจกรรมภาคภูมิใจ_แผ่นที่3" width="100%" style="border-radius: 10px; display: block;">
     </div>
   </div>
 
-  <!-- CARD 6: กิจกรรมที่เข้าร่วม -->
+  <!-- CARD 6: กิจกรรมที่เข้าร่วม (มี 2 แผ่น) -->
   <div style="background-color: #ffffff; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); margin-bottom: 40px; max-width: 800px; text-align: left; border: 1px solid #f0f0f0;">
     <div style="display: flex; align-items: center; margin-bottom: 20px;">
       <span style="background-color: #4B0082; color: #ffffff; font-weight: 700; padding: 6px 14px; border-radius: 12px; margin-right: 12px; font-size: 0.9rem;">06</span>
       <h2 style="color: #4B0082; margin: 0; font-weight: 600; font-size: 1.5rem;">🌟 กิจกรรมที่เข้าร่วม (Activities)</h2>
     </div>
     <div style="background-color: #f9f9f9; padding: 10px; border-radius: 14px; border: 1px dashed #e0e0e0;">
-      <img src="วางรูปกิจกรรมเข้าร่วมตรงนี้.png" width="100%" style="border-radius: 10px; display: block;">
+      <!-- แผ่นที่ 1 -->
+      <img src="วางลิงก์รูปกิจกรรมเข้าร่วม_แผ่นที่1" width="100%" style="border-radius: 10px; display: block; margin-bottom: 15px;">
+      <!-- แผ่นที่ 2 -->
+      <img src="วางลิงก์รูปกิจกรรมเข้าร่วม_แผ่นที่2" width="100%" style="border-radius: 10px; display: block;">
     </div>
   </div>
 
