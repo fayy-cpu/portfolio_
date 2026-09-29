@@ -11,7 +11,7 @@
     <p style="font-size: 1.1rem; opacity: 0.9; margin: 0; font-weight: 300;">แฟ้มสะสมผลงานออนไลน์ • ยินดีต้อนรับเข้าสู่ผลงานของศิริวรรณ</p>
   </div>
 
-  <!-- ================= 2. NAVIGATION MENU (เมนูเดิม) ================= -->
+  <!-- ================= 2. NAVIGATION MENU ================= -->
   <div style="background: #ffffff; padding: 12px 25px; border-radius: 50px; display: inline-block; box-shadow: 0 6px 20px rgba(75, 0, 130, 0.1); margin-bottom: 45px; border: 1px solid rgba(75, 0, 130, 0.15);">
     <a href="ปก.md" style="color: #4B0082; text-decoration: none; font-weight: 600; padding: 0 6px;">ปก</a> <span style="color: #ddd;">|</span> 
     <a href="sop.md" style="color: #4B0082; text-decoration: none; font-weight: 600; padding: 0 6px;">SOP</a> <span style="color: #ddd;">|</span> 
@@ -42,7 +42,7 @@
       <h2 style="color: #4B0082; margin: 0; font-weight: 600; font-size: 1.5rem;">✍️ Statement of Purpose (SOP)</h2>
     </div>
     <div style="background-color: #f9f9f9; padding: 10px; border-radius: 14px; border: 1px dashed #e0e0e0;">
-      <img src="วางรูปSOPตรงนี้.png" width="100%" style="border-radius: 10px; display: block;">
+      <img src="https://github.com/user-attachments/assets/727bc4cb-21e5-468f-b63f-885b2fae8c6f" width="100%" style="border-radius: 10px; display: block;">
     </div>
   </div>
 
@@ -53,7 +53,7 @@
       <h2 style="color: #4B0082; margin: 0; font-weight: 600; font-size: 1.5rem;">👤 ประวัติส่วนตัว (Profile)</h2>
     </div>
     <div style="background-color: #f9f9f9; padding: 10px; border-radius: 14px; border: 1px dashed #e0e0e0;">
-      <img src="วางรูปประวัติส่วนตัวตรงนี้.png" width="100%" style="border-radius: 10px; display: block;">
+      <img src="https://github.com/user-attachments/assets/8b5d025b-ba7c-4c51-872d-c6fe34352506" width="100%" style="border-radius: 10px; display: block;">
     </div>
   </div>
 
@@ -64,37 +64,32 @@
       <h2 style="color: #4B0082; margin: 0; font-weight: 600; font-size: 1.5rem;">🎓 ประวัติการศึกษา (Education)</h2>
     </div>
     <div style="background-color: #f9f9f9; padding: 10px; border-radius: 14px; border: 1px dashed #e0e0e0;">
-      <img src="วางรูปประวัติการศึกษาตรงนี้.png" width="100%" style="border-radius: 10px; display: block;">
+      <img src="https://github.com/user-attachments/assets/7ef51d92-23e0-45af-ae03-2ca2b536aa64" width="100%" style="border-radius: 10px; display: block;">
     </div>
   </div>
 
-<!-- CARD 5: กิจกรรมที่ภาคภูมิใจ (มี 3 แผ่น) -->
+  <!-- CARD 5: กิจกรรมที่ภาคภูมิใจ (3 แผ่น) -->
   <div style="background-color: #ffffff; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); margin-bottom: 40px; max-width: 800px; text-align: left; border: 1px solid #f0f0f0;">
     <div style="display: flex; align-items: center; margin-bottom: 20px;">
       <span style="background-color: #4B0082; color: #ffffff; font-weight: 700; padding: 6px 14px; border-radius: 12px; margin-right: 12px; font-size: 0.9rem;">05</span>
       <h2 style="color: #4B0082; margin: 0; font-weight: 600; font-size: 1.5rem;">🏆 กิจกรรมที่ภาคภูมิใจ (Achievements)</h2>
     </div>
     <div style="background-color: #f9f9f9; padding: 10px; border-radius: 14px; border: 1px dashed #e0e0e0;">
-      <!-- แผ่นที่ 1 -->
-      <img src="วางลิงก์รูปกิจกรรมภาคภูมิใจ_แผ่นที่1" width="100%" style="border-radius: 10px; display: block; margin-bottom: 15px;">
-      <!-- แผ่นที่ 2 -->
-      <img src="วางลิงก์รูปกิจกรรมภาคภูมิใจ_แผ่นที่2" width="100%" style="border-radius: 10px; display: block; margin-bottom: 15px;">
-      <!-- แผ่นที่ 3 -->
-      <img src="วางลิงก์รูปกิจกรรมภาคภูมิใจ_แผ่นที่3" width="100%" style="border-radius: 10px; display: block;">
+      <img src="https://github.com/user-attachments/assets/50b7dfc5-4b27-4776-ba3c-77f1a638f5d5" width="100%" style="border-radius: 10px; display: block; margin-bottom: 15px;">
+      <img src="https://github.com/user-attachments/assets/c349b998-7318-4776-a489-6cf48c401a37" width="100%" style="border-radius: 10px; display: block; margin-bottom: 15px;">
+      <img src="https://github.com/user-attachments/assets/cc8e98ef-047a-49ff-9141-475673359e09" width="100%" style="border-radius: 10px; display: block;">
     </div>
   </div>
 
-  <!-- CARD 6: กิจกรรมที่เข้าร่วม (มี 2 แผ่น) -->
+  <!-- CARD 6: กิจกรรมที่เข้าร่วม (2 แผ่น) -->
   <div style="background-color: #ffffff; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); margin-bottom: 40px; max-width: 800px; text-align: left; border: 1px solid #f0f0f0;">
     <div style="display: flex; align-items: center; margin-bottom: 20px;">
       <span style="background-color: #4B0082; color: #ffffff; font-weight: 700; padding: 6px 14px; border-radius: 12px; margin-right: 12px; font-size: 0.9rem;">06</span>
       <h2 style="color: #4B0082; margin: 0; font-weight: 600; font-size: 1.5rem;">🌟 กิจกรรมที่เข้าร่วม (Activities)</h2>
     </div>
     <div style="background-color: #f9f9f9; padding: 10px; border-radius: 14px; border: 1px dashed #e0e0e0;">
-      <!-- แผ่นที่ 1 -->
-      <img src="วางลิงก์รูปกิจกรรมเข้าร่วม_แผ่นที่1" width="100%" style="border-radius: 10px; display: block; margin-bottom: 15px;">
-      <!-- แผ่นที่ 2 -->
-      <img src="วางลิงก์รูปกิจกรรมเข้าร่วม_แผ่นที่2" width="100%" style="border-radius: 10px; display: block;">
+      <img src="https://github.com/user-attachments/assets/28b25a8a-ee9e-4b8e-9ee5-1753209f8b2a" width="100%" style="border-radius: 10px; display: block; margin-bottom: 15px;">
+      <img src="https://github.com/user-attachments/assets/543a46e3-f216-4fa5-8a4a-2677857c2b80" width="100%" style="border-radius: 10px; display: block;">
     </div>
   </div>
 
@@ -105,7 +100,7 @@
       <h2 style="color: #4B0082; margin: 0; font-weight: 600; font-size: 1.5rem;">📘 ปกหลัง (Back Cover)</h2>
     </div>
     <div style="background-color: #f9f9f9; padding: 10px; border-radius: 14px; border: 1px dashed #e0e0e0;">
-      <img src="วางรูปปกหลังตรงนี้.png" width="100%" style="border-radius: 10px; display: block;">
+      <img src="https://github.com/user-attachments/assets/58296d59-49a1-4596-b896-dad36da9a258" width="100%" style="border-radius: 10px; display: block;">
     </div>
   </div>
 
