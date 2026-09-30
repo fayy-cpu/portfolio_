@@ -16,7 +16,7 @@
     </div>
 
     <!-- HERO BANNER -->
-    <div style="background: linear-gradient(135deg, #1A0B2E 0%, #301050 40%, #4C1D95 70%, #1E3A8A 100%); padding: 50px 35px; border-radius: 32px; box-shadow: 0 20px 40px rgba(48, 16, 80, 0.35); margin-bottom: 30px; color: #ffffff; border: 2px solid rgba(124, 58, 237, 0.4); text-align: center;">
+    <div style="background: linear-gradient(135deg, #1A0B2E 0%, #301050 40%, #4C1D95 70%, #1E3A8A 100%); padding: 50px 35px; border-radius: 32px; box-shadow: 0 20px 40px rgba(48, 16, 80, 0.35); margin-bottom: 25px; color: #ffffff; border: 2px solid rgba(124, 58, 237, 0.4); text-align: center;">
       <span style="background: rgba(124, 58, 237, 0.25); backdrop-filter: blur(10px); padding: 8px 24px; border-radius: 30px; font-size: 0.9rem; letter-spacing: 2px; font-weight: 600; color: #E9D5FF; border: 1px solid rgba(167, 139, 250, 0.4);">✨ DIGITAL PORTFOLIO 2026</span>
       <h1 style="font-size: 3.2rem; margin: 20px 0 10px 0; font-weight: 700; color: #ffffff; text-shadow: 0 4px 12px rgba(0,0,0,0.4);">Portfolio By Siriwan</h1>
       <p style="font-size: 1.2rem; opacity: 0.95; margin: 0 0 15px 0; font-weight: 400; color: #FDE047;">นางสาวศิริวรรณ บุตรศรี • คณะครุศาสตร์ สาขาวิชาดนตรีศึกษา มหาวิทยาลัยศิลปากร</p>
@@ -28,16 +28,16 @@
       </div>
     </div>
 
-    <!-- NAVIGATION BAR -->
-    <div style="background: #ffffff; padding: 14px 24px; border-radius: 50px; display: inline-block; box-shadow: 0 10px 30px rgba(48, 16, 80, 0.1); margin-bottom: 35px; border: 2px solid #FFF59D; text-align: center;">
-      <a href="README.md" style="color: #4C1D95; text-decoration: none; font-weight: 700; padding: 0 5px; font-size: 0.9rem;">🏠 หน้าหลัก</a> <span style="color: #ccc;">|</span> 
-      <a href="ปก.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 5px; font-size: 0.9rem;">ปก (1/7)</a> <span style="color: #ccc;">|</span> 
-      <a href="sop.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 5px; font-size: 0.9rem;">SOP (2/7)</a> <span style="color: #ccc;">|</span> 
-      <a href="ประวัติส่วนตัว.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 5px; font-size: 0.9rem;">ประวัติส่วนตัว (3/7)</a> <span style="color: #ccc;">|</span> 
-      <a href="ประวัติการศึกษา.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 5px; font-size: 0.9rem;">ประวัติการศึกษา (4/7)</a> <span style="color: #ccc;">|</span> 
-      <a href="กิจกรรมที่ภาคภูมิใจ.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 5px; font-size: 0.9rem;">กิจกรรมภาคภูมิใจ (5/7)</a> <span style="color: #ccc;">|</span> 
-      <a href="กิจกรรมเข้าร่วม.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 5px; font-size: 0.9rem;">กิจกรรมเข้าร่วม (6/7)</a> <span style="color: #ccc;">|</span> 
-      <a href="ปกหลัง.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 5px; font-size: 0.9rem;">ปกหลัง (7/7)</a>
+    <!-- NUMBERED NAVIGATION BAR (01 - 07) -->
+    <div style="background: #ffffff; padding: 16px 20px; border-radius: 50px; display: inline-block; box-shadow: 0 10px 30px rgba(48, 16, 80, 0.1); margin-bottom: 35px; border: 2px solid #FFF59D; text-align: center; max-width: 100%;">
+      <a href="README.md" style="color: #4C1D95; text-decoration: none; font-weight: 700; padding: 0 6px; font-size: 0.85rem;">🏠 หน้าหลัก</a> <span style="color: #ddd;">|</span> 
+      <a href="ปก.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 6px; font-size: 0.85rem;">01 ปก</a> <span style="color: #ddd;">|</span> 
+      <a href="sop.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 6px; font-size: 0.85rem;">02 SOP</a> <span style="color: #ddd;">|</span> 
+      <a href="ประวัติส่วนตัว.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 6px; font-size: 0.85rem;">03 ประวัติส่วนตัว</a> <span style="color: #ddd;">|</span> 
+      <a href="ประวัติการศึกษา.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 6px; font-size: 0.85rem;">04 ประวัติการศึกษา</a> <span style="color: #ddd;">|</span> 
+      <a href="กิจกรรมที่ภาคภูมิใจ.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 6px; font-size: 0.85rem;">05 ผลงานภาคภูมิใจ</a> <span style="color: #ddd;">|</span> 
+      <a href="กิจกรรมเข้าร่วม.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 6px; font-size: 0.85rem;">06 กิจกรรม</a> <span style="color: #ddd;">|</span> 
+      <a href="ปกหลัง.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 6px; font-size: 0.85rem;">07 ปกหลัง</a>
     </div>
 
     <!-- PROFILE SECTION -->
