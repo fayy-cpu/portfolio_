@@ -26,7 +26,6 @@
         radial-gradient(circle at 90% 20%, rgba(250,204,21,.15), transparent 28%),
         linear-gradient(135deg, #faf7ff, #f4edff 45%, #fffbea);
       color: #27143f;
-      min-height: 100vh;
     }
 
     a {
@@ -34,7 +33,6 @@
       color: inherit;
     }
 
-    /* NAVBAR */
     nav {
       position: sticky;
       top: 15px;
@@ -44,13 +42,10 @@
       margin: 15px auto 0;
       padding: 13px 22px;
       border-radius: 30px;
-
-      background: rgba(255,255,255,.72);
+      background: rgba(255,255,255,.75);
       backdrop-filter: blur(18px);
-      -webkit-backdrop-filter: blur(18px);
-
       border: 1px solid rgba(255,255,255,.8);
-      box-shadow: 0 10px 35px rgba(75, 30, 110, .12);
+      box-shadow: 0 10px 35px rgba(75,30,110,.12);
 
       display: flex;
       justify-content: space-between;
@@ -108,7 +103,7 @@
     }
 
     .hero h1 {
-      font-size: clamp(45px, 7vw, 82px);
+      font-size: clamp(45px,7vw,82px);
       line-height: .95;
       font-weight: 700;
 
@@ -119,6 +114,7 @@
         #eab308,
         #6d28d9
       );
+
       background-size: 300%;
       -webkit-background-clip: text;
       color: transparent;
@@ -165,7 +161,6 @@
 
     .btn-main:hover {
       transform: translateY(-4px) scale(1.03);
-      box-shadow: 0 15px 35px rgba(124,58,237,.35);
     }
 
     .btn-light {
@@ -173,29 +168,30 @@
       border: 1px solid #eadcff;
     }
 
-    .btn-light:hover {
-      transform: translateY(-4px);
-      background: #faf5ff;
-    }
-
-    /* HERO DECORATION */
-    .music-card {
-      position: relative;
+    /* รูป HERO */
+    .hero-image {
       min-height: 420px;
       border-radius: 40px;
-
-      background:
-        linear-gradient(145deg, rgba(124,58,237,.9), rgba(217,70,239,.75)),
-        white;
-
-      box-shadow: 0 25px 70px rgba(87,35,120,.22);
       overflow: hidden;
 
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      background: linear-gradient(145deg,#7c3aed,#d946ef);
+
+      box-shadow: 0 25px 70px rgba(87,35,120,.22);
 
       animation: float 5s ease-in-out infinite;
+    }
+
+    .hero-image img {
+      width: 100%;
+      height: 100%;
+      min-height: 420px;
+      object-fit: cover;
+      display: block;
+      transition: .5s;
+    }
+
+    .hero-image:hover img {
+      transform: scale(1.05);
     }
 
     @keyframes float {
@@ -203,36 +199,6 @@
       50% { transform: translateY(-12px); }
     }
 
-    .music-card::before {
-      content: "♫";
-      position: absolute;
-      font-size: 230px;
-      color: rgba(255,255,255,.12);
-      right: -20px;
-      bottom: -70px;
-    }
-
-    .music-icon {
-      width: 180px;
-      height: 180px;
-      border-radius: 50%;
-
-      background: rgba(255,255,255,.18);
-      border: 2px solid rgba(255,255,255,.4);
-
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      font-size: 90px;
-      color: white;
-
-      box-shadow:
-        0 0 0 15px rgba(255,255,255,.06),
-        0 0 60px rgba(255,255,255,.25);
-    }
-
-    /* SECTION */
     section {
       max-width: 1100px;
       margin: auto;
@@ -251,37 +217,20 @@
       color: transparent;
     }
 
-    /* CARDS */
     .grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(3,1fr);
       gap: 20px;
     }
 
     .card {
-      background: rgba(255,255,255,.7);
+      background: rgba(255,255,255,.72);
       backdrop-filter: blur(12px);
-
       border: 1px solid rgba(255,255,255,.9);
       border-radius: 25px;
       padding: 27px;
-
       box-shadow: 0 12px 35px rgba(68,36,90,.08);
-
       transition: .35s;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .card::before {
-      content: "";
-      position: absolute;
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      background: rgba(168,85,247,.1);
-      top: -45px;
-      right: -45px;
     }
 
     .card:hover {
@@ -305,9 +254,8 @@
       font-size: 14px;
     }
 
-    /* PORTFOLIO */
     .portfolio {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(2,1fr);
     }
 
     .portfolio-card {
@@ -331,8 +279,6 @@
 
       background: linear-gradient(135deg,#7c3aed,#d946ef);
       color: white;
-
-      box-shadow: 0 8px 20px rgba(124,58,237,.2);
     }
 
     .arrow {
@@ -346,17 +292,15 @@
       transform: translateX(7px);
     }
 
-    /* DREAM */
     .dream {
       border-radius: 35px;
       padding: 55px 40px;
 
-      background:
-        linear-gradient(
-          135deg,
-          rgba(124,58,237,.94),
-          rgba(192,38,211,.9)
-        );
+      background: linear-gradient(
+        135deg,
+        rgba(124,58,237,.94),
+        rgba(192,38,211,.9)
+      );
 
       color: white;
       text-align: center;
@@ -373,10 +317,8 @@
       max-width: 700px;
       margin: auto;
       line-height: 1.9;
-      opacity: .92;
     }
 
-    /* FOOTER */
     footer {
       text-align: center;
       padding: 45px 20px;
@@ -387,8 +329,8 @@
       color: #7c3aed;
     }
 
-    /* MOBILE */
-    @media(max-width: 800px) {
+    @media(max-width:800px) {
+
       nav {
         flex-direction: column;
         gap: 10px;
@@ -403,10 +345,6 @@
         justify-content: center;
       }
 
-      .music-card {
-        min-height: 300px;
-      }
-
       .grid,
       .portfolio {
         grid-template-columns: 1fr;
@@ -419,17 +357,22 @@
   </style>
 </head>
 
+
 <body>
 
   <!-- NAVBAR -->
   <nav>
-    <div class="logo">SIRIWAN • PORTFOLIO</div>
+
+    <div class="logo">
+      SIRIWAN • PORTFOLIO
+    </div>
 
     <div class="nav-links">
       <a href="#about">เกี่ยวกับฉัน</a>
       <a href="#portfolio">ผลงาน</a>
       <a href="#dream">ความฝัน</a>
     </div>
+
   </nav>
 
 
@@ -437,14 +380,19 @@
   <header class="hero">
 
     <div>
-      <div class="tag">🎵 DIGITAL PORTFOLIO • 2026</div>
+
+      <div class="tag">
+        🎵 DIGITAL PORTFOLIO • 2026
+      </div>
 
       <h1>
         MUSIC<br>
         EDUCATION
       </h1>
 
-      <h2>นางสาวศิริวรรณ บุตรศรี</h2>
+      <h2>
+        นางสาวศิริวรรณ บุตรศรี
+      </h2>
 
       <p>
         Portfolio สำหรับการศึกษาต่อ<br>
@@ -452,6 +400,7 @@
       </p>
 
       <div class="buttons">
+
         <a class="btn btn-main" href="ปก.md">
           📖 เปิด Portfolio
         </a>
@@ -459,12 +408,31 @@
         <a class="btn btn-light" href="#portfolio">
           ✦ ดูผลงาน
         </a>
+
       </div>
+
     </div>
 
 
-    <div class="music-card">
-      <div class="music-icon">🎷</div>
+    <!-- ==================================================
+         ⭐⭐⭐ ใส่รูปปกตรงนี้ ⭐⭐⭐
+
+         ให้เอาลิงก์รูปของเธอมาแทนคำว่า
+
+         ใส่ลิงก์รูปปกตรงนี้
+
+         เช่น:
+         <img src="https://...">
+
+         ================================================== -->
+
+    <div class="hero-image">
+
+      <img
+        src="ใส่ลิงก์รูปปกตรงนี้"
+        alt="ภาพหน้าปก Portfolio"
+      >
+
     </div>
 
   </header>
@@ -481,25 +449,33 @@
 
       <div class="card">
         <div class="card-icon">🎷</div>
+
         <h3>Music</h3>
+
         <p>
           สนใจด้านดนตรีและมีประสบการณ์เล่น
           Baritone มาอย่างต่อเนื่อง
         </p>
       </div>
 
+
       <div class="card">
         <div class="card-icon">🎓</div>
+
         <h3>Education</h3>
+
         <p>
           นักเรียนสายวิทยาศาสตร์–คณิตศาสตร์
           ผู้มีความสนใจด้านดนตรีศึกษา
         </p>
       </div>
 
+
       <div class="card">
         <div class="card-icon">💜</div>
+
         <h3>My Passion</h3>
+
         <p>
           ต้องการนำความรักในดนตรี
           ไปต่อยอดสู่การเป็นครูดนตรี
@@ -507,6 +483,7 @@
       </div>
 
     </div>
+
   </section>
 
 
@@ -517,92 +494,138 @@
       My <span>Portfolio</span>
     </h2>
 
+
     <div class="grid portfolio">
 
+
       <a href="ปก.md">
+
         <div class="card portfolio-card">
+
           <div class="number">01</div>
+
           <div>
             <h3>หน้าปก</h3>
             <p>Cover & Introduction</p>
           </div>
+
           <div class="arrow">→</div>
+
         </div>
+
       </a>
 
 
       <a href="sop.md">
+
         <div class="card portfolio-card">
+
           <div class="number">02</div>
+
           <div>
             <h3>SOP</h3>
             <p>Statement of Purpose</p>
           </div>
+
           <div class="arrow">→</div>
+
         </div>
+
       </a>
 
 
       <a href="ประวัติส่วนตัว.md">
+
         <div class="card portfolio-card">
+
           <div class="number">03</div>
+
           <div>
             <h3>ประวัติส่วนตัว</h3>
             <p>Personal Profile</p>
           </div>
+
           <div class="arrow">→</div>
+
         </div>
+
       </a>
 
 
       <a href="ประวัติการศึกษา.md">
+
         <div class="card portfolio-card">
+
           <div class="number">04</div>
+
           <div>
             <h3>ประวัติการศึกษา</h3>
             <p>Education Background</p>
           </div>
+
           <div class="arrow">→</div>
+
         </div>
+
       </a>
 
 
       <a href="กิจกรรมภาคภูมิใจ.md">
+
         <div class="card portfolio-card">
+
           <div class="number">05</div>
+
           <div>
             <h3>กิจกรรมภาคภูมิใจ</h3>
             <p>Proud Achievements</p>
           </div>
+
           <div class="arrow">→</div>
+
         </div>
+
       </a>
 
 
       <a href="กิจกรรมเข้าร่วม.md">
+
         <div class="card portfolio-card">
+
           <div class="number">06</div>
+
           <div>
             <h3>กิจกรรมเข้าร่วม</h3>
             <p>Activities & Experiences</p>
           </div>
+
           <div class="arrow">→</div>
+
         </div>
+
       </a>
 
 
       <a href="ปกหลัง.md">
+
         <div class="card portfolio-card">
+
           <div class="number">07</div>
+
           <div>
             <h3>ปกหลัง</h3>
             <p>Thank You</p>
           </div>
+
           <div class="arrow">→</div>
+
         </div>
+
       </a>
 
+
     </div>
+
   </section>
 
 
@@ -611,7 +634,9 @@
 
     <div class="dream">
 
-      <h2>My Dream ✨</h2>
+      <h2>
+        My Dream ✨
+      </h2>
 
       <p>
         ความฝันของฉันคือการได้เป็นครูดนตรี
@@ -627,17 +652,21 @@
 
   <!-- FOOTER -->
   <footer>
+
     <p>
       DIGITAL PORTFOLIO • 2026
     </p>
 
     <p>
-      <strong>นางสาวศิริวรรณ บุตรศรี</strong>
+      <strong>
+        นางสาวศิริวรรณ บุตรศรี
+      </strong>
     </p>
 
     <p>
       Music Education 🎵
     </p>
+
   </footer>
 
 </body>
