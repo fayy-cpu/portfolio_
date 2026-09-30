@@ -1,232 +1,421 @@
 <!DOCTYPE html>
-<html lang="th" class="scroll-smooth">
+<html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Siriwan Butsri (Music Education, Silpakorn University)</title>
-    <!-- Google Fonts: Kanit -->
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        kanit: ['Kanit', 'sans-serif'],
-                    },
-                    colors: {
-                        deepPurple: '#2E1065',
-                        royalPurple: '#581C87',
-                        lightPurple: '#7C3AED',
-                        accentGold: '#FDE047',
-                    }
-                }
-            }
-        }
-    </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Portfolio | Siriwan Butsri</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+body{
+    font-family:'Kanit',sans-serif;
+    background:
+        radial-gradient(circle at top left,#f3e8ff 0%,transparent 35%),
+        radial-gradient(circle at bottom right,#ede9fe 0%,transparent 35%),
+        #faf7ff;
+    color:#2e1065;
+}
+
+.glass{
+    background:rgba(255,255,255,.72);
+    backdrop-filter:blur(16px);
+    border:1px solid rgba(255,255,255,.8);
+}
+
+.card{
+    transition:.35s ease;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 25px 50px rgba(88,28,135,.16);
+}
+
+.hero-title{
+    background:linear-gradient(90deg,#4c1d95,#7e22ce,#a855f7);
+    -webkit-background-clip:text;
+    color:transparent;
+}
+
+.img-box{
+    overflow:hidden;
+}
+
+.img-box img{
+    transition:.5s ease;
+}
+
+.card:hover img{
+    transform:scale(1.05);
+}
+
+.gradient-border{
+    position:relative;
+}
+
+.gradient-border::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    border-radius:24px;
+    padding:1px;
+    background:linear-gradient(135deg,#c084fc,#7e22ce,#e9d5ff);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite:xor;
+    mask-composite:exclude;
+    pointer-events:none;
+}
+</style>
 </head>
-<body class="font-kanit bg-[#FAF5FF] text-gray-800 antialiased selection:bg-purple-300 selection:text-deepPurple">
 
-    <!-- HERO SECTION -->
-    <header class="relative overflow-hidden bg-gradient-to-br from-[#1E0B36] via-[#3B0764] to-[#581C87] text-white py-20 px-6 shadow-2xl border-b-4 border-purple-400">
-      <div class="max-w-5xl mx-auto text-center relative z-10">
-        <span class="inline-block bg-white/10 backdrop-blur-md px-5 py-2 rounded-full text-sm font-semibold text-purple-200 border border-purple-300/30 mb-6 tracking-widest shadow-lg">
-          ✨ DIGITAL PORTFOLIO 2026 • SILPAKORN
-        </span>
-        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-4 drop-shadow-lg text-white">
-          Portfolio By น้องฝ้าย (Siriwan)
-        </h1>
-        <p class="text-lg md:text-xl text-purple-200 font-medium mb-8 drop-shadow">
-          นางสาวศิริวรรณ บุตรศรี • คณะครุศาสตร์ สาขาวิชาดนตรีศึกษา มหาวิทยาลัยศิลปากร
-        </p>
-        
-        <!-- Quote Box -->
-        <div class="bg-white/10 backdrop-blur-md p-6 rounded-2xl border-l-4 border-purple-300 max-w-3xl mx-auto text-left mb-8 shadow-xl border border-white/10">
-          <p class="italic text-purple-100 text-sm md:text-base leading-relaxed">
-            “ฉันเชื่อว่าดนตรีไม่ได้เป็นเพียงเสียงที่ไพเราะ แต่เป็นภาษาที่สามารถถ่ายทอดความรู้สึก สร้างแรงบันดาลใจ และเชื่อมโยงผู้คนเข้าด้วยกัน เพื่อก้าวไปสู่การเป็นครูดนตรีที่มีคุณภาพในอนาคต”
-          </p>
-        </div>
+<body>
 
-        <!-- Action Buttons -->
-        <div class="flex flex-wrap justify-center gap-4">
-          <a href="#portfolio-grid" class="bg-gradient-to-r from-purple-400 to-lightPurple text-white font-bold px-8 py-3.5 rounded-full shadow-lg hover:scale-105 transition transform duration-300 border border-purple-300/40">
-            📚 ดูผลงานพอร์ตทั้ง 7 หน้า
-          </a>
-          <a href="#shrine-achievement" class="bg-white/10 hover:bg-white/20 text-white border border-white/30 font-semibold px-8 py-3.5 rounded-full backdrop-blur-md transition duration-300">
-            🏮 ผลงานงานศาลเจ้าพ่อ
-          </a>
-        </div>
-      </div>
-    </header>
+<!-- NAVBAR -->
+<nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-xl border-b border-purple-100">
+<div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
 
-    <!-- MAIN CONTAINER -->
-    <main class="max-w-5xl mx-auto px-6 py-12 space-y-16">
+<a href="index.html" class="font-bold text-xl text-purple-900">
+    💜 Siriwan
+</a>
 
-      <!-- PROFILE & ABOUT SECTION -->
-      <section id="about" class="grid md:grid-cols-2 gap-8 items-center bg-white p-8 md:p-12 rounded-3xl shadow-xl border-2 border-purple-100">
-        <div>
-          <span class="text-royalPurple font-bold tracking-widest text-xs uppercase bg-purple-50 px-3 py-1 rounded-full border border-purple-200">✦ MUSIC EDUCATION PROFILE</span>
-          <h2 class="text-3xl font-bold text-deepPurple mt-3 mb-2">นางสาวศิริวรรณ บุตรศรี (น้องฝ้าย)</h2>
-          <h3 class="text-royalPurple font-semibold text-lg mb-4">🎺 BARITONE & EUPHONIUM PLAYER</h3>
-          <p class="text-gray-600 leading-relaxed mb-6 text-sm md:text-base">
-            นักเรียนชั้นมัธยมศึกษาปีที่ 6 โรงเรียนกระทุ่มแบน "วิเศษสมุทคุณ" มีความมุ่งมั่นตั้งใจอย่างแรงกล้าที่จะศึกษาต่อในคณะครุศาสตร์ สาขาดนตรีศึกษา มหาวิทยาลัยศิลปากร เพื่อนำความรู้ ทักษะทางดนตรี และจิตวิญญาณความเป็นครูไปถ่ายทอดให้กับเยาวชนรุ่นต่อไป
-          </p>
-          <div class="space-y-2.5 text-sm text-gray-700 bg-purple-50/60 p-4 rounded-2xl border border-purple-100">
-            <p>✅ <b>ความถนัดทางดนตรี:</b> บรรเลงเครื่องดนตรี Baritone และ Euphonium</p>
-            <p>✅ <b>ประสบการณ์สำคัญ:</b> สมาชิกวง Marching Band ต่อเนื่องยาวนานกว่า 6 ปี</p>
-            <p>✅ <b>เป้าหมายสูงสุด:</b> เป็นครูดนตรีผู้สร้างแรงบันดาลใจและพัฒนาศักยภาพผู้เรียนอย่างแท้จริง</p>
-          </div>
-        </div>
-        <div class="bg-gradient-to-br from-deepPurple to-royalPurple p-6 rounded-2xl shadow-xl text-center text-white border border-purple-400/30">
-          <h4 class="font-bold text-purple-200 mb-3">🎺 MY MUSIC JOURNEY</h4>
-          <img src="https://github.com/user-attachments/assets/18afa173-a4f8-4e4f-affe-79288cb37492" alt="Cover Preview" class="rounded-xl shadow-lg w-full object-cover mb-4 border border-white/20">
-          <span class="text-xs bg-white/20 px-4 py-1.5 rounded-full text-purple-200 font-medium">Baritone • Marching Band • Krathumphaen</span>
-        </div>
-      </section>
+<div class="hidden md:flex gap-6 text-sm text-purple-800">
+    <a href="#about" class="hover:text-purple-500">About</a>
+    <a href="#portfolio" class="hover:text-purple-500">Portfolio</a>
+    <a href="#contact" class="hover:text-purple-500">Contact</a>
+</div>
 
-      <!-- SHRINE ACHIEVEMENT SECTION (งานศาลเจ้าพ่อ) -->
-      <section id="shrine-achievement" class="bg-white p-8 md:p-12 rounded-3xl shadow-xl border-2 border-purple-100">
-        <div class="max-w-3xl mx-auto text-center">
-          <span class="text-royalPurple font-bold tracking-widest text-xs uppercase bg-purple-50 px-3 py-1 rounded-full border border-purple-200">✦ HIGHLIGHT ACHIEVEMENT</span>
-          <h2 class="text-2xl md:text-3xl font-bold text-deepPurple mt-3 mb-4">🏆 ความภาคภูมิใจ: บรรเลงดนตรีงานศาลเจ้าพ่อ</h2>
-          <p class="text-gray-600 leading-relaxed text-sm md:text-base text-left bg-purple-50/40 p-6 rounded-2xl border border-purple-100 shadow-inner mb-6">
-            การได้เข้าร่วมบรรเลงดนตรีในงานประจำปีของ <b>"ศาลเจ้าพ่อ"</b> ถือเป็นหนึ่งในความทรงจำและความภาคภูมิใจสูงสุดของฉันในฐานะนักดนตรีวงโยธวาทิต/Marching Band ได้แสดงศักยภาพในการเป่าเครื่องดนตรี Baritone และ Euphonium ท่ามกลางบรรยากาศจริง ผู้คนจำนวนมาก และพิธีการที่สำคัญ ซึ่งช่วยหล่อหลอมให้ฉันมีความกล้าแสดงออก มีความรับผิดชอบ และเข้าใจถึงพลังของดนตรีที่เชื่อมโยงผู้คนในชุมชนเข้าไว้ด้วยกัน
-          </p>
-          
-          <!-- ช่องใส่รูปงานศาลเจ้าพ่อ -->
-          <div class="rounded-2xl overflow-hidden shadow-lg border-2 border-purple-200 bg-purple-50 p-2">
-            <!-- (ถ้าน้องฝ้ายมีลิงก์รูปงานศาลเจ้าพ่อ สามารถเอามาเปลี่ยนแทนลิงก์ด้านล่างนี้ได้เลยครับ) -->
-            <img src="https://github.com/user-attachments/assets/18afa173-a4f8-4e4f-affe-79288cb37492" alt="งานศาลเจ้าพ่อ" class="rounded-xl w-full h-auto object-cover max-h-96 mx-auto">
-            <p class="text-xs text-royalPurple font-semibold mt-3">ภาพบรรยากาศความภาคภูมิใจในการร่วมบรรเลงดนตรีงานศาลเจ้าพ่อ</p>
-          </div>
-        </div>
-      </section>
+</div>
+</nav>
 
-      <!-- PORTFOLIO 7 PAGES SHOWCASE -->
-      <section id="portfolio-grid" class="bg-white p-8 md:p-12 rounded-3xl shadow-xl border-2 border-purple-100 text-center">
-        <span class="text-royalPurple font-bold tracking-widest text-xs uppercase bg-purple-50 px-3 py-1 rounded-full border border-purple-200">✦ COMPLETE PORTFOLIO</span>
-        <h2 class="text-3xl md:text-4xl font-bold text-deepPurple mt-3 mb-2">📚 ผลงานพอร์ตโฟลิโอ 7 หน้า (ฉบับเต็ม)</h2>
-        <p class="text-gray-500 mb-10 text-sm md:text-base">คลิกปุ่มใต้ภาพแต่ละหน้า เพื่อเปิดดูไฟล์รูปภาพหรือเนื้อหาเต็มของแต่ละหน้าได้ทันทีครับ</p>
 
-        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
-          
-          <!-- Card 1 -->
-          <div class="bg-purple-50/30 p-6 rounded-2xl border-2 border-purple-100 shadow-md hover:shadow-xl transition flex flex-col justify-between">
-            <div>
-              <div class="flex justify-between items-center mb-3">
-                <span class="text-deepPurple font-bold text-lg">01</span>
-                <span class="text-xs bg-purple-200 text-deepPurple px-2.5 py-1 rounded-full font-semibold">หน้าปก</span>
-              </div>
-              <h4 class="font-bold text-royalPurple mb-3 text-lg">📖 COVER PAGE</h4>
-              <img src="https://github.com/user-attachments/assets/18afa173-a4f8-4e4f-affe-79288cb37492" class="rounded-xl shadow-md mb-5 w-full h-64 object-cover border border-purple-200" alt="Cover">
-            </div>
-            <!-- ลิงก์ชี้ไปที่ไฟล์ภาพหรือหน้าปกโดยตรง -->
-            <a href="https://github.com/user-attachments/assets/18afa173-a4f8-4e4f-affe-79288cb37492" target="_blank" class="bg-royalPurple text-white text-xs font-bold px-5 py-3 rounded-xl shadow hover:bg-lightPurple transition block text-center">VIEW COVER (1/7) ➔</a>
-          </div>
+<!-- HERO -->
+<section class="min-h-[88vh] flex items-center px-6 py-16">
 
-          <!-- Card 2 -->
-          <div class="bg-purple-50/30 p-6 rounded-2xl border-2 border-purple-100 shadow-md hover:shadow-xl transition flex flex-col justify-between">
-            <div>
-              <div class="flex justify-between items-center mb-3">
-                <span class="text-deepPurple font-bold text-lg">02</span>
-                <span class="text-xs bg-purple-200 text-deepPurple px-2.5 py-1 rounded-full font-semibold">เรียงความมุ่งหมาย</span>
-              </div>
-              <h4 class="font-bold text-royalPurple mb-3 text-lg">✍️ SOP</h4>
-              <img src="https://github.com/user-attachments/assets/727bc4cb-21e5-468f-b63f-885b2fae8c6f" class="rounded-xl shadow-md mb-5 w-full h-64 object-cover border border-purple-200" alt="SOP">
-            </div>
-            <a href="https://github.com/user-attachments/assets/727bc4cb-21e5-468f-b63f-885b2fae8c6f" target="_blank" class="bg-royalPurple text-white text-xs font-bold px-5 py-3 rounded-xl shadow hover:bg-lightPurple transition block text-center">VIEW SOP (2/7) ➔</a>
-          </div>
+<div class="max-w-6xl mx-auto w-full grid md:grid-cols-2 gap-12 items-center">
 
-          <!-- Card 3 -->
-          <div class="bg-purple-50/30 p-6 rounded-2xl border-2 border-purple-100 shadow-md hover:shadow-xl transition flex flex-col justify-between">
-            <div>
-              <div class="flex justify-between items-center mb-3">
-                <span class="text-deepPurple font-bold text-lg">03</span>
-                <span class="text-xs bg-purple-200 text-deepPurple px-2.5 py-1 rounded-full font-semibold">ข้อมูลส่วนตัว</span>
-              </div>
-              <h4 class="font-bold text-royalPurple mb-3 text-lg">👤 PROFILE</h4>
-              <img src="https://github.com/user-attachments/assets/8b5d025b-ba7c-4c51-872d-c6fe34352506" class="rounded-xl shadow-md mb-5 w-full h-64 object-cover border border-purple-200" alt="Profile">
-            </div>
-            <a href="https://github.com/user-attachments/assets/8b5d025b-ba7c-4c51-872d-c6fe34352506" target="_blank" class="bg-royalPurple text-white text-xs font-bold px-5 py-3 rounded-xl shadow hover:bg-lightPurple transition block text-center">VIEW PROFILE (3/7) ➔</a>
-          </div>
+<div>
 
-          <!-- Card 4 -->
-          <div class="bg-purple-50/30 p-6 rounded-2xl border-2 border-purple-100 shadow-md hover:shadow-xl transition flex flex-col justify-between">
-            <div>
-              <div class="flex justify-between items-center mb-3">
-                <span class="text-deepPurple font-bold text-lg">04</span>
-                <span class="text-xs bg-purple-200 text-deepPurple px-2.5 py-1 rounded-full font-semibold">ประวัติการศึกษา</span>
-              </div>
-              <h4 class="font-bold text-royalPurple mb-3 text-lg">🎓 EDUCATION</h4>
-              <img src="https://github.com/user-attachments/assets/7ef51d92-23e0-45af-ae03-2ca2b536aa64" class="rounded-xl shadow-md mb-5 w-full h-64 object-cover border border-purple-200" alt="Education">
-            </div>
-            <a href="https://github.com/user-attachments/assets/7ef51d92-23e0-45af-ae03-2ca2b536aa64" target="_blank" class="bg-royalPurple text-white text-xs font-bold px-5 py-3 rounded-xl shadow hover:bg-lightPurple transition block text-center">VIEW EDUCATION (4/7) ➔</a>
-          </div>
+<div class="inline-block px-4 py-2 rounded-full bg-purple-100 text-purple-700 text-sm mb-6">
+    🎵 DIGITAL PORTFOLIO • 2026
+</div>
 
-          <!-- Card 5 -->
-          <div class="bg-purple-50/30 p-6 rounded-2xl border-2 border-purple-100 shadow-md hover:shadow-xl transition flex flex-col justify-between">
-            <div>
-              <div class="flex justify-between items-center mb-3">
-                <span class="text-deepPurple font-bold text-lg">05</span>
-                <span class="text-xs bg-purple-200 text-deepPurple px-2.5 py-1 rounded-full font-semibold">ผลงานภาคภูมิใจ</span>
-              </div>
-              <h4 class="font-bold text-royalPurple mb-3 text-lg">🏆 ACHIEVEMENTS</h4>
-              <img src="https://github.com/user-attachments/assets/50b7dfc5-4b27-4776-ba3c-77f1a638f5d5" class="rounded-xl shadow-md mb-5 w-full h-64 object-cover border border-purple-200" alt="Achievements">
-            </div>
-            <a href="https://github.com/user-attachments/assets/50b7dfc5-4b27-4776-ba3c-77f1a638f5d5" target="_blank" class="bg-royalPurple text-white text-xs font-bold px-5 py-3 rounded-xl shadow hover:bg-lightPurple transition block text-center">VIEW ACHIEVEMENTS (5/7) ➔</a>
-          </div>
+<h1 class="text-5xl md:text-7xl font-bold leading-tight">
+    <span class="hero-title">Siriwan</span><br>
+    Butsri
+</h1>
 
-          <!-- Card 6 -->
-          <div class="bg-purple-50/30 p-6 rounded-2xl border-2 border-purple-100 shadow-md hover:shadow-xl transition flex flex-col justify-between">
-            <div>
-              <div class="flex justify-between items-center mb-3">
-                <span class="text-deepPurple font-bold text-lg">06</span>
-                <span class="text-xs bg-purple-200 text-deepPurple px-2.5 py-1 rounded-full font-semibold">กิจกรรมเข้าร่วม</span>
-              </div>
-              <h4 class="font-bold text-royalPurple mb-3 text-lg">🌟 ACTIVITIES</h4>
-              <img src="https://github.com/user-attachments/assets/28b25a8a-ee9e-4b8e-9ee5-1753209f8b2a" class="rounded-xl shadow-md mb-5 w-full h-64 object-cover border border-purple-200" alt="Activities">
-            </div>
-            <a href="https://github.com/user-attachments/assets/28b25a8a-ee9e-4b8e-9ee5-1753209f8b2a" target="_blank" class="bg-royalPurple text-white text-xs font-bold px-5 py-3 rounded-xl shadow hover:bg-lightPurple transition block text-center">VIEW ACTIVITIES (6/7) ➔</a>
-          </div>
+<p class="mt-5 text-xl text-purple-800">
+    นางสาวศิริวรรณ บุตรศรี
+</p>
 
-        </div>
+<p class="mt-4 text-gray-600 leading-relaxed max-w-xl">
+    ผู้สมัครเข้าศึกษาต่อคณะครุศาสตร์
+    สาขาวิชาดนตรีศึกษา มหาวิทยาลัยศิลปากร
+    ผู้หลงใหลในเสียงดนตรีและความฝันในการเป็นครูดนตรี
+</p>
 
-        <!-- Back Cover (Centered Below) -->
-        <div class="mt-8 bg-purple-50/30 p-6 rounded-2xl border-2 border-purple-100 max-w-md mx-auto shadow-md">
-          <div class="flex justify-between items-center mb-3">
-            <span class="text-deepPurple font-bold text-lg">07</span>
-            <span class="text-xs bg-purple-200 text-deepPurple px-2.5 py-1 rounded-full font-semibold">ปกหลัง</span>
-          </div>
-          <h4 class="font-bold text-royalPurple mb-3 text-lg">📘 BACK COVER</h4>
-          <img src="https://github.com/user-attachments/assets/58296d59-49a1-4596-b896-dad36da9a258" class="rounded-xl shadow-md mb-5 w-full h-64 object-cover border border-purple-200" alt="Back Cover">
-          <a href="https://github.com/user-attachments/assets/58296d59-49a1-4596-b896-dad36da9a258" target="_blank" class="bg-royalPurple text-white text-xs font-bold px-5 py-3 rounded-xl shadow hover:bg-lightPurple transition block text-center">VIEW BACK COVER (7/7) ➔</a>
-        </div>
-      </section>
+<div class="flex flex-wrap gap-4 mt-8">
 
-      <!-- CONTACT SECTION -->
-      <section id="contact" class="bg-white p-8 md:p-12 rounded-3xl shadow-xl border-2 border-purple-100 text-center">
-        <h2 class="text-2xl md:text-3xl font-bold text-deepPurple mb-2">📬 LET'S CONNECT</h2>
-        <p class="text-gray-500 mb-6 text-sm md:text-base">Thank you for visiting my portfolio ♡ พร้อมพูดคุยและร่วมงานเสมอครับ/ค่ะ</p>
-        
-        <div class="flex justify-center gap-4 mb-6 flex-wrap">
-          <a href="https://github.com/fayy-cpu" target="_blank" class="bg-deepPurple text-white px-6 py-3 rounded-xl text-sm font-semibold shadow hover:bg-royalPurple transition">GitHub Profile</a>
-          <a href="mailto:siriwan3005@gmail.com" class="bg-royalPurple text-white px-6 py-3 rounded-xl text-sm font-semibold shadow hover:bg-lightPurple transition">Email Me</a>
-        </div>
+<a href="cover.html"
+class="px-7 py-3 rounded-full bg-purple-700 text-white hover:bg-purple-800 transition shadow-lg shadow-purple-200">
+เปิด Portfolio →
+</a>
 
-        <div class="bg-purple-50/60 p-4 rounded-2xl border border-purple-100 max-w-xl mx-auto text-sm text-gray-700">
-          <p>📞 เบอร์โทรศัพท์: <b>098-782-0931</b></p>
-          <p>✉️ อีเมล: <b>siriwan3005@gmail.com</b></p>
-          <p>💚 ไลน์: <b>faiasdfgh1234</b></p>
-        </div>
-      </section>
+<a href="#portfolio"
+class="px-7 py-3 rounded-full bg-white border border-purple-200 text-purple-700 hover:bg-purple-50 transition">
+ดูผลงาน
+</a>
 
-    </main>
+</div>
 
-    <!-- FOOTER -->
-    <footer class="bg-deepPurple text-purple-300 text-center py-8 text-xs mt-20 border-t border-purple-900">
-      <p>© 2026 Siriwan Butsri • Music Education Portfolio • Silpakorn University</p>
-    </footer>
+</div>
+
+
+<div class="relative">
+
+<div class="absolute -inset-5 bg-purple-300/20 blur-3xl rounded-full"></div>
+
+<div class="relative glass rounded-[32px] p-4 shadow-2xl">
+
+<img
+src="./images/cover.jpg"
+alt="Portfolio Cover"
+class="w-full rounded-[24px] shadow-lg"
+>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section id="about" class="px-6 py-20">
+
+<div class="max-w-6xl mx-auto">
+
+<div class="text-center mb-12">
+<p class="text-purple-500 font-medium">ABOUT ME</p>
+<h2 class="text-4xl font-bold text-purple-950 mt-2">
+ตัวตนของฉัน
+</h2>
+</div>
+
+<div class="grid md:grid-cols-3 gap-6">
+
+<div class="glass rounded-3xl p-7 card">
+<div class="text-4xl mb-4">🎺</div>
+<h3 class="text-xl font-semibold mb-3">Music</h3>
+<p class="text-gray-600">
+มีประสบการณ์ด้านวงโยธวาทิตและการบรรเลง
+Baritone และ Euphonium อย่างต่อเนื่อง
+</p>
+</div>
+
+<div class="glass rounded-3xl p-7 card">
+<div class="text-4xl mb-4">📚</div>
+<h3 class="text-xl font-semibold mb-3">Education</h3>
+<p class="text-gray-600">
+กำลังศึกษาอยู่ชั้นมัธยมศึกษาปีที่ 6
+โรงเรียนกระทุ่มแบน "วิเศษสมุทคุณ"
+</p>
+</div>
+
+<div class="glass rounded-3xl p-7 card">
+<div class="text-4xl mb-4">💜</div>
+<h3 class="text-xl font-semibold mb-3">My Dream</h3>
+<p class="text-gray-600">
+มุ่งมั่นที่จะพัฒนาตนเองเพื่อก้าวสู่การเป็นครูดนตรี
+ที่สามารถส่งต่อความรักในเสียงเพลงให้กับนักเรียน
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- PORTFOLIO -->
+<section id="portfolio" class="px-6 py-20 bg-white/60">
+
+<div class="max-w-6xl mx-auto">
+
+<div class="text-center mb-14">
+<p class="text-purple-500 font-medium">MY PORTFOLIO</p>
+<h2 class="text-4xl font-bold text-purple-950 mt-2">
+แฟ้มสะสมผลงาน
+</h2>
+<p class="text-gray-500 mt-3">
+ก้าวเล็ก ๆ ที่รวมความตั้งใจ ความพยายาม และความรักในดนตรี
+</p>
+</div>
+
+
+<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-7">
+
+
+<!-- PROFILE -->
+<a href="profile.html"
+class="glass rounded-3xl overflow-hidden card">
+
+<div class="img-box aspect-[4/3]">
+<img src="./images/profile.jpg"
+class="w-full h-full object-cover"
+alt="Profile">
+</div>
+
+<div class="p-6">
+<p class="text-purple-500 text-sm">03 / 07</p>
+<h3 class="text-xl font-semibold mt-1">ข้อมูลส่วนตัว</h3>
+<p class="text-gray-500 text-sm mt-2">
+รู้จักตัวตนและความสนใจของฉัน
+</p>
+</div>
+
+</a>
+
+
+<!-- EDUCATION -->
+<a href="education.html"
+class="glass rounded-3xl overflow-hidden card">
+
+<div class="img-box aspect-[4/3]">
+<img src="./images/education.jpg"
+class="w-full h-full object-cover"
+alt="Education">
+</div>
+
+<div class="p-6">
+<p class="text-purple-500 text-sm">04 / 07</p>
+<h3 class="text-xl font-semibold mt-1">ประวัติการศึกษา</h3>
+<p class="text-gray-500 text-sm mt-2">
+เส้นทางการเรียนรู้และการศึกษา
+</p>
+</div>
+
+</a>
+
+
+<!-- ACHIEVEMENTS -->
+<a href="achievements.html"
+class="glass rounded-3xl overflow-hidden card">
+
+<div class="img-box aspect-[4/3]">
+<img src="./images/achievement1.jpg"
+class="w-full h-full object-cover"
+alt="Achievements">
+</div>
+
+<div class="p-6">
+<p class="text-purple-500 text-sm">05 / 07</p>
+<h3 class="text-xl font-semibold mt-1">ผลงานที่ภาคภูมิใจ</h3>
+<p class="text-gray-500 text-sm mt-2">
+ผลงานและประสบการณ์ที่มีความหมาย
+</p>
+</div>
+
+</a>
+
+
+<!-- ACTIVITIES -->
+<a href="activities.html"
+class="glass rounded-3xl overflow-hidden card">
+
+<div class="img-box aspect-[4/3]">
+<img src="./images/activity1.jpg"
+class="w-full h-full object-cover"
+alt="Activities">
+</div>
+
+<div class="p-6">
+<p class="text-purple-500 text-sm">06 / 07</p>
+<h3 class="text-xl font-semibold mt-1">กิจกรรมที่เข้าร่วม</h3>
+<p class="text-gray-500 text-sm mt-2">
+ประสบการณ์นอกห้องเรียนและกิจกรรมดนตรี
+</p>
+</div>
+
+</a>
+
+
+<!-- SOP -->
+<a href="sop.html"
+class="glass rounded-3xl overflow-hidden card">
+
+<div class="img-box aspect-[4/3]">
+<img src="./images/sop.jpg"
+class="w-full h-full object-cover"
+alt="Statement of Purpose">
+</div>
+
+<div class="p-6">
+<p class="text-purple-500 text-sm">02 / 07</p>
+<h3 class="text-xl font-semibold mt-1">Statement of Purpose</h3>
+<p class="text-gray-500 text-sm mt-2">
+เหตุผล ความฝัน และเป้าหมายของฉัน
+</p>
+</div>
+
+</a>
+
+
+<!-- COVER -->
+<a href="cover.html"
+class="glass rounded-3xl overflow-hidden card">
+
+<div class="img-box aspect-[4/3]">
+<img src="./images/cover.jpg"
+class="w-full h-full object-cover"
+alt="Cover">
+</div>
+
+<div class="p-6">
+<p class="text-purple-500 text-sm">01 / 07</p>
+<h3 class="text-xl font-semibold mt-1">หน้าปก</h3>
+<p class="text-gray-500 text-sm mt-2">
+Digital Portfolio 2026
+</p>
+</div>
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- QUOTE -->
+<section class="px-6 py-24">
+
+<div class="max-w-4xl mx-auto text-center">
+
+<div class="text-5xl mb-7">🎶</div>
+
+<p class="text-2xl md:text-3xl font-medium text-purple-950 leading-relaxed">
+“ดนตรีไม่ได้เป็นเพียงเสียงที่ไพเราะ
+แต่เป็นภาษาที่สามารถถ่ายทอดความรู้สึก
+สร้างแรงบันดาลใจ และเชื่อมโยงผู้คนเข้าด้วยกัน”
+</p>
+
+<p class="mt-6 text-purple-500">
+— Siriwan Butsri
+</p>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="px-6 py-20">
+
+<div class="max-w-5xl mx-auto">
+
+<div class="gradient-border rounded-3xl p-10 glass text-center">
+
+<p class="text-purple-500 font-medium">
+LET'S CONNECT
+</p>
+
+<h2 class="text-4xl font-bold text-purple-950 mt-2">
+ขอบคุณที่เข้ามาชม Portfolio 💜
+</h2>
+
+<p class="text-gray-600 mt-4">
+หวังว่าแฟ้มสะสมผลงานเล่มนี้จะทำให้ทุกคนได้รู้จักฉัน
+และเห็นถึงความตั้งใจที่มีต่อดนตรี
+</p>
+
+<a href="back-cover.html"
+class="inline-block mt-8 px-7 py-3 rounded-full bg-purple-700 text-white hover:bg-purple-800 transition">
+ไปหน้าปกหลัง →
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<footer class="border-t border-purple-100 py-8 text-center text-sm text-gray-500">
+© 2026 Siriwan Butsri • Music Education • Silpakorn University
+</footer>
 
 </body>
 </html>
