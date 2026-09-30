@@ -12,15 +12,15 @@
 
 <br>
 
-<div style="background:linear-gradient(135deg, #2A004E 0%, #4B0082 40%, #6A0DAD 70%, #8A2BE2 100%); padding:45px 30px; border-radius:32px; max-width:950px; color:#ffffff; box-shadow:0 20px 40px rgba(75,0,130,0.35);">
-<span style="background:rgba(255,255,255,0.18); padding:8px 24px; border-radius:30px; font-size:0.9rem; font-weight:600;">✨ OFFICIAL DIGITAL PORTFOLIO 2026</span>
+<div style="background: linear-gradient(135deg, #2A004E 0%, #4B0082 40%, #6A0DAD 70%, #8A2BE2 100%); padding: 45px 30px; border-radius: 32px; max-width: 950px; color: #ffffff; box-shadow: 0 20px 40px rgba(75,0,130,0.35);">
+<span style="background: rgba(255,255,255,0.18); padding: 8px 24px; border-radius: 30px; font-size: 0.9rem; font-weight: 600;">✨ OFFICIAL DIGITAL PORTFOLIO 2026</span>
 
 # SIRIWAN BUTSRI
 ### 🎺 คณะครุศาสตร์ สาขาวิชาดนตรีศึกษา มหาวิทยาลัยศิลปากร
 
 <p style="font-size:1.15rem; opacity:0.95;">นางสาวศิริวรรณ บุตรศรี • ผู้ที่อยากเปลี่ยนเสียงดนตรีให้กลายเป็นแรงบันดาลใจ</p>
 
-<div style="background:rgba(255,255,255,0.1); padding:15px 22px; border-radius:20px; border-left:4px solid #FFD700; text-align:left; max-width:800px; margin:20px auto;">
+<div style="background: rgba(255,255,255,0.1); padding: 15px 22px; border-radius: 20px; border-left: 4px solid #FFD700; text-align: left; max-width: 800px; margin: 20px auto;">
 <p style="margin:0; font-style:italic;">"ฉันเชื่อว่าดนตรีไม่ได้เป็นเพียงเสียงที่ไพเราะ แต่เป็นภาษาที่สามารถถ่ายทอดความรู้สึก สร้างแรงบันดาลใจ และเชื่อมโยงผู้คนเข้าด้วยกัน..."</p>
 </div>
 
@@ -67,7 +67,7 @@
 
 <br><br>
 
-<div style="padding:35px 25px; background:linear-gradient(135deg,#2A004E 0%,#4B0082 100%); border-radius:28px; max-width:900px; color:#ffffff;">
+<div style="padding: 35px 25px; background: linear-gradient(135deg, #2A004E 0%, #4B0082 100%); border-radius: 28px; max-width: 900px; color: #ffffff;">
 <h3>📬 CONTACT INFORMATION</h3>
 <p>📞 098-782-0931 &nbsp;•&nbsp; ✉️ siriwan3005@gmail.com &nbsp;•&nbsp; 💚 Line: faiasdfgh1234</p>
 <p>
@@ -75,8 +75,8 @@
 &nbsp;
 <a href="mailto:siriwan3005@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-8A2BE2?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
-<hr style="border:0; height:1px; background:rgba(255,255,255,0.2); margin:20px 0;">
-<p style="font-size:0.85rem; opacity:0.7;">© 2026 Siriwan Butsri • คณะครุศาสตร์ สาขาวิชาดนตรีศึกษา มหาวิทยาลัยศิลปากร</p>
+<hr style="border: 0; height: 1px; background: rgba(255,255,255,0.2); margin: 20px 0;">
+<p style="font-size: 0.85rem; opacity: 0.7;">© 2026 Siriwan Butsri • คณะครุศาสตร์ สาขาวิชาดนตรีศึกษา มหาวิทยาลัยศิลปากร</p>
 </div>
 
 </div>
