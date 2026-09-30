@@ -1,11 +1,5 @@
 <div align="center">
 
-<style>
-body {
-  font-family: 'Kanit', sans-serif;
-}
-</style>
-
 # 💜 DIGITAL PORTFOLIO • 2026
 
 ### **นางสาวศิริวรรณ บุตรศรี**
@@ -14,7 +8,7 @@ body {
 
 <br>
 
-<img src="./images/cover.jpg" width="85%" style="border-radius:25px;">
+<img src="https://github.com/user-attachments/assets/18afa173-a4f8-4e4f-affe-79288cb37492" width="85%" style="border-radius:25px;">
 
 <br><br>
 
@@ -45,7 +39,7 @@ body {
 | หน้า | Portfolio |
 |---|---|
 | 💜 01 | [หน้าปก](ปก.md) |
-| ✍️ 02 | [Statement of Purpose](sop.md) |
+| ✍️️ 02 | [Statement of Purpose](sop.md) |
 | 👤 03 | [ประวัติส่วนตัว](ประวัติส่วนตัว.md) |
 | 🎓 04 | [ประวัติการศึกษา](ประวัติการศึกษา.md) |
 | 🏆 05 | [กิจกรรมที่ภาคภูมิใจ](กิจกรรมที่ภาคภูมิใจ.md) |
