@@ -1,166 +1,82 @@
-<!-- ดึงฟอนต์ Kanit จาก Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<div align="center" style="background: linear-gradient(180deg, #FFFFE0 0%, #FFF9C4 50%, #FFF59D 100%); padding: 50px 15px; font-family: 'Kanit', sans-serif; min-height: 100vh;">
+<div align="center" style="font-family:'Kanit',sans-serif; background:linear-gradient(180deg,#FFFDE7 0%,#FFF9C4 45%,#F3E8FF 100%); padding:40px 15px;">
 
-  <!-- TOP BADGES & VISITOR COUNTER -->
-  <div style="margin-bottom: 25px;">
-    <img src="https://img.shields.io/badge/TARGET-SILPAKORN%20UNIVERSITY-4B0082?style=for-the-badge&logo=github&logoColor=white" alt="Target">&nbsp;<img src="https://img.shields.io/badge/MAJOR-MUSIC%20EDUCATION-8A2BE2?style=for-the-badge" alt="Major">&nbsp;<img src="https://komarev.com/ghpvc/?username=fayy-cpu-portfolio&style=for-the-badge&color=FFD700&label=PORTFOLIO+VIEWS" alt="Visitor Counter">
-  </div>
+<p>
+<img src="https://img.shields.io/badge/TARGET-SILPAKORN%20UNIVERSITY-4B0082?style=for-the-badge&logo=github&logoColor=white">
+&nbsp;
+<img src="https://img.shields.io/badge/MAJOR-MUSIC%20EDUCATION-8A2BE2?style=for-the-badge">
+&nbsp;
+<img src="https://komarev.com/ghpvc/?username=fayy-cpu-portfolio&style=for-the-badge&color=FFD700&label=PORTFOLIO+VIEWS">
+</p>
 
-  <!-- HERO BANNER (แบบเดิมที่คุณชอบ) -->
-  <div style="background: linear-gradient(135deg, #2A004E 0%, #4B0082 40%, #6A0DAD 70%, #8A2BE2 100%); padding: 50px 30px; border-radius: 32px; max-width: 880px; box-shadow: 0 20px 40px rgba(75, 0, 130, 0.35); margin-bottom: 35px; color: #ffffff; border: 2px solid rgba(255, 255, 255, 0.25); text-align: center;">
-    <span style="background: rgba(255, 255, 255, 0.18); backdrop-filter: blur(10px); padding: 8px 24px; border-radius: 30px; font-size: 0.9rem; letter-spacing: 2px; font-weight: 600; border: 1px solid rgba(255, 255, 255, 0.3);">✨ DIGITAL PORTFOLIO 2026</span>
-    <h1 style="font-size: 3.2rem; margin: 22px 0 10px 0; font-weight: 700; color: #ffffff; text-shadow: 0 5px 15px rgba(0,0,0,0.4); letter-spacing: -0.5px;">Portfolio By Siriwan</h1>
-    <p style="font-size: 1.25rem; opacity: 0.95; margin: 0 0 15px 0; font-weight: 400; color: #FFD700;">นางสาวศิริวรรณ บุตรศรี • คณะครุศาสตร์ สาขาวิชาดนตรีศึกษา มหาวิทยาลัยศิลปากร</p>
-    
-    <div style="background: rgba(255, 255, 255, 0.1); padding: 15px 20px; border-radius: 20px; border-left: 4px solid #FFD700; max-width: 750px; margin: 0 auto; text-align: left;">
-      <p style="margin: 0; font-size: 0.95rem; font-style: italic; opacity: 0.9; line-height: 1.6;">"ฉันเชื่อว่าดนตรีไม่ได้เป็นเพียงเสียงที่ไพเราะ แต่เป็นภาษาที่สามารถถ่ายทอดความรู้สึก สร้างแรงบันดาลใจ และเชื่อมโยงผู้คนเข้าด้วยกัน..."</p>
-    </div>
+<br>
 
-    <div style="margin-top: 30px;">
-      <a href="https://fayy-cpu.github.io/portfolio_/" target="_blank" style="background: linear-gradient(135deg, #FFD700, #FFA500); color: #2A004E; padding: 12px 26px; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1rem; box-shadow: 0 6px 20px rgba(255, 215, 0, 0.4); display: inline-block; margin: 5px;">🌐 เปิดเข้าชมสไตล์เว็บไซต์ (Live Web)</a><a href="ปก.md" style="background: rgba(255, 255, 255, 0.15); color: #ffffff; padding: 12px 26px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 1rem; border: 1px solid rgba(255, 255, 255, 0.4); backdrop-filter: blur(5px); display: inline-block; margin: 5px;">📄 เริ่มดูผลงาน (หน้า 1/7) ➔</a>
-    </div>
-  </div>
+<div style="background:linear-gradient(135deg, #2A004E 0%, #4B0082 40%, #6A0DAD 70%, #8A2BE2 100%); padding:45px 30px; border-radius:32px; max-width:950px; color:#ffffff; box-shadow:0 20px 40px rgba(75,0,130,0.35);">
+<span style="background:rgba(255,255,255,0.18); padding:8px 24px; border-radius:30px; font-size:0.9rem; font-weight:600;">✨ OFFICIAL DIGITAL PORTFOLIO 2026</span>
 
-  <!-- NAVIGATION BAR -->
-  <div style="background: #ffffff; padding: 14px 28px; border-radius: 50px; display: inline-block; box-shadow: 0 10px 30px rgba(75, 0, 130, 0.12); margin-bottom: 40px; border: 2px solid #F0E68C;">
-    <a href="README.md" style="color: #8A2BE2; text-decoration: none; font-weight: 700; padding: 0 8px;">🏠 หน้าหลัก</a> <span style="color: #ddd;">|</span> 
-    <a href="ปก.md" style="color: #4B0082; text-decoration: none; font-weight: 600; padding: 0 6px;">ปก (1/7)</a> <span style="color: #ddd;">|</span> 
-    <a href="sop.md" style="color: #4B0082; text-decoration: none; font-weight: 600; padding: 0 6px;">SOP (2/7)</a> <span style="color: #ddd;">|</span> 
-    <a href="ประวัติส่วนตัว.md" style="color: #4B0082; text-decoration: none; font-weight: 600; padding: 0 6px;">ประวัติส่วนตัว (3/7)</a> <span style="color: #ddd;">|</span> 
-    <a href="ประวัติการศึกษา.md" style="color: #4B0082; text-decoration: none; font-weight: 600; padding: 0 6px;">ประวัติการศึกษา (4/7)</a> <span style="color: #ddd;">|</span> 
-    <a href="กิจกรรมที่ภาคภูมิใจ.md" style="color: #4B0082; text-decoration: none; font-weight: 600; padding: 0 6px;">กิจกรรมภาคภูมิใจ (5/7)</a> <span style="color: #ddd;">|</span> 
-    <a href="กิจกรรมเข้าร่วม.md" style="color: #4B0082; text-decoration: none; font-weight: 600; padding: 0 6px;">กิจกรรมเข้าร่วม (6/7)</a> <span style="color: #ddd;">|</span> 
-    <a href="ปกหลัง.md" style="color: #4B0082; text-decoration: none; font-weight: 600; padding: 0 6px;">ปกหลัง (7/7)</a>
-  </div>
+# SIRIWAN BUTSRI
+### 🎺 คณะครุศาสตร์ สาขาวิชาดนตรีศึกษา มหาวิทยาลัยศิลปากร
 
-  <!-- SPECIAL SKILLS -->
-  <div style="background: #ffffff; padding: 25px 30px; border-radius: 24px; max-width: 880px; margin: 0 auto 40px auto; box-shadow: 0 8px 25px rgba(0,0,0,0.05); border: 1px solid #EAEAEA; text-align: left;">
-    <h3 style="color: #4B0082; margin: 0 0 15px 0; font-size: 1.2rem; font-weight: 700;">🎺 ทักษะและความเชี่ยวชาญพิเศษ (SPECIAL SKILLS)</h3>
-    <div style="display: flex; gap: 8px; flex-wrap: wrap;">
-      <img src="https://img.shields.io/badge/Music_Performance-Euphonium%20%2F%20Baritone-4B0082?style=flat-square&logo=music&logoColor=white" alt="Baritone">
-      <img src="https://img.shields.io/badge/Marching_Band-Senior_Member-8A2BE2?style=flat-square" alt="Marching Band">
-      <img src="https://img.shields.io/badge/Video_Production-Short_Film_Award-FF69B4?style=flat-square" alt="Video">
-      <img src="https://img.shields.io/badge/Leadership-Team_Work-2ECC71?style=flat-square" alt="Leadership">
-      <img src="https://img.shields.io/badge/Creative_Teaching-Music_Pedagogy-3498DB?style=flat-square" alt="Teaching">
-    </div>
-  </div>
+<p style="font-size:1.15rem; opacity:0.95;">นางสาวศิริวรรณ บุตรศรี • ผู้ที่อยากเปลี่ยนเสียงดนตรีให้กลายเป็นแรงบันดาลใจ</p>
 
-  <!-- GALLERY CARDS (01 - 07 เรียงลำดับถูกต้อง) -->
-  
-  <!-- CARD 01 -->
-  <div style="background-color: #ffffff; padding: 32px; border-radius: 28px; box-shadow: 0 12px 35px rgba(0,0,0,0.06); margin-bottom: 35px; max-width: 880px; text-align: left; border: 1px solid #EAEAEA;">
-    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px;">
-      <div style="display: flex; align-items: center;">
-        <span style="background: linear-gradient(135deg, #4B0082, #6A0DAD); color: #ffffff; font-weight: 700; padding: 8px 18px; border-radius: 16px; margin-right: 15px; font-size: 1.05rem;">01</span>
-        <h2 style="color: #4B0082; margin: 0; font-weight: 600; font-size: 1.65rem;">📖 หน้าปก (Cover Page)</h2>
-      </div>
-      <a href="ปก.md" style="background: #F3E8FF; color: #6A0DAD; padding: 8px 18px; border-radius: 20px; text-decoration: none; font-weight: 600; font-size: 0.9rem;">ดูหน้านี้ (1/7) ➔</a>
-    </div>
-    <div style="background-color: #FAFAFA; padding: 14px; border-radius: 20px; border: 2px dashed #E0E0E0;">
-      <img src="https://github.com/user-attachments/assets/18afa173-a4f8-4e4f-affe-79288cb37492" width="100%" style="border-radius: 14px; display: block;">
-    </div>
-  </div>
+<div style="background:rgba(255,255,255,0.1); padding:15px 22px; border-radius:20px; border-left:4px solid #FFD700; text-align:left; max-width:800px; margin:20px auto;">
+<p style="margin:0; font-style:italic;">"ฉันเชื่อว่าดนตรีไม่ได้เป็นเพียงเสียงที่ไพเราะ แต่เป็นภาษาที่สามารถถ่ายทอดความรู้สึก สร้างแรงบันดาลใจ และเชื่อมโยงผู้คนเข้าด้วยกัน..."</p>
+</div>
 
-  <!-- CARD 02 -->
-  <div style="background-color: #ffffff; padding: 32px; border-radius: 28px; box-shadow: 0 12px 35px rgba(0,0,0,0.06); margin-bottom: 35px; max-width: 880px; text-align: left; border: 1px solid #EAEAEA;">
-    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px;">
-      <div style="display: flex; align-items: center;">
-        <span style="background: linear-gradient(135deg, #4B0082, #6A0DAD); color: #ffffff; font-weight: 700; padding: 8px 18px; border-radius: 16px; margin-right: 15px; font-size: 1.05rem;">02</span>
-        <h2 style="color: #4B0082; margin: 0; font-weight: 600; font-size: 1.65rem;">✍️ Statement of Purpose (SOP)</h2>
-      </div>
-      <a href="sop.md" style="background: #F3E8FF; color: #6A0DAD; padding: 8px 18px; border-radius: 20px; text-decoration: none; font-weight: 600; font-size: 0.9rem;">ดูหน้านี้ (2/7) ➔</a>
-    </div>
-    <div style="background-color: #FAFAFA; padding: 14px; border-radius: 20px; border: 2px dashed #E0E0E0;">
-      <img src="https://github.com/user-attachments/assets/727bc4cb-21e5-468f-b63f-885b2fae8c6f" width="100%" style="border-radius: 14px; display: block;">
-    </div>
-  </div>
+<br>
+<a href="https://fayy-cpu.github.io/portfolio_/" target="_blank"><img src="https://img.shields.io/badge/🌐_OPEN_LIVE_PORTFOLIO-FFD700?style=for-the-badge&labelColor=2A004E"></a>
+&nbsp;&nbsp;
+<a href="ปก.md"><img src="https://img.shields.io/badge/📄_START_PORTFOLIO_(1/7)-ffffff?style=for-the-badge&labelColor=4B0082"></a>
+</div>
 
-  <!-- CARD 03 -->
-  <div style="background-color: #ffffff; padding: 32px; border-radius: 28px; box-shadow: 0 12px 35px rgba(0,0,0,0.06); margin-bottom: 35px; max-width: 880px; text-align: left; border: 1px solid #EAEAEA;">
-    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px;">
-      <div style="display: flex; align-items: center;">
-        <span style="background: linear-gradient(135deg, #4B0082, #6A0DAD); color: #ffffff; font-weight: 700; padding: 8px 18px; border-radius: 16px; margin-right: 15px; font-size: 1.05rem;">03</span>
-        <h2 style="color: #4B0082; margin: 0; font-weight: 600; font-size: 1.65rem;">👤 ประวัติส่วนตัว (Personal Profile)</h2>
-      </div>
-      <a href="ประวัติส่วนตัว.md" style="background: #F3E8FF; color: #6A0DAD; padding: 8px 18px; border-radius: 20px; text-decoration: none; font-weight: 600; font-size: 0.9rem;">ดูหน้านี้ (3/7) ➔</a>
-    </div>
-    <div style="background-color: #FAFAFA; padding: 14px; border-radius: 20px; border: 2px dashed #E0E0E0;">
-      <img src="https://github.com/user-attachments/assets/8b5d025b-ba7c-4c51-872d-c6fe34352506" width="100%" style="border-radius: 14px; display: block;">
-    </div>
-  </div>
+<br><br>
 
-  <!-- CARD 04 -->
-  <div style="background-color: #ffffff; padding: 32px; border-radius: 28px; box-shadow: 0 12px 35px rgba(0,0,0,0.06); margin-bottom: 35px; max-width: 880px; text-align: left; border: 1px solid #EAEAEA;">
-    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px;">
-      <div style="display: flex; align-items: center;">
-        <span style="background: linear-gradient(135deg, #4B0082, #6A0DAD); color: #ffffff; font-weight: 700; padding: 8px 18px; border-radius: 16px; margin-right: 15px; font-size: 1.05rem;">04</span>
-        <h2 style="color: #4B0082; margin: 0; font-weight: 600; font-size: 1.65rem;">🎓 ประวัติการศึกษา (Education)</h2>
-      </div>
-      <a href="ประวัติการศึกษา.md" style="background: #F3E8FF; color: #6A0DAD; padding: 8px 18px; border-radius: 20px; text-decoration: none; font-weight: 600; font-size: 0.9rem;">ดูหน้านี้ (4/7) ➔</a>
-    </div>
-    <div style="background-color: #FAFAFA; padding: 14px; border-radius: 20px; border: 2px dashed #E0E0E0;">
-      <img src="https://github.com/user-attachments/assets/7ef51d92-23e0-45af-ae03-2ca2b536aa64" width="100%" style="border-radius: 14px; display: block;">
-    </div>
-  </div>
+## 📚 MY PORTFOLIO (7 PAGES)
+<p style="color:#666;">คลิกเลือกดูผลงานแต่ละหน้าได้เลยครับ</p>
 
-  <!-- CARD 05 -->
-  <div style="background-color: #ffffff; padding: 32px; border-radius: 28px; box-shadow: 0 12px 35px rgba(0,0,0,0.06); margin-bottom: 35px; max-width: 880px; text-align: left; border: 1px solid #EAEAEA;">
-    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px;">
-      <div style="display: flex; align-items: center;">
-        <span style="background: linear-gradient(135deg, #4B0082, #6A0DAD); color: #ffffff; font-weight: 700; padding: 8px 18px; border-radius: 16px; margin-right: 15px; font-size: 1.05rem;">05</span>
-        <h2 style="color: #4B0082; margin: 0; font-weight: 600; font-size: 1.65rem;">🏆 กิจกรรมที่ภาคภูมิใจ (Achievements)</h2>
-      </div>
-      <a href="กิจกรรมที่ภาคภูมิใจ.md" style="background: #F3E8FF; color: #6A0DAD; padding: 8px 18px; border-radius: 20px; text-decoration: none; font-weight: 600; font-size: 0.9rem;">ดูหน้านี้ (5/7) ➔</a>
-    </div>
-    <div style="background-color: #FAFAFA; padding: 14px; border-radius: 20px; border: 2px dashed #E0E0E0;">
-      <img src="https://github.com/user-attachments/assets/50b7dfc5-4b27-4776-ba3c-77f1a638f5d5" width="100%" style="border-radius: 14px; display: block; margin-bottom: 15px;">
-      <img src="https://github.com/user-attachments/assets/c349b998-7318-4776-a489-6cf48c401a37" width="100%" style="border-radius: 14px; display: block; margin-bottom: 15px;">
-      <img src="https://github.com/user-attachments/assets/cc8e98ef-047a-49ff-9141-475673359e09" width="100%" style="border-radius: 14px; display: block;">
-    </div>
-  </div>
+<br>
 
-  <!-- CARD 06 (ปรับแก้สลับตำแหน่งรูปตามที่คุณขอ) -->
-  <div style="background-color: #ffffff; padding: 32px; border-radius: 28px; box-shadow: 0 12px 35px rgba(0,0,0,0.06); margin-bottom: 35px; max-width: 880px; text-align: left; border: 1px solid #EAEAEA;">
-    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px;">
-      <div style="display: flex; align-items: center;">
-        <span style="background: linear-gradient(135deg, #4B0082, #6A0DAD); color: #ffffff; font-weight: 700; padding: 8px 18px; border-radius: 16px; margin-right: 15px; font-size: 1.05rem;">06</span>
-        <h2 style="color: #4B0082; margin: 0; font-weight: 600; font-size: 1.65rem;">🌟 กิจกรรมที่เข้าร่วม (Activities)</h2>
-      </div>
-      <a href="กิจกรรมเข้าร่วม.md" style="background: #F3E8FF; color: #6A0DAD; padding: 8px 18px; border-radius: 20px; text-decoration: none; font-weight: 600; font-size: 0.9rem;">ดูหน้านี้ (6/7) ➔</a>
-    </div>
-    <div style="background-color: #FAFAFA; padding: 14px; border-radius: 20px; border: 2px dashed #E0E0E0;">
-      <img src="https://github.com/user-attachments/assets/28b25a8a-ee9e-4b8e-9ee5-1753209f8b2a" width="100%" style="border-radius: 14px; display: block; margin-bottom: 15px;">
-      <img src="https://github.com/user-attachments/assets/543a46e3-f216-4fa5-8a4a-2677857c2b80" width="100%" style="border-radius: 14px; display: block;">
-    </div>
-  </div>
+| 01. COVER | 02. SOP | 03. PROFILE |
+| :---: | :---: | :---: |
+| [![Cover](https://github.com/user-attachments/assets/18afa173-a4f8-4e4f-affe-79288cb37492)](ปก.md) | [![SOP](https://github.com/user-attachments/assets/727bc4cb-21e5-468f-b63f-885b2fae8c6f)](sop.md) | [![Profile](https://github.com/user-attachments/assets/8b5d025b-ba7c-4c51-872d-c6fe34352506)](ประวัติส่วนตัว.md) |
+| **[📖 VIEW COVER (1/7)](ปก.md)** | **[✍️ VIEW SOP (2/7)](sop.md)** | **[👤 VIEW PROFILE (3/7)](ประวัติส่วนตัว.md)** |
 
-  <!-- CARD 07 (ปกหลัง) -->
-  <div style="background-color: #ffffff; padding: 32px; border-radius: 28px; box-shadow: 0 12px 35px rgba(0,0,0,0.06); margin-bottom: 35px; max-width: 880px; text-align: left; border: 1px solid #EAEAEA;">
-    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px;">
-      <div style="display: flex; align-items: center;">
-        <span style="background: linear-gradient(135deg, #4B0082, #6A0DAD); color: #ffffff; font-weight: 700; padding: 8px 18px; border-radius: 16px; margin-right: 15px; font-size: 1.05rem;">07</span>
-        <h2 style="color: #4B0082; margin: 0; font-weight: 600; font-size: 1.65rem;">📘 ปกหลัง (Back Cover)</h2>
-      </div>
-      <a href="ปกหลัง.md" style="background: #F3E8FF; color: #6A0DAD; padding: 8px 18px; border-radius: 20px; text-decoration: none; font-weight: 600; font-size: 0.9rem;">ดูหน้านี้ (7/7) ➔</a>
-    </div>
-    <div style="background-color: #FAFAFA; padding: 14px; border-radius: 20px; border: 2px dashed #E0E0E0;">
-      <img src="https://github.com/user-attachments/assets/58296d59-49a1-4596-b896-dad36da9a258" width="100%" style="border-radius: 14px; display: block;">
-    </div>
-  </div>
+<br>
 
-  <!-- CONTACT & FOOTER -->
-  <div style="margin-top: 50px; padding: 40px 30px; background: linear-gradient(135deg, #2A004E 0%, #4B0082 100%); border-radius: 28px; max-width: 880px; color: #ffffff; box-shadow: 0 15px 35px rgba(75,0,130,0.25);">
-    <h3 style="margin: 0 0 10px 0; font-size: 1.6rem; font-weight: 700; color: #FFD700;">📬 CONTACT INFORMATION</h3>
-    <p style="margin: 0 0 20px 0; font-size: 1rem; opacity: 0.9; font-weight: 300;">📞 098-782-0931 &nbsp;•&nbsp; ✉️ siriwan3005@gmail.com &nbsp;•&nbsp; 💚 Line: faiasdfgh1234</p>
+| 04. EDUCATION | 05. ACHIEVEMENTS | 06. ACTIVITIES |
+| :---: | :---: | :---: |
+| [![Education](https://github.com/user-attachments/assets/7ef51d92-23e0-45af-ae03-2ca2b536aa64)](ประวัติการศึกษา.md) | [![Achievements](https://github.com/user-attachments/assets/50b7dfc5-4b27-4776-ba3c-77f1a638f5d5)](กิจกรรมที่ภาคภูมิใจ.md) | [![Activities](https://github.com/user-attachments/assets/28b25a8a-ee9e-4b8e-9ee5-1753209f8b2a)](กิจกรรมเข้าร่วม.md) |
+| **[🎓 VIEW EDUCATION (4/7)](ประวัติการศึกษา.md)** | **[🏆 VIEW ACHIEVEMENTS (5/7)](กิจกรรมที่ภาคภูมิใจ.md)** | **[🌟 VIEW ACTIVITIES (6/7)](กิจกรรมเข้าร่วม.md)** |
 
-    <div style="margin-top: 15px;">
-      <a href="https://github.com/fayy-cpu" target="_blank" style="background: rgba(255,255,255,0.15); color: #fff; padding: 10px 22px; border-radius: 30px; text-decoration: none; font-weight: 600; font-size: 0.9rem; border: 1px solid rgba(255,255,255,0.2); display: inline-block; margin: 5px;">🐱 GitHub Profile</a><a href="mailto:siriwan3005@gmail.com" style="background: rgba(255,255,255,0.15); color: #fff; padding: 10px 22px; border-radius: 30px; text-decoration: none; font-weight: 600; font-size: 0.9rem; border: 1px solid rgba(255,255,255,0.2); display: inline-block; margin: 5px;">✉️ อีเมลติดต่อ</a>
-    </div>
+<br>
 
-    <hr style="border: 0; height: 1px; background: rgba(255,255,255,0.2); margin: 25px 0 20px 0;">
-    <p style="margin: 0; font-size: 0.85rem; opacity: 0.7;">© 2026 Siriwan Butsri • คณะครุศาสตร์ สาขาวิชาดนตรีศึกษา มหาวิทยาลัยศิลปากร</p>
-  </div>
+| 07. BACK COVER |
+| :---: |
+| [![Back Cover](https://github.com/user-attachments/assets/58296d59-49a1-4596-b896-dad36da9a258)](ปกหลัง.md) |
+| **[📘 VIEW BACK COVER (7/7)](ปกหลัง.md)** |
+
+<br><br>
+
+<div style="background:linear-gradient(135deg,#2A004E,#4B0082,#8A2BE2); border-radius:30px; padding:40px 30px; color:white; max-width:900px;">
+<h2>🎺 BEHIND THE MUSIC</h2>
+<p style="font-size:1.1rem; line-height:1.8;">ประสบการณ์การเล่น Baritone และการเข้าร่วม Marching Band เป็นส่วนสำคัญที่ทำให้ฉันได้เรียนรู้ ทั้งเรื่องวินัย ความรับผิดชอบ การทำงานเป็นทีม และการกล้าแสดงออก</p>
+<br>
+<img src="https://github.com/user-attachments/assets/c349b998-7318-4776-a489-6cf48c401a37" width="100%" style="max-width:580px; border-radius:18px;">
+</div>
+
+<br><br>
+
+<div style="padding:35px 25px; background:linear-gradient(135deg,#2A004E 0%,#4B0082 100%); border-radius:28px; max-width:900px; color:#ffffff;">
+<h3>📬 CONTACT INFORMATION</h3>
+<p>📞 098-782-0931 &nbsp;•&nbsp; ✉️ siriwan3005@gmail.com &nbsp;•&nbsp; 💚 Line: faiasdfgh1234</p>
+<p>
+<a href="https://github.com/fayy-cpu" target="_blank"><img src="https://img.shields.io/badge/GitHub-Profile-2A004E?style=for-the-badge&logo=github"></a>
+&nbsp;
+<a href="mailto:siriwan3005@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-8A2BE2?style=for-the-badge&logo=gmail&logoColor=white"></a>
+</p>
+<hr style="border:0; height:1px; background:rgba(255,255,255,0.2); margin:20px 0;">
+<p style="font-size:0.85rem; opacity:0.7;">© 2026 Siriwan Butsri • คณะครุศาสตร์ สาขาวิชาดนตรีศึกษา มหาวิทยาลัยศิลปากร</p>
+</div>
 
 </div>
