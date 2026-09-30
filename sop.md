@@ -14,7 +14,7 @@ border-radius:30px;
 02 / 07
 </p>
 
-<img src="https://github.com/user-attachments/assets/18afa173-a4f8-4e4f-affe-79288cb37492"
+<img src="https://github.com/user-attachments/assets/727bc4cb-21e5-468f-b63f-885b2fae8c6f"
 width="100%"
 style="border-radius:25px; box-shadow:0 20px 50px rgba(76,29,149,.18);">
 
