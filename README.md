@@ -3,19 +3,17 @@
 
 <div align="center" style="background: linear-gradient(180deg, #FFFFE0 0%, #FFF9C4 50%, #FFF59D 100%); padding: 50px 15px; font-family: 'Kanit', sans-serif; min-height: 100vh;">
 
-  <!-- BADGES -->
   <div style="margin-bottom: 25px; display: flex; justify-content: center; gap: 8px; flex-wrap: wrap;">
     <img src="https://img.shields.io/badge/TARGET-SILPAKORN%20UNIVERSITY-4B0082?style=for-the-badge&logo=github&logoColor=white" alt="Target">
     <img src="https://img.shields.io/badge/MAJOR-MUSIC%20EDUCATION-8A2BE2?style=for-the-badge" alt="Major">
     <img src="https://komarev.com/ghpvc/?username=fayy-cpu-portfolio&style=for-the-badge&color=FFD700&label=PORTFOLIO+VIEWS" alt="Visitor Counter">
   </div>
 
-  <!-- HERO BANNER -->
-  <div style="background: linear-gradient(135deg, #2A004E 0%, #4B0082 40%, #6A0DAD 70%, #8A2BE2 100%); padding: 50px 30px; border-radius: 32px; max-width: 900px; box-shadow: 0 20px 40px rgba(75, 0, 130, 0.35); margin-bottom: 35px; color: #ffffff; border: 2px solid rgba(255, 255, 255, 0.25); text-align: center;">
+  <div style="background: linear-gradient(135deg, #2A004E 0%, #4B0082 40%, #6A0DAD 70%, #8A2BE2 100%); padding: 50px 30px; border-radius: 32px; max-width: 880px; box-shadow: 0 20px 40px rgba(75, 0, 130, 0.35); margin-bottom: 35px; color: #ffffff; border: 2px solid rgba(255, 255, 255, 0.25); text-align: center;">
     <span style="background: rgba(255, 255, 255, 0.18); backdrop-filter: blur(10px); padding: 8px 24px; border-radius: 30px; font-size: 0.9rem; letter-spacing: 2px; font-weight: 600; border: 1px solid rgba(255, 255, 255, 0.3);">✨ DIGITAL PORTFOLIO 2026</span>
     <h1 style="font-size: 3.2rem; margin: 22px 0 10px 0; font-weight: 700; color: #ffffff; text-shadow: 0 5px 15px rgba(0,0,0,0.4); letter-spacing: -0.5px;">Portfolio By Siriwan</h1>
     <p style="font-size: 1.25rem; opacity: 0.95; margin: 0 0 15px 0; font-weight: 400; color: #FFD700;">นางสาวศิริวรรณ บุตรศรี • คณะครุศาสตร์ สาขาวิชาดนตรีศึกษา มหาวิทยาลัยศิลปากร</p>
-    <div style="background: rgba(255, 255, 255, 0.1); padding: 15px 20px; border-radius: 20px; border-left: 4px solid #FFD700; max-width: 780px; margin: 0 auto; text-align: left;">
+    <div style="background: rgba(255, 255, 255, 0.1); padding: 15px 20px; border-radius: 20px; border-left: 4px solid #FFD700; max-width: 750px; margin: 0 auto; text-align: left;">
       <p style="margin: 0; font-size: 0.95rem; font-style: italic; opacity: 0.9; line-height: 1.6;">"ฉันเชื่อว่าดนตรีไม่ได้เป็นเพียงเสียงที่ไพเราะ แต่เป็นภาษาที่สามารถถ่ายทอดความรู้สึก สร้างแรงบันดาลใจ และเชื่อมโยงผู้คนเข้าด้วยกัน..."</p>
     </div>
     <div style="margin-top: 30px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
@@ -24,23 +22,6 @@
     </div>
   </div>
 
-  <!-- HIGHLIGHT STATS CARDS -->
-  <div style="display: flex; justify-content: center; gap: 15px; max-width: 900px; margin-bottom: 35px; flex-wrap: wrap;">
-    <div style="background: #ffffff; padding: 20px; border-radius: 20px; flex: 1; min-width: 200px; border: 1px solid #EAEAEA; box-shadow: 0 8px 20px rgba(0,0,0,0.04);">
-      <h3 style="margin: 0; color: #4B0082; font-size: 2rem; font-weight: 700;">6+ ปี</h3>
-      <p style="margin: 5px 0 0 0; color: #666; font-size: 0.9rem;">ประสบการณ์ดนตรี & วงโยธวาทิต</p>
-    </div>
-    <div style="background: #ffffff; padding: 20px; border-radius: 20px; flex: 1; min-width: 200px; border: 1px solid #EAEAEA; box-shadow: 0 8px 20px rgba(0,0,0,0.04);">
-      <h3 style="margin: 0; color: #4B0082; font-size: 2rem; font-weight: 700;">3 ปีซ้อน</h3>
-      <p style="margin: 5px 0 0 0; color: #666; font-size: 0.9rem;">รางวัลชนะเลิศนวัตกรรมสิ่งประดิษฐ์</p>
-    </div>
-    <div style="background: #ffffff; padding: 20px; border-radius: 20px; flex: 1; min-width: 200px; border: 1px solid #EAEAEA; box-shadow: 0 8px 20px rgba(0,0,0,0.04);">
-      <h3 style="margin: 0; color: #4B0082; font-size: 2rem; font-weight: 700;">บาริโทน</h3>
-      <p style="margin: 5px 0 0 0; color: #666; font-size: 0.9rem;">เครื่องดนตรีความเชี่ยวชาญหลัก</p>
-    </div>
-  </div>
-
-  <!-- NAVIGATION BAR -->
   <div style="background: #ffffff; padding: 14px 28px; border-radius: 50px; display: inline-block; box-shadow: 0 10px 30px rgba(75, 0, 130, 0.12); margin-bottom: 40px; border: 2px solid #F0E68C;">
     <a href="README.md" style="color: #8A2BE2; text-decoration: none; font-weight: 700; padding: 0 8px;">🏠 หน้าหลัก</a> <span style="color: #ddd;">|</span> 
     <a href="ปก.md" style="color: #4B0082; text-decoration: none; font-weight: 600; padding: 0 6px;">ปก (1/7)</a> <span style="color: #ddd;">|</span> 
@@ -52,8 +33,7 @@
     <a href="ปกหลัง.md" style="color: #4B0082; text-decoration: none; font-weight: 600; padding: 0 6px;">ปกหลัง (7/7)</a>
   </div>
 
-  <!-- SKILLS SECTION -->
-  <div style="background: #ffffff; padding: 25px 30px; border-radius: 24px; max-width: 900px; margin: 0 auto 45px auto; box-shadow: 0 8px 25px rgba(0,0,0,0.05); border: 1px solid #EAEAEA; text-align: left;">
+  <div style="background: #ffffff; padding: 25px 30px; border-radius: 24px; max-width: 880px; margin: 0 auto 45px auto; box-shadow: 0 8px 25px rgba(0,0,0,0.05); border: 1px solid #EAEAEA; text-align: left;">
     <h3 style="color: #4B0082; margin: 0 0 15px 0; font-size: 1.2rem; font-weight: 700;">🎺 ทักษะและความเชี่ยวชาญพิเศษ (SPECIAL SKILLS)</h3>
     <div style="display: flex; gap: 8px; flex-wrap: wrap;">
       <img src="https://img.shields.io/badge/Music_Performance-Euphonium%20%2F%20Baritone-4B0082?style=flat-square&logo=music&logoColor=white" alt="Baritone">
@@ -64,62 +44,59 @@
     </div>
   </div>
 
-  <!-- SECTION TITLE -->
-  <h2 style="color: #4B0082; font-size: 2rem; margin-bottom: 25px; font-weight: 700;">📸 PORTFOLIO SHOWCASE</h2>
-
-  <!-- GRID CONTAINER (2 COLUMNS) FOR PAGES 01 - 04 -->
-  <div style="display: flex; flex-wrap: wrap; gap: 25px; justify-content: center; max-width: 920px; margin-bottom: 35px;">
-
-    <!-- CARD 01 -->
-    <div style="background: #ffffff; border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.06); border: 1px solid #EAEAEA; flex: 1 1 420px; max-width: 440px; text-align: left; overflow: hidden;">
-      <div style="background: #4B0082; padding: 12px 20px; display: flex; align-items: center; justify-content: space-between;">
-        <span style="color: #FFD700; font-weight: 700; font-size: 0.95rem;">01. COVER PAGE</span>
-        <a href="ปก.md" style="color: #ffffff; text-decoration: none; font-size: 0.85rem; font-weight: 600;">ดูเต็มจอ ➔</a>
+  <div style="background-color: #ffffff; padding: 32px; border-radius: 28px; box-shadow: 0 12px 35px rgba(0,0,0,0.06); margin-bottom: 45px; max-width: 880px; text-align: left; border: 1px solid #EAEAEA;">
+    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px;">
+      <div style="display: flex; align-items: center;">
+        <span style="background: linear-gradient(135deg, #4B0082, #6A0DAD); color: #ffffff; font-weight: 700; padding: 8px 18px; border-radius: 16px; margin-right: 15px; font-size: 1.05rem;">01</span>
+        <h2 style="color: #4B0082; margin: 0; font-weight: 600; font-size: 1.65rem;">📖 หน้าปก (Cover Page)</h2>
       </div>
-      <div style="padding: 15px;">
-        <img src="https://github.com/user-attachments/assets/18afa173-a4f8-4e4f-affe-79288cb37492" width="100%" style="border-radius: 12px; display: block;">
-      </div>
+      <a href="ปก.md" style="background: #F3E8FF; color: #6A0DAD; padding: 8px 18px; border-radius: 20px; text-decoration: none; font-weight: 600; font-size: 0.9rem;">ดูหน้านี้ (1/7) ➔</a>
     </div>
-
-    <!-- CARD 02 -->
-    <div style="background: #ffffff; border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.06); border: 1px solid #EAEAEA; flex: 1 1 420px; max-width: 440px; text-align: left; overflow: hidden;">
-      <div style="background: #4B0082; padding: 12px 20px; display: flex; align-items: center; justify-content: space-between;">
-        <span style="color: #FFD700; font-weight: 700; font-size: 0.95rem;">02. STATEMENT OF PURPOSE</span>
-        <a href="sop.md" style="color: #ffffff; text-decoration: none; font-size: 0.85rem; font-weight: 600;">ดูเต็มจอ ➔</a>
-      </div>
-      <div style="padding: 15px;">
-        <img src="https://github.com/user-attachments/assets/727bc4cb-21e5-468f-b63f-885b2fae8c6f" width="100%" style="border-radius: 12px; display: block;">
-      </div>
+    <div style="background-color: #FAFAFA; padding: 14px; border-radius: 20px; border: 2px dashed #E0E0E0;">
+      <img src="https://github.com/user-attachments/assets/18afa173-a4f8-4e4f-affe-79288cb37492" width="100%" style="border-radius: 14px; display: block;">
     </div>
-
-    <!-- CARD 03 -->
-    <div style="background: #ffffff; border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.06); border: 1px solid #EAEAEA; flex: 1 1 420px; max-width: 440px; text-align: left; overflow: hidden;">
-      <div style="background: #4B0082; padding: 12px 20px; display: flex; align-items: center; justify-content: space-between;">
-        <span style="color: #FFD700; font-weight: 700; font-size: 0.95rem;">03. PERSONAL PROFILE</span>
-        <a href="ประวัติส่วนตัว.md" style="color: #ffffff; text-decoration: none; font-size: 0.85rem; font-weight: 600;">ดูเต็มจอ ➔</a>
-      </div>
-      <div style="padding: 15px;">
-        <img src="https://github.com/user-attachments/assets/8b5d025b-ba7c-4c51-872d-c6fe34352506" width="100%" style="border-radius: 12px; display: block;">
-      </div>
-    </div>
-
-    <!-- CARD 04 -->
-    <div style="background: #ffffff; border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.06); border: 1px solid #EAEAEA; flex: 1 1 420px; max-width: 440px; text-align: left; overflow: hidden;">
-      <div style="background: #4B0082; padding: 12px 20px; display: flex; align-items: center; justify-content: space-between;">
-        <span style="color: #FFD700; font-weight: 700; font-size: 0.95rem;">04. EDUCATION</span>
-        <a href="ประวัติการศึกษา.md" style="color: #ffffff; text-decoration: none; font-size: 0.85rem; font-weight: 600;">ดูเต็มจอ ➔</a>
-      </div>
-      <div style="padding: 15px;">
-        <img src="https://github.com/user-attachments/assets/7ef51d92-23e0-45af-ae03-2ca2b536aa64" width="100%" style="border-radius: 12px; display: block;">
-      </div>
-    </div>
-
   </div>
 
-  <!-- FULL WIDTH CARDS FOR MULTI-IMAGE PAGES (05 & 06 & 07) -->
+  <div style="background-color: #ffffff; padding: 32px; border-radius: 28px; box-shadow: 0 12px 35px rgba(0,0,0,0.06); margin-bottom: 45px; max-width: 880px; text-align: left; border: 1px solid #EAEAEA;">
+    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px;">
+      <div style="display: flex; align-items: center;">
+        <span style="background: linear-gradient(135deg, #4B0082, #6A0DAD); color: #ffffff; font-weight: 700; padding: 8px 18px; border-radius: 16px; margin-right: 15px; font-size: 1.05rem;">02</span>
+        <h2 style="color: #4B0082; margin: 0; font-weight: 600; font-size: 1.65rem;">✍️ Statement of Purpose (SOP)</h2>
+      </div>
+      <a href="sop.md" style="background: #F3E8FF; color: #6A0DAD; padding: 8px 18px; border-radius: 20px; text-decoration: none; font-weight: 600; font-size: 0.9rem;">ดูหน้านี้ (2/7) ➔</a>
+    </div>
+    <div style="background-color: #FAFAFA; padding: 14px; border-radius: 20px; border: 2px dashed #E0E0E0;">
+      <img src="https://github.com/user-attachments/assets/727bc4cb-21e5-468f-b63f-885b2fae8c6f" width="100%" style="border-radius: 14px; display: block;">
+    </div>
+  </div>
 
-  <!-- CARD 05 -->
-  <div style="background-color: #ffffff; padding: 32px; border-radius: 28px; box-shadow: 0 12px 35px rgba(0,0,0,0.06); margin-bottom: 35px; max-width: 900px; text-align: left; border: 1px solid #EAEAEA;">
+  <div style="background-color: #ffffff; padding: 32px; border-radius: 28px; box-shadow: 0 12px 35px rgba(0,0,0,0.06); margin-bottom: 45px; max-width: 880px; text-align: left; border: 1px solid #EAEAEA;">
+    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px;">
+      <div style="display: flex; align-items: center;">
+        <span style="background: linear-gradient(135deg, #4B0082, #6A0DAD); color: #ffffff; font-weight: 700; padding: 8px 18px; border-radius: 16px; margin-right: 15px; font-size: 1.05rem;">03</span>
+        <h2 style="color: #4B0082; margin: 0; font-weight: 600; font-size: 1.65rem;">👤 ประวัติส่วนตัว (Personal Profile)</h2>
+      </div>
+      <a href="ประวัติส่วนตัว.md" style="background: #F3E8FF; color: #6A0DAD; padding: 8px 18px; border-radius: 20px; text-decoration: none; font-weight: 600; font-size: 0.9rem;">ดูหน้านี้ (3/7) ➔</a>
+    </div>
+    <div style="background-color: #FAFAFA; padding: 14px; border-radius: 20px; border: 2px dashed #E0E0E0;">
+      <img src="https://github.com/user-attachments/assets/8b5d025b-ba7c-4c51-872d-c6fe34352506" width="100%" style="border-radius: 14px; display: block;">
+    </div>
+  </div>
+
+  <div style="background-color: #ffffff; padding: 32px; border-radius: 28px; box-shadow: 0 12px 35px rgba(0,0,0,0.06); margin-bottom: 45px; max-width: 880px; text-align: left; border: 1px solid #EAEAEA;">
+    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px;">
+      <div style="display: flex; align-items: center;">
+        <span style="background: linear-gradient(135deg, #4B0082, #6A0DAD); color: #ffffff; font-weight: 700; padding: 8px 18px; border-radius: 16px; margin-right: 15px; font-size: 1.05rem;">04</span>
+        <h2 style="color: #4B0082; margin: 0; font-weight: 600; font-size: 1.65rem;">🎓 ประวัติการศึกษา (Education)</h2>
+      </div>
+      <a href="ประวัติการศึกษา.md" style="background: #F3E8FF; color: #6A0DAD; padding: 8px 18px; border-radius: 20px; text-decoration: none; font-weight: 600; font-size: 0.9rem;">ดูหน้านี้ (4/7) ➔</a>
+    </div>
+    <div style="background-color: #FAFAFA; padding: 14px; border-radius: 20px; border: 2px dashed #E0E0E0;">
+      <img src="https://github.com/user-attachments/assets/7ef51d92-23e0-45af-ae03-2ca2b536aa64" width="100%" style="border-radius: 14px; display: block;">
+    </div>
+  </div>
+
+  <div style="background-color: #ffffff; padding: 32px; border-radius: 28px; box-shadow: 0 12px 35px rgba(0,0,0,0.06); margin-bottom: 45px; max-width: 880px; text-align: left; border: 1px solid #EAEAEA;">
     <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px;">
       <div style="display: flex; align-items: center;">
         <span style="background: linear-gradient(135deg, #4B0082, #6A0DAD); color: #ffffff; font-weight: 700; padding: 8px 18px; border-radius: 16px; margin-right: 15px; font-size: 1.05rem;">05</span>
@@ -134,8 +111,7 @@
     </div>
   </div>
 
-  <!-- CARD 06 -->
-  <div style="background-color: #ffffff; padding: 32px; border-radius: 28px; box-shadow: 0 12px 35px rgba(0,0,0,0.06); margin-bottom: 35px; max-width: 900px; text-align: left; border: 1px solid #EAEAEA;">
+  <div style="background-color: #ffffff; padding: 32px; border-radius: 28px; box-shadow: 0 12px 35px rgba(0,0,0,0.06); margin-bottom: 45px; max-width: 880px; text-align: left; border: 1px solid #EAEAEA;">
     <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px;">
       <div style="display: flex; align-items: center;">
         <span style="background: linear-gradient(135deg, #4B0082, #6A0DAD); color: #ffffff; font-weight: 700; padding: 8px 18px; border-radius: 16px; margin-right: 15px; font-size: 1.05rem;">06</span>
@@ -149,8 +125,7 @@
     </div>
   </div>
 
-  <!-- CARD 07 -->
-  <div style="background-color: #ffffff; padding: 32px; border-radius: 28px; box-shadow: 0 12px 35px rgba(0,0,0,0.06); margin-bottom: 45px; max-width: 900px; text-align: left; border: 1px solid #EAEAEA;">
+  <div style="background-color: #ffffff; padding: 32px; border-radius: 28px; box-shadow: 0 12px 35px rgba(0,0,0,0.06); margin-bottom: 45px; max-width: 880px; text-align: left; border: 1px solid #EAEAEA;">
     <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px;">
       <div style="display: flex; align-items: center;">
         <span style="background: linear-gradient(135deg, #4B0082, #6A0DAD); color: #ffffff; font-weight: 700; padding: 8px 18px; border-radius: 16px; margin-right: 15px; font-size: 1.05rem;">07</span>
@@ -163,8 +138,7 @@
     </div>
   </div>
 
-  <!-- FOOTER -->
-  <div style="margin-top: 60px; padding: 40px 30px; background: linear-gradient(135deg, #2A004E 0%, #4B0082 100%); border-radius: 28px; max-width: 900px; color: #ffffff; box-shadow: 0 15px 35px rgba(75,0,130,0.25);">
+  <div style="margin-top: 60px; padding: 40px 30px; background: linear-gradient(135deg, #2A004E 0%, #4B0082 100%); border-radius: 28px; max-width: 880px; color: #ffffff; box-shadow: 0 15px 35px rgba(75,0,130,0.25);">
     <h3 style="margin: 0 0 10px 0; font-size: 1.6rem; font-weight: 700; color: #FFD700;">📬 CONTACT INFORMATION</h3>
     <p style="margin: 0 0 20px 0; font-size: 1rem; opacity: 0.9; font-weight: 300;">📞 098-782-0931 | ✉️ siriwan3005@gmail.com | 💚 Line: faiasdfgh1234</p>
     <div style="display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;">
