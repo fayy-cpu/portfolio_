@@ -1,982 +1,644 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Portfolio | Siriwan Butsri</title>
+  <title>Digital Portfolio | ศิริวรรณ บุตรศรี</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-<style>
-* {
-    scroll-behavior: smooth;
-}
+    html {
+      scroll-behavior: smooth;
+    }
 
-body {
-    font-family: 'Kanit', sans-serif;
-    background:
-        radial-gradient(circle at 10% 10%, rgba(216,180,254,.35), transparent 28%),
-        radial-gradient(circle at 90% 90%, rgba(253,230,138,.28), transparent 28%),
-        linear-gradient(135deg,#faf5ff,#ffffff,#fefce8);
-    color:#3b0764;
-}
+    body {
+      font-family: 'Kanit', sans-serif;
+      background:
+        radial-gradient(circle at 10% 10%, rgba(168,85,247,.18), transparent 30%),
+        radial-gradient(circle at 90% 20%, rgba(250,204,21,.15), transparent 28%),
+        linear-gradient(135deg, #faf7ff, #f4edff 45%, #fffbea);
+      color: #27143f;
+      min-height: 100vh;
+    }
 
-/* ---------- NAV ---------- */
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
 
-.navbar {
-    background:rgba(255,255,255,.72);
-    backdrop-filter:blur(18px);
-    border-bottom:1px solid rgba(168,85,247,.12);
-}
+    /* NAVBAR */
+    nav {
+      position: sticky;
+      top: 15px;
+      z-index: 100;
+      width: 92%;
+      max-width: 1100px;
+      margin: 15px auto 0;
+      padding: 13px 22px;
+      border-radius: 30px;
 
-/* ---------- HERO ---------- */
+      background: rgba(255,255,255,.72);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
 
-.hero-title {
-    background:linear-gradient(
+      border: 1px solid rgba(255,255,255,.8);
+      box-shadow: 0 10px 35px rgba(75, 30, 110, .12);
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: 700;
+      background: linear-gradient(90deg,#7c3aed,#d946ef,#eab308);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .nav-links a {
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 14px;
+      transition: .3s;
+    }
+
+    .nav-links a:hover {
+      background: #7c3aed;
+      color: white;
+      transform: translateY(-2px);
+    }
+
+    /* HERO */
+    .hero {
+      max-width: 1100px;
+      margin: auto;
+      min-height: 78vh;
+      padding: 80px 25px 60px;
+
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      align-items: center;
+      gap: 50px;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 8px 17px;
+      border-radius: 30px;
+      background: rgba(124,58,237,.1);
+      color: #6d28d9;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      font-size: clamp(45px, 7vw, 82px);
+      line-height: .95;
+      font-weight: 700;
+
+      background: linear-gradient(
         90deg,
-        #4c1d95,
-        #7e22ce,
-        #a855f7,
-        #7e22ce
-    );
-    background-size:200% auto;
-    -webkit-background-clip:text;
-    background-clip:text;
-    color:transparent;
-    animation:gradientMove 5s linear infinite;
-}
+        #6d28d9,
+        #a21caf,
+        #eab308,
+        #6d28d9
+      );
+      background-size: 300%;
+      -webkit-background-clip: text;
+      color: transparent;
 
-@keyframes gradientMove {
-    to {
-        background-position:200% center;
+      animation: gradientMove 6s infinite linear;
     }
-}
 
-.floating {
-    animation:floating 4s ease-in-out infinite;
-}
-
-@keyframes floating {
-    0%,100% {
-        transform:translateY(0);
+    @keyframes gradientMove {
+      0% { background-position: 0%; }
+      100% { background-position: 300%; }
     }
-    50% {
-        transform:translateY(-10px);
+
+    .hero h2 {
+      font-size: 27px;
+      margin-top: 20px;
+      font-weight: 500;
     }
-}
 
-/* ---------- IMAGE ---------- */
-
-.hero-image {
-    transition:.5s ease;
-}
-
-.hero-image:hover {
-    transform:scale(1.025) rotate(.3deg);
-}
-
-/* ---------- GLASS ---------- */
-
-.glass {
-    background:rgba(255,255,255,.68);
-    backdrop-filter:blur(18px);
-    border:1px solid rgba(255,255,255,.9);
-    box-shadow:
-        0 20px 60px rgba(76,29,149,.10);
-}
-
-/* ---------- CARDS ---------- */
-
-.portfolio-card {
-    position:relative;
-    overflow:hidden;
-    transition:
-        transform .4s ease,
-        box-shadow .4s ease;
-}
-
-.portfolio-card:hover {
-    transform:translateY(-10px);
-    box-shadow:
-        0 25px 60px rgba(76,29,149,.18);
-}
-
-.portfolio-card img {
-    transition:.55s ease;
-}
-
-.portfolio-card:hover img {
-    transform:scale(1.07);
-}
-
-.image-wrap {
-    overflow:hidden;
-}
-
-/* ---------- BUTTON ---------- */
-
-.magic-button {
-    transition:.3s ease;
-}
-
-.magic-button:hover {
-    transform:translateY(-3px);
-    box-shadow:0 12px 30px rgba(109,40,217,.25);
-}
-
-/* ---------- SECTION ---------- */
-
-.section-title {
-    position:relative;
-    display:inline-block;
-}
-
-.section-title::after {
-    content:"";
-    display:block;
-    width:55%;
-    height:4px;
-    margin:9px auto 0;
-    border-radius:999px;
-    background:linear-gradient(90deg,#7e22ce,#d8b4fe,#facc15);
-}
-
-/* ---------- SCROLL ---------- */
-
-.reveal {
-    animation:reveal .8s ease both;
-}
-
-@keyframes reveal {
-    from {
-        opacity:0;
-        transform:translateY(25px);
+    .hero p {
+      margin-top: 12px;
+      color: #705d7e;
+      line-height: 1.8;
     }
-    to {
-        opacity:1;
-        transform:translateY(0);
+
+    .buttons {
+      display: flex;
+      gap: 12px;
+      margin-top: 30px;
+      flex-wrap: wrap;
     }
-}
-</style>
+
+    .btn {
+      padding: 12px 23px;
+      border-radius: 30px;
+      font-weight: 500;
+      transition: .3s;
+    }
+
+    .btn-main {
+      background: linear-gradient(135deg,#7c3aed,#c026d3);
+      color: white;
+      box-shadow: 0 10px 25px rgba(124,58,237,.25);
+    }
+
+    .btn-main:hover {
+      transform: translateY(-4px) scale(1.03);
+      box-shadow: 0 15px 35px rgba(124,58,237,.35);
+    }
+
+    .btn-light {
+      background: white;
+      border: 1px solid #eadcff;
+    }
+
+    .btn-light:hover {
+      transform: translateY(-4px);
+      background: #faf5ff;
+    }
+
+    /* HERO DECORATION */
+    .music-card {
+      position: relative;
+      min-height: 420px;
+      border-radius: 40px;
+
+      background:
+        linear-gradient(145deg, rgba(124,58,237,.9), rgba(217,70,239,.75)),
+        white;
+
+      box-shadow: 0 25px 70px rgba(87,35,120,.22);
+      overflow: hidden;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      animation: float 5s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%,100% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+    }
+
+    .music-card::before {
+      content: "♫";
+      position: absolute;
+      font-size: 230px;
+      color: rgba(255,255,255,.12);
+      right: -20px;
+      bottom: -70px;
+    }
+
+    .music-icon {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+
+      background: rgba(255,255,255,.18);
+      border: 2px solid rgba(255,255,255,.4);
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      font-size: 90px;
+      color: white;
+
+      box-shadow:
+        0 0 0 15px rgba(255,255,255,.06),
+        0 0 60px rgba(255,255,255,.25);
+    }
+
+    /* SECTION */
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 70px 25px;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 38px;
+      margin-bottom: 45px;
+    }
+
+    .section-title span {
+      background: linear-gradient(90deg,#7c3aed,#d946ef,#eab308);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    /* CARDS */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      background: rgba(255,255,255,.7);
+      backdrop-filter: blur(12px);
+
+      border: 1px solid rgba(255,255,255,.9);
+      border-radius: 25px;
+      padding: 27px;
+
+      box-shadow: 0 12px 35px rgba(68,36,90,.08);
+
+      transition: .35s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card::before {
+      content: "";
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: rgba(168,85,247,.1);
+      top: -45px;
+      right: -45px;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 25px 50px rgba(83,42,110,.15);
+    }
+
+    .card-icon {
+      font-size: 35px;
+      margin-bottom: 13px;
+    }
+
+    .card h3 {
+      font-size: 21px;
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      color: #75647e;
+      line-height: 1.7;
+      font-size: 14px;
+    }
+
+    /* PORTFOLIO */
+    .portfolio {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .portfolio-card {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      min-height: 125px;
+    }
+
+    .number {
+      min-width: 60px;
+      height: 60px;
+      border-radius: 20px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      font-size: 23px;
+      font-weight: 700;
+
+      background: linear-gradient(135deg,#7c3aed,#d946ef);
+      color: white;
+
+      box-shadow: 0 8px 20px rgba(124,58,237,.2);
+    }
+
+    .arrow {
+      margin-left: auto;
+      font-size: 24px;
+      color: #8b5cf6;
+      transition: .3s;
+    }
+
+    .portfolio-card:hover .arrow {
+      transform: translateX(7px);
+    }
+
+    /* DREAM */
+    .dream {
+      border-radius: 35px;
+      padding: 55px 40px;
+
+      background:
+        linear-gradient(
+          135deg,
+          rgba(124,58,237,.94),
+          rgba(192,38,211,.9)
+        );
+
+      color: white;
+      text-align: center;
+
+      box-shadow: 0 25px 60px rgba(92,35,120,.2);
+    }
+
+    .dream h2 {
+      font-size: 35px;
+      margin-bottom: 15px;
+    }
+
+    .dream p {
+      max-width: 700px;
+      margin: auto;
+      line-height: 1.9;
+      opacity: .92;
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 45px 20px;
+      color: #796582;
+    }
+
+    footer strong {
+      color: #7c3aed;
+    }
+
+    /* MOBILE */
+    @media(max-width: 800px) {
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .buttons {
+        justify-content: center;
+      }
+
+      .music-card {
+        min-height: 300px;
+      }
+
+      .grid,
+      .portfolio {
+        grid-template-columns: 1fr;
+      }
+
+      .section-title {
+        font-size: 30px;
+      }
+    }
+  </style>
 </head>
-
 
 <body>
 
-<!-- =====================================================
-     NAVBAR
-===================================================== -->
-
-<nav class="navbar sticky top-0 z-50">
-
-<div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-
-<a href="index.html"
-class="font-bold text-xl text-purple-900">
-💜 Siriwan
-</a>
-
-<div class="hidden md:flex items-center gap-7 text-sm text-purple-900">
-
-<a href="#about"
-class="hover:text-purple-500 transition">
-About
-</a>
-
-<a href="#portfolio"
-class="hover:text-purple-500 transition">
-Portfolio
-</a>
-
-<a href="#dream"
-class="hover:text-purple-500 transition">
-My Dream
-</a>
-
-<a href="#contact"
-class="hover:text-purple-500 transition">
-Contact
-</a>
-
-</div>
-
-</div>
-
-</nav>
-
-
-<!-- =====================================================
-     HERO
-===================================================== -->
-
-<section class="min-h-[90vh] flex items-center px-6 py-16">
-
-<div class="max-w-6xl mx-auto w-full grid md:grid-cols-2 gap-12 items-center">
-
-
-<!-- TEXT -->
-
-<div class="reveal">
-
-<div class="
-inline-flex
-items-center
-gap-2
-px-5
-py-2
-rounded-full
-bg-purple-100
-text-purple-700
-text-sm
-mb-6
-">
-
-🎵 DIGITAL PORTFOLIO • 2026
-
-</div>
-
-
-<h1 class="
-text-5xl
-md:text-7xl
-font-bold
-leading-tight
-">
-
-<span class="hero-title">
-Siriwan
-</span>
-
-<br>
-
-<span class="text-purple-950">
-Butsri
-</span>
-
-</h1>
-
-
-<p class="text-xl text-purple-800 mt-5">
-นางสาวศิริวรรณ บุตรศรี
-</p>
-
-
-<p class="
-text-gray-600
-leading-relaxed
-max-w-xl
-mt-5
-">
-
-แฟ้มสะสมผลงานสำหรับการศึกษาต่อ
-คณะครุศาสตร์ สาขาวิชาดนตรีศึกษา
-มหาวิทยาลัยศิลปากร
-
-<br><br>
-
-พื้นที่เล็ก ๆ ที่รวบรวมความรักในเสียงดนตรี
-ประสบการณ์ ความพยายาม และความฝัน
-ในการก้าวไปสู่การเป็นครูดนตรีในอนาคต
-
-</p>
-
-
-<div class="flex flex-wrap gap-4 mt-8">
-
-<a href="ปก.md"
-class="
-magic-button
-px-7
-py-3
-rounded-full
-bg-purple-700
-text-white
-shadow-lg
-shadow-purple-200
-">
-
-เปิด Portfolio →
-</a>
-
-
-<a href="#portfolio"
-class="
-magic-button
-px-7
-py-3
-rounded-full
-bg-white
-border
-border-purple-200
-text-purple-700
-">
-
-ดูผลงาน
-
-</a>
-
-</div>
-
-</div>
-
-
-<!-- COVER -->
-
-<div class="relative floating">
-
-<div class="
-absolute
--inset-8
-bg-purple-300/20
-blur-3xl
-rounded-full
-">
-</div>
-
-
-<div class="
-relative
-glass
-rounded-[32px]
-p-4
-">
-
-<img
-src="./images/cover.jpg"
-alt="Portfolio Cover"
-class="
-hero-image
-w-full
-rounded-[25px]
-shadow-2xl
-"
->
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-
-<!-- =====================================================
-     ABOUT
-===================================================== -->
-
-<section id="about" class="px-6 py-24">
-
-<div class="max-w-6xl mx-auto">
-
-
-<div class="text-center mb-14">
-
-<p class="text-purple-500 font-medium tracking-widest">
-ABOUT ME
-</p>
-
-<h2 class="
-section-title
-text-4xl
-font-bold
-text-purple-950
-mt-2
-">
-
-ตัวตนของฉัน
-
-</h2>
-
-</div>
-
-
-<div class="grid md:grid-cols-3 gap-7">
-
-
-<div class="
-glass
-rounded-3xl
-p-8
-portfolio-card
-">
-
-<div class="text-5xl mb-5">
-🎺
-</div>
-
-<h3 class="text-xl font-semibold text-purple-950">
-Music
-</h3>
-
-<p class="text-gray-600 mt-3 leading-relaxed">
-มีประสบการณ์ด้านวงโยธวาทิต
-และการบรรเลง Baritone และ Euphonium
-อย่างต่อเนื่อง
-</p>
-
-</div>
-
-
-<div class="
-glass
-rounded-3xl
-p-8
-portfolio-card
-">
-
-<div class="text-5xl mb-5">
-📚
-</div>
-
-<h3 class="text-xl font-semibold text-purple-950">
-Education
-</h3>
-
-<p class="text-gray-600 mt-3 leading-relaxed">
-กำลังศึกษาอยู่ชั้นมัธยมศึกษาปีที่ 6
-โรงเรียนกระทุ่มแบน
-"วิเศษสมุทคุณ"
-</p>
-
-</div>
-
-
-<div class="
-glass
-rounded-3xl
-p-8
-portfolio-card
-">
-
-<div class="text-5xl mb-5">
-💜
-</div>
-
-<h3 class="text-xl font-semibold text-purple-950">
-My Dream
-</h3>
-
-<p class="text-gray-600 mt-3 leading-relaxed">
-มุ่งมั่นที่จะพัฒนาตนเอง
-เพื่อก้าวสู่การเป็นครูดนตรี
-และส่งต่อความรักในเสียงเพลง
-ให้กับนักเรียน
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-
-<!-- =====================================================
-     PORTFOLIO
-===================================================== -->
-
-<section id="portfolio"
-class="px-6 py-24 bg-white/50">
-
-<div class="max-w-6xl mx-auto">
-
-
-<div class="text-center mb-14">
-
-<p class="text-purple-500 font-medium tracking-widest">
-MY PORTFOLIO
-</p>
-
-<h2 class="
-section-title
-text-4xl
-font-bold
-text-purple-950
-mt-2
-">
-
-แฟ้มสะสมผลงาน
-
-</h2>
-
-<p class="text-gray-500 mt-5">
-ทุกหน้าเป็นอีกหนึ่งส่วนของเส้นทาง
-สู่ความฝันในการเป็นครูดนตรี 🎶
-</p>
-
-</div>
-
-
-
-<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-7">
-
-
-<!-- SOP -->
-
-<a href="sop.md"
-class="
-glass
-rounded-3xl
-overflow-hidden
-portfolio-card
-">
-
-<div class="image-wrap aspect-[4/3]">
-
-<img
-src="./images/sop.jpg"
-alt="SOP"
-class="w-full h-full object-cover"
->
-
-</div>
-
-<div class="p-6">
-
-<p class="text-purple-500 text-sm">
-02 / 07
-</p>
-
-<h3 class="
-text-xl
-font-semibold
-text-purple-950
-mt-1
-">
-
-Statement of Purpose
-
-</h3>
-
-<p class="text-gray-500 text-sm mt-2">
-เหตุผล ความฝัน และเป้าหมาย
-</p>
-
-</div>
-
-</a>
-
-
-
-<!-- PROFILE -->
-
-<a href="ประวัติส่วนตัว.md"
-class="
-glass
-rounded-3xl
-overflow-hidden
-portfolio-card
-">
-
-<div class="image-wrap aspect-[4/3]">
-
-<img
-src="./images/profile.jpg"
-alt="Profile"
-class="w-full h-full object-cover"
->
-
-</div>
-
-<div class="p-6">
-
-<p class="text-purple-500 text-sm">
-03 / 07
-</p>
-
-<h3 class="
-text-xl
-font-semibold
-text-purple-950
-mt-1
-">
-
-ประวัติส่วนตัว
-
-</h3>
-
-<p class="text-gray-500 text-sm mt-2">
-รู้จักตัวตนและเส้นทางของฉัน
-</p>
-
-</div>
-
-</a>
-
-
-
-<!-- EDUCATION -->
-
-<a href="ประวัติการศึกษา.md"
-class="
-glass
-rounded-3xl
-overflow-hidden
-portfolio-card
-">
-
-<div class="image-wrap aspect-[4/3]">
-
-<img
-src="./images/education.jpg"
-alt="Education"
-class="w-full h-full object-cover"
->
-
-</div>
-
-<div class="p-6">
-
-<p class="text-purple-500 text-sm">
-04 / 07
-</p>
-
-<h3 class="
-text-xl
-font-semibold
-text-purple-950
-mt-1
-">
-
-ประวัติการศึกษา
-
-</h3>
-
-<p class="text-gray-500 text-sm mt-2">
-เส้นทางการเรียนรู้ของฉัน
-</p>
-
-</div>
-
-</a>
-
-
-
-<!-- ACHIEVEMENTS -->
-
-<a href="กิจกรรมที่ภาคภูมิใจ.md"
-class="
-glass
-rounded-3xl
-overflow-hidden
-portfolio-card
-">
-
-<div class="image-wrap aspect-[4/3]">
-
-<img
-src="./images/achievement1.jpg"
-alt="Achievements"
-class="w-full h-full object-cover"
->
-
-</div>
-
-<div class="p-6">
-
-<p class="text-purple-500 text-sm">
-05 / 07
-</p>
-
-<h3 class="
-text-xl
-font-semibold
-text-purple-950
-mt-1
-">
-
-ผลงานที่ภาคภูมิใจ
-
-</h3>
-
-<p class="text-gray-500 text-sm mt-2">
-ผลงานและประสบการณ์ที่มีความหมาย
-</p>
-
-</div>
-
-</a>
-
-
-
-<!-- ACTIVITIES -->
-
-<a href="กิจกรรมเข้าร่วม.md"
-class="
-glass
-rounded-3xl
-overflow-hidden
-portfolio-card
-">
-
-<div class="image-wrap aspect-[4/3]">
-
-<img
-src="./images/activity1.jpg"
-alt="Activities"
-class="w-full h-full object-cover"
->
-
-</div>
-
-<div class="p-6">
-
-<p class="text-purple-500 text-sm">
-06 / 07
-</p>
-
-<h3 class="
-text-xl
-font-semibold
-text-purple-950
-mt-1
-">
-
-กิจกรรมที่เข้าร่วม
-
-</h3>
-
-<p class="text-gray-500 text-sm mt-2">
-กิจกรรมและประสบการณ์นอกห้องเรียน
-</p>
-
-</div>
-
-</a>
-
-
-
-<!-- BACK COVER -->
-
-<a href="ปกหลัง.md"
-class="
-glass
-rounded-3xl
-overflow-hidden
-portfolio-card
-">
-
-<div class="image-wrap aspect-[4/3]">
-
-<img
-src="./images/backcover.jpg"
-alt="Back Cover"
-class="w-full h-full object-cover"
->
-
-</div>
-
-<div class="p-6">
-
-<p class="text-purple-500 text-sm">
-07 / 07
-</p>
-
-<h3 class="
-text-xl
-font-semibold
-text-purple-950
-mt-1
-">
-
-ปกหลัง
-
-</h3>
-
-<p class="text-gray-500 text-sm mt-2">
-หน้าสุดท้ายของ Portfolio
-</p>
-
-</div>
-
-</a>
-
-
-</div>
-
-</div>
-
-</section>
-
-
-
-<!-- =====================================================
-     DREAM
-===================================================== -->
-
-<section id="dream" class="px-6 py-24">
-
-<div class="max-w-4xl mx-auto text-center">
-
-<div class="text-6xl floating mb-8">
-🎶
-</div>
-
-<p class="
-text-purple-500
-font-medium
-tracking-widest
-">
-
-MY DREAM
-
-</p>
-
-
-<h2 class="
-text-4xl
-md:text-5xl
-font-bold
-text-purple-950
-mt-3
-">
-
-ครูดนตรีในอนาคต
-
-</h2>
-
-
-<p class="
-text-gray-600
-text-lg
-leading-relaxed
-mt-7
-">
-
-ฉันเชื่อว่าครูไม่ได้มีหน้าที่เพียงถ่ายทอดความรู้
-แต่ยังเป็นคนที่สามารถสร้างแรงบันดาลใจ
-และช่วยให้นักเรียนค้นพบสิ่งที่ตัวเองรัก
-
-<br><br>
-
-ฉันจึงอยากนำความรักในดนตรี
-ประสบการณ์จากวงโยธวาทิต
-และสิ่งที่ได้เรียนรู้
-ไปส่งต่อให้กับนักเรียนในอนาคต
-
-</p>
-
-</div>
-
-</section>
-
-
-
-<!-- =====================================================
-     CONTACT
-===================================================== -->
-
-<section id="contact" class="px-6 py-24">
-
-<div class="max-w-5xl mx-auto">
-
-<div class="
-glass
-rounded-[35px]
-p-10
-md:p-14
-text-center
-">
-
-<p class="
-text-purple-500
-font-medium
-tracking-widest
-">
-
-LET'S CONNECT
-
-</p>
-
-
-<h2 class="
-text-4xl
-font-bold
-text-purple-950
-mt-3
-">
-
-ขอบคุณที่เข้ามาชม Portfolio 💜
-
-</h2>
-
-
-<p class="
-text-gray-600
-mt-5
-max-w-2xl
-mx-auto
-leading-relaxed
-">
-
-หวังว่าแฟ้มสะสมผลงานเล่มนี้
-จะทำให้ทุกคนได้รู้จักตัวตน
-ประสบการณ์ และความตั้งใจ
-ของฉันมากขึ้น
-
-</p>
-
-
-<a href="ปกหลัง.md"
-class="
-magic-button
-inline-block
-mt-8
-px-8
-py-3
-rounded-full
-bg-purple-700
-text-white
-shadow-lg
-shadow-purple-200
-">
-
-ไปหน้าปกหลัง →
-
-</a>
-
-</div>
-
-</div>
-
-</section>
-
-
-
-<!-- =====================================================
-     FOOTER
-===================================================== -->
-
-<footer class="
-border-t
-border-purple-100
-py-10
-text-center
-">
-
-<p class="text-purple-900 font-medium">
-🎺 Siriwan Butsri
-</p>
-
-<p class="text-gray-500 text-sm mt-2">
-Music Education • Silpakorn University
-</p>
-
-<p class="text-gray-400 text-xs mt-4">
-© 2026 Siriwan Butsri
-</p>
-
-</footer>
-
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">SIRIWAN • PORTFOLIO</div>
+
+    <div class="nav-links">
+      <a href="#about">เกี่ยวกับฉัน</a>
+      <a href="#portfolio">ผลงาน</a>
+      <a href="#dream">ความฝัน</a>
+    </div>
+  </nav>
+
+
+  <!-- HERO -->
+  <header class="hero">
+
+    <div>
+      <div class="tag">🎵 DIGITAL PORTFOLIO • 2026</div>
+
+      <h1>
+        MUSIC<br>
+        EDUCATION
+      </h1>
+
+      <h2>นางสาวศิริวรรณ บุตรศรี</h2>
+
+      <p>
+        Portfolio สำหรับการศึกษาต่อ<br>
+        สาขาดนตรีศึกษา คณะศึกษาศาสตร์
+      </p>
+
+      <div class="buttons">
+        <a class="btn btn-main" href="ปก.md">
+          📖 เปิด Portfolio
+        </a>
+
+        <a class="btn btn-light" href="#portfolio">
+          ✦ ดูผลงาน
+        </a>
+      </div>
+    </div>
+
+
+    <div class="music-card">
+      <div class="music-icon">🎷</div>
+    </div>
+
+  </header>
+
+
+  <!-- ABOUT -->
+  <section id="about">
+
+    <h2 class="section-title">
+      About <span>Me</span>
+    </h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <div class="card-icon">🎷</div>
+        <h3>Music</h3>
+        <p>
+          สนใจด้านดนตรีและมีประสบการณ์เล่น
+          Baritone มาอย่างต่อเนื่อง
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">🎓</div>
+        <h3>Education</h3>
+        <p>
+          นักเรียนสายวิทยาศาสตร์–คณิตศาสตร์
+          ผู้มีความสนใจด้านดนตรีศึกษา
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">💜</div>
+        <h3>My Passion</h3>
+        <p>
+          ต้องการนำความรักในดนตรี
+          ไปต่อยอดสู่การเป็นครูดนตรี
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio">
+
+    <h2 class="section-title">
+      My <span>Portfolio</span>
+    </h2>
+
+    <div class="grid portfolio">
+
+      <a href="ปก.md">
+        <div class="card portfolio-card">
+          <div class="number">01</div>
+          <div>
+            <h3>หน้าปก</h3>
+            <p>Cover & Introduction</p>
+          </div>
+          <div class="arrow">→</div>
+        </div>
+      </a>
+
+
+      <a href="sop.md">
+        <div class="card portfolio-card">
+          <div class="number">02</div>
+          <div>
+            <h3>SOP</h3>
+            <p>Statement of Purpose</p>
+          </div>
+          <div class="arrow">→</div>
+        </div>
+      </a>
+
+
+      <a href="ประวัติส่วนตัว.md">
+        <div class="card portfolio-card">
+          <div class="number">03</div>
+          <div>
+            <h3>ประวัติส่วนตัว</h3>
+            <p>Personal Profile</p>
+          </div>
+          <div class="arrow">→</div>
+        </div>
+      </a>
+
+
+      <a href="ประวัติการศึกษา.md">
+        <div class="card portfolio-card">
+          <div class="number">04</div>
+          <div>
+            <h3>ประวัติการศึกษา</h3>
+            <p>Education Background</p>
+          </div>
+          <div class="arrow">→</div>
+        </div>
+      </a>
+
+
+      <a href="กิจกรรมภาคภูมิใจ.md">
+        <div class="card portfolio-card">
+          <div class="number">05</div>
+          <div>
+            <h3>กิจกรรมภาคภูมิใจ</h3>
+            <p>Proud Achievements</p>
+          </div>
+          <div class="arrow">→</div>
+        </div>
+      </a>
+
+
+      <a href="กิจกรรมเข้าร่วม.md">
+        <div class="card portfolio-card">
+          <div class="number">06</div>
+          <div>
+            <h3>กิจกรรมเข้าร่วม</h3>
+            <p>Activities & Experiences</p>
+          </div>
+          <div class="arrow">→</div>
+        </div>
+      </a>
+
+
+      <a href="ปกหลัง.md">
+        <div class="card portfolio-card">
+          <div class="number">07</div>
+          <div>
+            <h3>ปกหลัง</h3>
+            <p>Thank You</p>
+          </div>
+          <div class="arrow">→</div>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+
+  <!-- DREAM -->
+  <section id="dream">
+
+    <div class="dream">
+
+      <h2>My Dream ✨</h2>
+
+      <p>
+        ความฝันของฉันคือการได้เป็นครูดนตรี
+        เพื่อถ่ายทอดความรู้และความรักในเสียงดนตรี
+        ให้กับนักเรียน และสร้างแรงบันดาลใจให้พวกเขา
+        ได้ค้นพบความสามารถของตัวเอง
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <p>
+      DIGITAL PORTFOLIO • 2026
+    </p>
+
+    <p>
+      <strong>นางสาวศิริวรรณ บุตรศรี</strong>
+    </p>
+
+    <p>
+      Music Education 🎵
+    </p>
+  </footer>
 
 </body>
 </html>
