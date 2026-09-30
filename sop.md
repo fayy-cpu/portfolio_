@@ -1,63 +1,43 @@
-<!DOCTYPE html>
-<html lang="th">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div align="center">
 
-<title>Statement of Purpose | Siriwan Butsri</title>
+<div style="
+background:linear-gradient(135deg,#faf5ff,#f3e8ff,#ede9fe);
+padding:25px;
+border-radius:30px;
+">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+## ✍️ STATEMENT OF PURPOSE
 
-<style>
-*{box-sizing:border-box}
-body{
-margin:0;
-font-family:'Kanit',sans-serif;
-background:linear-gradient(135deg,#faf5ff,#f3e8ff);
-min-height:100vh;
-padding:30px;
-}
-.container{
-max-width:1000px;
-margin:auto;
-}
-img{
-width:100%;
-display:block;
-border-radius:28px;
-box-shadow:0 25px 60px rgba(76,29,149,.18);
-}
-.nav{
-display:flex;
-justify-content:space-between;
-margin-top:25px;
-gap:10px;
-}
-a{
-text-decoration:none;
-background:white;
-color:#581c87;
-padding:12px 20px;
-border-radius:999px;
-}
-</style>
-</head>
+### WHY MUSIC EDUCATION?
 
-<body>
+<p style="color:#7e22ce;font-size:18px;">
+02 / 07
+</p>
 
-<div class="container">
+<img src="./images/sop.jpg"
+width="100%"
+style="border-radius:25px; box-shadow:0 20px 50px rgba(76,29,149,.18);">
 
-<img src="./images/sop.jpg" alt="Statement of Purpose">
+<br><br>
 
-<div class="nav">
-<a href="cover.html">← ปก</a>
-<a href="index.html">Home</a>
-<a href="profile.html">Profile →</a>
-</div>
+### 🎵 MY PASSION
+
+ดนตรีไม่ใช่เพียงเสียงที่เกิดขึ้นจากเครื่องดนตรี แต่เป็นสิ่งที่ทำให้ฉันได้เรียนรู้เรื่องความพยายาม ความรับผิดชอบ วินัย และการทำงานร่วมกับผู้อื่น
+
+ตลอดระยะเวลาที่ได้คลุกคลีกับดนตรี ฉันได้ค้นพบว่าตัวเองมีความสุขเมื่อได้เล่นดนตรีและได้แบ่งปันสิ่งที่ตัวเองรู้ให้กับผู้อื่น
+
+<br>
+
+### 🌷 MY DREAM
+
+ฉันต้องการศึกษาต่อในคณะครุศาสตร์ สาขาวิชาดนตรีศึกษา มหาวิทยาลัยศิลปากร เพื่อพัฒนาความสามารถด้านดนตรีควบคู่กับทักษะการสอน และในอนาคตฉันอยากเป็นครูดนตรีที่สามารถทำให้นักเรียนรู้สึกว่าดนตรีเป็นสิ่งที่เข้าถึงได้และมีความหมาย
 
 </div>
 
-</body>
-</html>
+<br>
+
+[← ปก](ปก.md)　
+[🏠 หน้าหลัก](README.md)　
+[ประวัติส่วนตัว →](ประวัติส่วนตัว.md)
+
+</div>
