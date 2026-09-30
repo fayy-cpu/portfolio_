@@ -1,23 +1,18 @@
 <div align="center">
   <br>
-  <h2>📂 รายละเอียดพอร์ตโฟลิโอ</h2>
-  <hr style="width: 40%; border: 1px solid #ddd;">
+  <h2 style="color: #6a1b9a;">📄 Statement of Purpose (SOP)</h2>
+  <hr style="width: 40%; border: 1px solid #e0e0e0;">
   <br>
-</div>
 
-<!-- (ใส่เนื้อหาหรือรูปภาพเพิ่มเติมของน้องตรงนี้ได้เลยครับ) -->
-<p>ใส่เนื้อหาหรือรายละเอียดของหน้านี้ตรงนี้...</p>
+  <p><em>เรียงความแสดงเจตจำนงและแรงบันดาลใจในการศึกษาต่อ...</em></p>
 
-<br><br>
-<hr>
+  <br><br>
+  <hr style="width: 80%; border: 0.5px solid #eee;">
+  <br>
 
-<!-- แผงปุ่มเมนูด้านล่างสำหรับกดกลับหรือเปลี่ยนหน้า -->
-<div align="center">
-  <p style="font-size: 15px;">
-    <a href="cover.md" style="text-decoration: none; padding: 6px 12px; background: #6a1b9a; color: white; border-radius: 15px; margin: 3px; display: inline-block;">🏠 หน้าปก</a>
-    <a href="sop.md" style="text-decoration: none; padding: 6px 12px; background: #eee; color: #333; border-radius: 15px; margin: 3px; display: inline-block;">SOP</a>
-    <a href="ประวัติส่วนตัว.md" style="text-decoration: none; padding: 6px 12px; background: #eee; color: #333; border-radius: 15px; margin: 3px; display: inline-block;">ประวัติส่วนตัว</a>
-    <a href="กิจกรรมภาคภูมิใจ.md" style="text-decoration: none; padding: 6px 12px; background: #eee; color: #333; border-radius: 15px; margin: 3px; display: inline-block;">กิจกรรม</a>
-    <a href="ปกหลัง.md" style="text-decoration: none; padding: 6px 12px; background: #eee; color: #333; border-radius: 15px; margin: 3px; display: inline-block;">ปกหลัง</a>
-  </p>
+  <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+    <a href="ประวัติการศึกษา.md" style="background: #424242; color: white; padding: 10px 20px; border-radius: 20px; text-decoration: none; font-weight: bold; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-3px)';" onmouseout="this.style.transform='translateY(0)';">← ย้อนกลับ</a>
+    <a href="กิจกรรมเข้าร่วม.md" style="background: #6a1b9a; color: white; padding: 10px 20px; border-radius: 20px; text-decoration: none; font-weight: bold; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-3px)';" onmouseout="this.style.transform='translateY(0)';">🏆 กิจกรรมเข้าร่วม →</a>
+  </div>
+  <br>
 </div>
