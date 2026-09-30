@@ -15,7 +15,7 @@
   </div>
 
   <!-- =========================
-       HERO BANNER (โทนม่วงสดใสผสมน้ำเงินเข้ม หรูหรา)
+       HERO BANNER
   ========================= -->
   <div style="background: linear-gradient(135deg, #1A0B2E 0%, #301050 40%, #4C1D95 70%, #1E3A8A 100%); padding: 50px 30px; border-radius: 32px; max-width: 1000px; box-shadow: 0 20px 40px rgba(48, 16, 80, 0.35); margin-bottom: 30px; color: #ffffff; border: 2px solid rgba(124, 58, 237, 0.4); text-align: center;">
     <span style="background: rgba(124, 58, 237, 0.25); backdrop-filter: blur(10px); padding: 8px 24px; border-radius: 30px; font-size: 0.9rem; letter-spacing: 2px; font-weight: 600; color: #E9D5FF; border: 1px solid rgba(167, 139, 250, 0.4);">✨ DIGITAL PORTFOLIO 2026</span>
@@ -299,20 +299,6 @@ Euphonium / Baritone
 </td>
 </tr>
 </table>
-
-<br><br><br>
-
-<!-- =========================
-     FEATURED MUSIC
-========================= -->
-<div style="background:linear-gradient(135deg,#1A0B2E,#301050,#1E3A8A);border-radius:30px;padding:40px;color:white;max-width:850px;box-shadow: 0 15px 35px rgba(48,16,80,0.25);">
-<h2 style="color:#FDE047;font-size:28px;">🎺 BEHIND THE MUSIC</h2>
-<p style="font-size:17px;line-height:1.8;color:#EDE9FE;">
-ประสบการณ์การเล่น Baritone และการเข้าร่วม Marching Band เป็นส่วนสำคัญที่ทำให้ฉันได้เรียนรู้ ทั้งเรื่องวินัย ความรับผิดชอบ การทำงานเป็นทีม และการกล้าแสดงออก
-</p>
-<br>
-<img src="https://github.com/user-attachments/assets/c349b998-7318-4776-a489-6cf48c401a37" width="100%" style="max-width:550px; border-radius:18px; display:block; margin:0 auto; box-shadow:0 8px 20px rgba(0,0,0,0.3);">
-</div>
 
 <br><br><br>
 
