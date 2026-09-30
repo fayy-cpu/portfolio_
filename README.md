@@ -1,49 +1,203 @@
-<div align="center">
+<!-- =========================
+     GOOGLE FONT & STYLES
+========================= -->
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-# ✨ DIGITAL PORTFOLIO 2026 ✨
-### คณะครุศาสตร์ สาขาวิชาดนตรีศึกษา มหาวิทยาลัยศิลปากร
-**นางสาวศิริวรรณ บุตรศรี (น้องฟาง) • โรงเรียนกระทุ่มแบน "วิเศษสมุทคุณ"**
+<div align="center" style="font-family:'Kanit',sans-serif; background-color:#FFFDE7; padding:40px 20px; min-height: 100vh;">
 
----
+  <!-- WRAPPER MAIN CONTAINER -->
+  <div style="max-width: 950px; margin: 0 auto; width: 100%;">
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/18afa173-a4f8-4e4f-affe-79288cb37492" width="450" alt="Portfolio Cover">
-</p>
+    <!-- TOP BADGES -->
+    <div style="margin-bottom: 25px; display: flex; justify-content: center; gap: 8px; flex-wrap: wrap;">
+      <img src="https://img.shields.io/badge/TARGET-SILPAKORN%20UNIVERSITY-240046?style=for-the-badge&logo=github&logoColor=white" alt="Target">
+      <img src="https://img.shields.io/badge/MAJOR-MUSIC%20EDUCATION-3C096C?style=for-the-badge" alt="Major">
+      <img src="https://komarev.com/ghpvc/?username=fayy-cpu-portfolio&style=for-the-badge&color=5B21B6&label=PORTFOLIO+VIEWS" alt="Visitor Counter">
+    </div>
 
-### 🌐 คลิกเข้าชมเว็บไซต์พอร์ตโฟลิโอฉบับเต็ม (Interactive Web Portfolio):
-👉 **[https://fayy-cpu.github.io/portfolio_/](https://fayy-cpu.github.io/portfolio_/)** 👈
+    <!-- HERO BANNER -->
+    <div style="background: linear-gradient(135deg, #1A0B2E 0%, #301050 40%, #4C1D95 70%, #1E3A8A 100%); padding: 50px 35px; border-radius: 32px; box-shadow: 0 20px 40px rgba(48, 16, 80, 0.35); margin-bottom: 30px; color: #ffffff; border: 2px solid rgba(124, 58, 237, 0.4); text-align: center;">
+      <span style="background: rgba(124, 58, 237, 0.25); backdrop-filter: blur(10px); padding: 8px 24px; border-radius: 30px; font-size: 0.9rem; letter-spacing: 2px; font-weight: 600; color: #E9D5FF; border: 1px solid rgba(167, 139, 250, 0.4);">✨ DIGITAL PORTFOLIO 2026</span>
+      <h1 style="font-size: 3.2rem; margin: 20px 0 10px 0; font-weight: 700; color: #ffffff; text-shadow: 0 4px 12px rgba(0,0,0,0.4);">Portfolio By Siriwan</h1>
+      <p style="font-size: 1.2rem; opacity: 0.95; margin: 0 0 15px 0; font-weight: 400; color: #FDE047;">นางสาวศิริวรรณ บุตรศรี • คณะครุศาสตร์ สาขาวิชาดนตรีศึกษา มหาวิทยาลัยศิลปากร</p>
+      <div style="background: rgba(255, 255, 255, 0.08); padding: 18px 22px; border-radius: 20px; border-left: 4px solid #FDE047; max-width: 800px; margin: 0 auto; text-align: left;">
+        <p style="margin: 0; font-size: 0.95rem; font-style: italic; opacity: 0.95; line-height: 1.6; color: #FEF08A;">“ฉันเชื่อว่าดนตรีไม่ได้เป็นเพียงเสียงที่ไพเราะ แต่เป็นภาษาที่สามารถถ่ายทอดความรู้สึก สร้างแรงบันดาลใจ และเชื่อมโยงผู้คนเข้าด้วยกัน”</p>
+      </div>
+      <div style="margin-top: 25px;">
+        <a href="https://fayy-cpu.github.io/portfolio_/" target="_blank" style="background: linear-gradient(135deg, #FDE047, #EAB308); color: #1A0B2E; padding: 12px 26px; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1rem; box-shadow: 0 6px 20px rgba(234, 179, 8, 0.4); display: inline-block;">🌐 เปิดเข้าชมสไตล์เว็บไซต์ (Live Web)</a>
+      </div>
+    </div>
 
-*เว็บไซต์พอร์ตโฟลิโอแบบเต็มจอ ดีไซน์สวยหรู พร้อมระบบกดดูผลงานทั้ง 7 หน้าและข้อมูลแบบจัดเต็ม*
+    <!-- NAVIGATION BAR -->
+    <div style="background: #ffffff; padding: 14px 24px; border-radius: 50px; display: inline-block; box-shadow: 0 10px 30px rgba(48, 16, 80, 0.1); margin-bottom: 35px; border: 2px solid #FFF59D; text-align: center;">
+      <a href="README.md" style="color: #4C1D95; text-decoration: none; font-weight: 700; padding: 0 5px; font-size: 0.9rem;">🏠 หน้าหลัก</a> <span style="color: #ccc;">|</span> 
+      <a href="ปก.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 5px; font-size: 0.9rem;">ปก (1/7)</a> <span style="color: #ccc;">|</span> 
+      <a href="sop.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 5px; font-size: 0.9rem;">SOP (2/7)</a> <span style="color: #ccc;">|</span> 
+      <a href="ประวัติส่วนตัว.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 5px; font-size: 0.9rem;">ประวัติส่วนตัว (3/7)</a> <span style="color: #ccc;">|</span> 
+      <a href="ประวัติการศึกษา.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 5px; font-size: 0.9rem;">ประวัติการศึกษา (4/7)</a> <span style="color: #ccc;">|</span> 
+      <a href="กิจกรรมที่ภาคภูมิใจ.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 5px; font-size: 0.9rem;">กิจกรรมภาคภูมิใจ (5/7)</a> <span style="color: #ccc;">|</span> 
+      <a href="กิจกรรมเข้าร่วม.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 5px; font-size: 0.9rem;">กิจกรรมเข้าร่วม (6/7)</a> <span style="color: #ccc;">|</span> 
+      <a href="ปกหลัง.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 5px; font-size: 0.9rem;">ปกหลัง (7/7)</a>
+    </div>
 
----
+    <!-- PROFILE SECTION -->
+    <div style="background: #ffffff; border-radius: 28px; padding: 40px; box-shadow: 0 10px 30px rgba(48,16,80,0.06); border: 2px solid #FFE082; margin-bottom: 35px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 30px;">
+      <div style="flex: 1; min-width: 280px; text-align: left;">
+        <p style="color:#4C1D95; font-weight:700; letter-spacing:2px; margin-bottom:8px; font-size:0.9rem;">✦ MUSIC EDUCATION PROFILE</p>
+        <h1 style="font-size:36px; color:#1A0B2E; margin:0 0 8px 0;">SIRIWAN BUTSRI</h1>
+        <h2 style="color:#301050; font-weight:500; margin:0 0 15px 0; font-size:18px;">🎺 BARITONE & EUPHONIUM PLAYER</h2>
+        <p style="font-size:15px; color:#444; line-height:1.7; margin:0;">
+          นักเรียนชั้นมัธยมศึกษาปีที่ 6 โรงเรียนกระทุ่มแบน "วิเศษสมุทคุณ"<br>
+          มุ่งมั่นศึกษาต่อคณะครุศาสตร์ สาขาดนตรีศึกษา มหาวิทยาลัยศิลปากร
+        </p>
+      </div>
+      <div style="background:linear-gradient(135deg, #301050 0%, #1E3A8A 100%); border-radius:24px; padding:20px; box-shadow:0 8px 20px rgba(48,16,80,0.2); text-align:center; margin: 0 auto;">
+        <b style="color:white; font-size:15px;">🎺 MY MUSIC JOURNEY</b><br><br>
+        <img src="https://github.com/user-attachments/assets/18afa173-a4f8-4e4f-affe-79288cb37492" width="240" style="border-radius:14px; display:block; margin:0 auto;"><br>
+        <span style="color:#FDE047; font-weight:600; font-size:13px;">BARITONE • MARCHING BAND</span>
+      </div>
+    </div>
 
-</div>
+    <!-- ABOUT + SKILLS -->
+    <div style="display: flex; gap: 25px; margin-bottom: 35px; flex-wrap: wrap;">
+      <div style="flex: 1; min-width: 280px; background:#ffffff; border-radius:24px; padding:30px; text-align:left; box-shadow:0 8px 25px rgba(48,16,80,0.06); border:2px solid #FFE082;">
+        <h2 style="color:#301050; margin-top:0; font-size:20px;">👋 ABOUT ME</h2>
+        <p style="color:#444; line-height:1.7; font-size:14px;">
+          ฉันเป็นนักเรียนที่มีความสนใจในด้านดนตรี โดยเฉพาะการบรรเลงเครื่องดนตรีประเภท Euphonium / Baritone และมีประสบการณ์กับวง Marching Band มาอย่างต่อเนื่องกว่า 6 ปี
+        </p>
+        <p style="color:#444; line-height:1.7; font-size:14px; margin-bottom:0;">
+          สิ่งที่ฉันอยากพัฒนาต่อไปคือ การนำความรักในดนตรีมาถ่ายทอดให้กับผู้อื่น และเติบโตเป็นครูดนตรีในอนาคต
+        </p>
+      </div>
+      <div style="flex: 1; min-width: 280px; background:#ffffff; border-radius:24px; padding:30px; text-align:left; box-shadow:0 8px 25px rgba(48,16,80,0.06); border:2px solid #FFE082;">
+        <h2 style="color:#301050; margin-top:0; font-size:20px;">✨ SPECIAL SKILLS</h2>
+        <p style="color:#333; margin:10px 0; font-size:14px;">🎺 <b>Baritone / Euphonium</b></p>
+        <p style="color:#333; margin:10px 0; font-size:14px;">🥁 <b>Marching Band</b></p>
+        <p style="color:#333; margin:10px 0; font-size:14px;">🎬 <b>Video Production</b></p>
+        <p style="color:#333; margin:10px 0; font-size:14px;">👥 <b>Leadership & Teamwork</b></p>
+        <p style="color:#333; margin:10px 0; font-size:14px;">🎓 <b>Creative Teaching</b></p>
+        <p style="color:#333; margin:10px 0; font-size:14px;">🎼 <b>Music Performance</b></p>
+      </div>
+    </div>
 
-### 🎺 เกี่ยวกับฉัน (About Me)
-* **ชื่อ-นามสกุล:** นางสาวศิริวรรณ บุตรศรี
-* **เครื่องดนตรีถนัด:** Baritone / Euphonium (ประสบการณ์ในวง Marching Band กว่า 6 ปี)
-* **เป้าหมาย:** มุ่งมั่นศึกษาต่อคณะครุศาสตร์ สาขาดนตรีศึกษา มหาวิทยาลัยศิลปากร เพื่อเป็นครูดนตรีผู้สร้างแรงบันดาลใจ
+    <!-- MUSIC JOURNEY -->
+    <div style="background:#ffffff; border-radius:28px; padding:35px; box-shadow:0 10px 30px rgba(48,16,80,0.06); border:2px solid #FFE082; margin-bottom:35px; text-align:center;">
+      <h2 style="color:#1A0B2E; font-size:24px; margin-bottom:5px;">✦ MY MUSIC JOURNEY ✦</h2>
+      <p style="color:#666; font-size:14px; margin-top:0; margin-bottom:30px;">จากวันที่เริ่มต้น → สู่ประสบการณ์บนเวที</p>
+      <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
+        <div style="flex: 1; min-width: 150px;">
+          <h2 style="color:#4C1D95; margin:0; font-size:26px;">01</h2>
+          <h4 style="color:#301050; margin:8px 0;">🎵 START</h4>
+          <p style="color:#555; font-size:13px; margin:0;">เริ่มต้นเรียนรู้<br>และค้นพบความชอบ</p>
+        </div>
+        <div style="flex: 1; min-width: 150px;">
+          <h2 style="color:#4C1D95; margin:0; font-size:26px;">02</h2>
+          <h4 style="color:#301050; margin:8px 0;">🎺 PRACTICE</h4>
+          <p style="color:#555; font-size:13px; margin:0;">ฝึกฝน Baritone<br>อย่างต่อเนื่อง</p>
+        </div>
+        <div style="flex: 1; min-width: 150px;">
+          <h2 style="color:#4C1D95; margin:0; font-size:26px;">03</h2>
+          <h4 style="color:#301050; margin:8px 0;">🥁 BAND</h4>
+          <p style="color:#555; font-size:13px; margin:0;">ก้าวเข้าสู่<br>Marching Band</p>
+        </div>
+        <div style="flex: 1; min-width: 150px;">
+          <h2 style="color:#4C1D95; margin:0; font-size:26px;">04</h2>
+          <h4 style="color:#301050; margin:8px 0;">✨ TODAY</h4>
+          <p style="color:#555; font-size:13px; margin:0;">นำประสบการณ์<br>ต่อยอดสู่อนาคต</p>
+        </div>
+      </div>
+    </div>
 
----
+    <!-- PORTFOLIO SECTION -->
+    <div style="background:#ffffff; border-radius:28px; padding:40px; box-shadow:0 10px 30px rgba(48,16,80,0.06); border:2px solid #FFE082; margin-bottom:35px; text-align:center;">
+      <h2 style="color:#1A0B2E; font-size:26px; margin-bottom:5px;">📚 MY PORTFOLIO (7 PAGES)</h2>
+      <p style="color:#666; font-size:14px; margin-top:0; margin-bottom:35px;">คลิกเลือกดูผลงานแต่ละส่วนได้เลยครับ</p>
 
-### 📚 โครงสร้างพอร์ตโฟลิโอ (7 หน้า)
-1. **หน้าปก (Cover)** - [ดูไฟล์](./ปก.md)
-2. **เรียงความมุ่งหมาย (SOP)** - [ดูไฟล์](./sop.md)
-3. **ประวัติส่วนตัว (Profile)** - [ดูไฟล์](./ประวัติส่วนตัว.md)
-4. **ประวัติการศึกษา (Education)** - [ดูไฟล์](./ประวัติการศึกษา.md)
-5. **กิจกรรมที่ภาคภูมิใจ (Achievements)** - [ดูไฟล์](./กิจกรรมที่ภาคภูมิใจ.md)
-6. **กิจกรรมเข้าร่วม (Activities)** - [ดูไฟล์](./กิจกรรมเข้าร่วม.md)
-7. **ปกหลัง (Back Cover)** - [ดูไฟล์](./ปกหลัง.md)
+      <!-- GRID CARDS -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 30px; justify-content: center;">
+        
+        <!-- 01 -->
+        <div style="background: #FAFAFA; padding: 25px; border-radius: 20px; border: 2px solid #FFE082; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+          <h2 style="color:#301050; margin:0; font-size:22px;">01</h2>
+          <h4 style="color:#4C1D95; margin:5px 0 15px 0;">📖 COVER</h4>
+          <img src="https://github.com/user-attachments/assets/18afa173-a4f8-4e4f-affe-79288cb37492" width="100%" style="border-radius:12px; box-shadow:0 5px 15px rgba(48,16,80,0.15); display:block; margin-bottom:15px;"><br>
+          <a href="ปก.md" style="background:#301050; color:#FFFFFF; padding: 8px 16px; border-radius: 20px; text-decoration:none; font-size:13px; display:inline-block; box-shadow:0 4px 10px rgba(48,16,80,0.2);"><b>VIEW COVER (1/7) ➔</b></a>
+        </div>
 
----
+        <!-- 02 -->
+        <div style="background: #FAFAFA; padding: 25px; border-radius: 20px; border: 2px solid #FFE082; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+          <h2 style="color:#301050; margin:0; font-size:22px;">02</h2>
+          <h4 style="color:#4C1D95; margin:5px 0 15px 0;">✍️ SOP</h4>
+          <img src="https://github.com/user-attachments/assets/727bc4cb-21e5-468f-b63f-885b2fae8c6f" width="100%" style="border-radius:12px; box-shadow:0 5px 15px rgba(48,16,80,0.15); display:block; margin-bottom:15px;"><br>
+          <a href="sop.md" style="background:#301050; color:#FFFFFF; padding: 8px 16px; border-radius: 20px; text-decoration:none; font-size:13px; display:inline-block; box-shadow:0 4px 10px rgba(48,16,80,0.2);"><b>VIEW SOP (2/7) ➔</b></a>
+        </div>
 
-<div align="center">
+        <!-- 03 -->
+        <div style="background: #FAFAFA; padding: 25px; border-radius: 20px; border: 2px solid #FFE082; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+          <h2 style="color:#301050; margin:0; font-size:22px;">03</h2>
+          <h4 style="color:#4C1D95; margin:5px 0 15px 0;">👤 PROFILE</h4>
+          <img src="https://github.com/user-attachments/assets/8b5d025b-ba7c-4c51-872d-c6fe34352506" width="100%" style="border-radius:12px; box-shadow:0 5px 15px rgba(48,16,80,0.15); display:block; margin-bottom:15px;"><br>
+          <a href="ประวัติส่วนตัว.md" style="background:#301050; color:#FFFFFF; padding: 8px 16px; border-radius: 20px; text-decoration:none; font-size:13px; display:inline-block; box-shadow:0 4px 10px rgba(48,16,80,0.2);"><b>VIEW PROFILE (3/7) ➔</b></a>
+        </div>
 
-### 📬 ช่องทางการติดต่อ
-📞 **โทรศัพท์:** 098-782-0931  
-✉️️ **อีเมล:** siriwan3005@gmail.com  
-💚 **Line:** faiasdfgh1234  
+        <!-- 04 -->
+        <div style="background: #FAFAFA; padding: 25px; border-radius: 20px; border: 2px solid #FFE082; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+          <h2 style="color:#301050; margin:0; font-size:22px;">04</h2>
+          <h4 style="color:#4C1D95; margin:5px 0 15px 0;">🎓 EDUCATION</h4>
+          <img src="https://github.com/user-attachments/assets/7ef51d92-23e0-45af-ae03-2ca2b536aa64" width="100%" style="border-radius:12px; box-shadow:0 5px 15px rgba(48,16,80,0.15); display:block; margin-bottom:15px;"><br>
+          <a href="ประวัติการศึกษา.md" style="background:#301050; color:#FFFFFF; padding: 8px 16px; border-radius: 20px; text-decoration:none; font-size:13px; display:inline-block; box-shadow:0 4px 10px rgba(48,16,80,0.2);"><b>VIEW EDUCATION (4/7) ➔</b></a>
+        </div>
 
-*“ดนตรีคือภาษาแห่งจิตวิญญาณ และการสอนคือการส่งต่อแรงบันดาลใจ”*
+        <!-- 05 -->
+        <div style="background: #FAFAFA; padding: 25px; border-radius: 20px; border: 2px solid #FFE082; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+          <h2 style="color:#301050; margin:0; font-size:22px;">05</h2>
+          <h4 style="color:#4C1D95; margin:5px 0 15px 0;">🏆 ACHIEVEMENTS</h4>
+          <img src="https://github.com/user-attachments/assets/50b7dfc5-4b27-4776-ba3c-77f1a638f5d5" width="100%" style="border-radius:12px; box-shadow:0 5px 15px rgba(48,16,80,0.15); display:block; margin-bottom:15px;"><br>
+          <a href="กิจกรรมที่ภาคภูมิใจ.md" style="background:#301050; color:#FFFFFF; padding: 8px 16px; border-radius: 20px; text-decoration:none; font-size:13px; display:inline-block; box-shadow:0 4px 10px rgba(48,16,80,0.2);"><b>VIEW ACHIEVEMENTS (5/7) ➔</b></a>
+        </div>
+
+        <!-- 06 -->
+        <div style="background: #FAFAFA; padding: 25px; border-radius: 20px; border: 2px solid #FFE082; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+          <h2 style="color:#301050; margin:0; font-size:22px;">06</h2>
+          <h4 style="color:#4C1D95; margin:5px 0 15px 0;">🌟 ACTIVITIES</h4>
+          <img src="https://github.com/user-attachments/assets/28b25a8a-ee9e-4b8e-9ee5-1753209f8b2a" width="100%" style="border-radius:12px; box-shadow:0 5px 15px rgba(48,16,80,0.15); display:block; margin-bottom:15px;"><br>
+          <a href="กิจกรรมเข้าร่วม.md" style="background:#301050; color:#FFFFFF; padding: 8px 16px; border-radius: 20px; text-decoration:none; font-size:13px; display:inline-block; box-shadow:0 4px 10px rgba(48,16,80,0.2);"><b>VIEW ACTIVITIES (6/7) ➔</b></a>
+        </div>
+
+      </div>
+
+      <!-- BACK COVER (CENTER) -->
+      <div style="margin-top: 30px; background: #FAFAFA; padding: 25px; border-radius: 20px; border: 2px solid #FFE082; box-shadow: 0 4px 15px rgba(0,0,0,0.03); max-width: 350px; margin-left: auto; margin-right: auto;">
+        <h2 style="color:#301050; margin:0; font-size:22px;">07</h2>
+        <h4 style="color:#4C1D95; margin:5px 0 15px 0;">📘 BACK COVER</h4>
+        <img src="https://github.com/user-attachments/assets/58296d59-49a1-4596-b896-dad36da9a258" width="100%" style="border-radius:12px; box-shadow:0 5px 15px rgba(48,16,80,0.15); display:block; margin-bottom:15px;"><br>
+        <a href="ปกหลัง.md" style="background:#301050; color:#FFFFFF; padding: 8px 16px; border-radius: 20px; text-decoration:none; font-size:13px; display:inline-block; box-shadow:0 4px 10px rgba(48,16,80,0.2);"><b>VIEW BACK COVER (7/7) ➔</b></a>
+      </div>
+
+    </div>
+
+    <!-- FEATURED MUSIC -->
+    <div style="background: linear-gradient(135deg,#1A0B2E,#301050,#1E3A8A); border-radius:28px; padding:40px 25px; color:white; box-shadow:0 15px 35px rgba(48,16,80,0.25); margin-bottom:35px; text-align:center; border: 2px solid rgba(254, 240, 138, 0.4);">
+      <h2 style="color:#FDE047; font-size:24px; margin-top:0;">🎺 BEHIND THE MUSIC</h2>
+      <p style="font-size:15px; line-height:1.7; color:#EDE9FE; max-width:650px; margin:0 auto 25px auto;">
+        ประสบการณ์การเล่น Baritone และการเข้าร่วม Marching Band เป็นส่วนสำคัญที่ทำให้ฉันได้เรียนรู้ ทั้งเรื่องวินัย ความรับผิดชอบ การทำงานเป็นทีม และการกล้าแสดงออก
+      </p>
+      <img src="https://github.com/user-attachments/assets/c349b998-7318-4776-a489-6cf48c401a37" width="100%" style="max-width:500px; border-radius:14px; display:block; margin:0 auto; box-shadow:0 8px 20px rgba(0,0,0,0.3);">
+    </div>
+
+    <!-- CONTACT -->
+    <div style="background:#ffffff; border-radius:28px; padding:35px; box-shadow:0 10px 30px rgba(48,16,80,0.06); border:2px solid #FFE082; text-align:center;">
+      <h2 style="color:#1A0B2E; margin-bottom:5px; font-size:24px;">📬 LET'S CONNECT</h2>
+      <p style="color:#666; margin-top:0; font-size:14px;">Thank you for visiting my portfolio ♡</p><br>
+      <p>
+        <a href="https://github.com/fayy-cpu"><img src="https://img.shields.io/badge/GitHub-fayy--cpu-301050?style=for-the-badge&logo=github"></a>
+        &nbsp;
+        <a href="mailto:siriwan3005@gmail.com"><img src="https://img.shields.io/badge/Email-siriwan3005%40gmail.com-4C1D95?style=for-the-badge&logo=gmail&logoColor=white"></a>
+      </p><br>
+      <p style="color:#555; font-size:14px;">📞 098-782-0931 &nbsp;&nbsp;•&nbsp;&nbsp; ✉️ siriwan3005@gmail.com &nbsp;&nbsp;•&nbsp;&nbsp; 💚 Line: faiasdfgh1234</p><br><br>
+      <p style="color:#888; font-size:12px;">© 2026 Siriwan Butsri • Music Education Portfolio</p>
+    </div>
+
+  </div>
 
 </div>
