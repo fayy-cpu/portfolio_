@@ -3,10 +3,10 @@
 ========================= -->
 <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<div align="center" style="font-family:'Kanit',sans-serif; background-color:#FFFDE7; padding:40px 15px; min-height: 100vh;">
+<div align="center" style="font-family:'Kanit',sans-serif; background-color:#FFFDE7; padding:40px 20px; min-height: 100vh;">
 
   <!-- WRAPPER MAIN CONTAINER -->
-  <div style="max-width: 900px; margin: 0 auto;">
+  <div style="max-width: 950px; margin: 0 auto; width: 100%;">
 
     <!-- TOP BADGES -->
     <div style="margin-bottom: 25px; display: flex; justify-content: center; gap: 8px; flex-wrap: wrap;">
@@ -16,11 +16,11 @@
     </div>
 
     <!-- HERO BANNER -->
-    <div style="background: linear-gradient(135deg, #1A0B2E 0%, #301050 40%, #4C1D95 70%, #1E3A8A 100%); padding: 45px 30px; border-radius: 32px; box-shadow: 0 20px 40px rgba(48, 16, 80, 0.35); margin-bottom: 30px; color: #ffffff; border: 2px solid rgba(124, 58, 237, 0.4); text-align: center;">
+    <div style="background: linear-gradient(135deg, #1A0B2E 0%, #301050 40%, #4C1D95 70%, #1E3A8A 100%); padding: 50px 35px; border-radius: 32px; box-shadow: 0 20px 40px rgba(48, 16, 80, 0.35); margin-bottom: 30px; color: #ffffff; border: 2px solid rgba(124, 58, 237, 0.4); text-align: center;">
       <span style="background: rgba(124, 58, 237, 0.25); backdrop-filter: blur(10px); padding: 8px 24px; border-radius: 30px; font-size: 0.9rem; letter-spacing: 2px; font-weight: 600; color: #E9D5FF; border: 1px solid rgba(167, 139, 250, 0.4);">✨ DIGITAL PORTFOLIO 2026</span>
-      <h1 style="font-size: 3rem; margin: 20px 0 10px 0; font-weight: 700; color: #ffffff; text-shadow: 0 4px 12px rgba(0,0,0,0.4);">Portfolio By Siriwan</h1>
-      <p style="font-size: 1.15rem; opacity: 0.95; margin: 0 0 15px 0; font-weight: 400; color: #FDE047;">นางสาวศิริวรรณ บุตรศรี • คณะครุศาสตร์ สาขาวิชาดนตรีศึกษา มหาวิทยาลัยศิลปากร</p>
-      <div style="background: rgba(255, 255, 255, 0.08); padding: 15px 20px; border-radius: 20px; border-left: 4px solid #FDE047; max-width: 750px; margin: 0 auto; text-align: left;">
+      <h1 style="font-size: 3.2rem; margin: 20px 0 10px 0; font-weight: 700; color: #ffffff; text-shadow: 0 4px 12px rgba(0,0,0,0.4);">Portfolio By Siriwan</h1>
+      <p style="font-size: 1.2rem; opacity: 0.95; margin: 0 0 15px 0; font-weight: 400; color: #FDE047;">นางสาวศิริวรรณ บุตรศรี • คณะครุศาสตร์ สาขาวิชาดนตรีศึกษา มหาวิทยาลัยศิลปากร</p>
+      <div style="background: rgba(255, 255, 255, 0.08); padding: 18px 22px; border-radius: 20px; border-left: 4px solid #FDE047; max-width: 800px; margin: 0 auto; text-align: left;">
         <p style="margin: 0; font-size: 0.95rem; font-style: italic; opacity: 0.95; line-height: 1.6; color: #FEF08A;">“ฉันเชื่อว่าดนตรีไม่ได้เป็นเพียงเสียงที่ไพเราะ แต่เป็นภาษาที่สามารถถ่ายทอดความรู้สึก สร้างแรงบันดาลใจ และเชื่อมโยงผู้คนเข้าด้วยกัน”</p>
       </div>
       <div style="margin-top: 25px;">
@@ -41,165 +41,152 @@
     </div>
 
     <!-- PROFILE SECTION -->
-    <div style="background: #ffffff; border-radius: 28px; padding: 35px; box-shadow: 0 10px 30px rgba(48,16,80,0.06); border: 1px solid #FFF59D; margin-bottom: 35px;">
-      <table width="100%">
-        <tr>
-          <td width="55%" align="left" valign="middle">
-            <p style="color:#4C1D95; font-weight:700; letter-spacing:2px; margin-bottom:8px; font-size:0.9rem;">✦ MUSIC EDUCATION PROFILE</p>
-            <h1 style="font-size:36px; color:#1A0B2E; margin:0 0 8px 0;">SIRIWAN BUTSRI</h1>
-            <h2 style="color:#301050; font-weight:500; margin:0 0 15px 0; font-size:18px;">🎺 BARITONE & EUPHONIUM PLAYER</h2>
-            <p style="font-size:15px; color:#444; line-height:1.7; margin:0;">
-              นักเรียนชั้นมัธยมศึกษาปีที่ 6 โรงเรียนกระทุ่มแบน "วิเศษสมุทคุณ"<br>
-              มุ่งมั่นศึกษาต่อคณะครุศาสตร์ สาขาดนตรีศึกษา มหาวิทยาลัยศิลปากร
-            </p>
-          </td>
-          <td width="45%" align="center" valign="middle">
-            <div style="background:linear-gradient(135deg, #301050 0%, #1E3A8A 100%); border-radius:24px; padding:15px; box-shadow:0 8px 20px rgba(48,16,80,0.2);">
-              <b style="color:white; font-size:15px;">🎺 MY MUSIC JOURNEY</b><br><br>
-              <img src="https://github.com/user-attachments/assets/18afa173-a4f8-4e4f-affe-79288cb37492" width="220" style="border-radius:14px; display:block; margin:0 auto;"><br>
-              <span style="color:#FDE047; font-weight:600; font-size:13px;">BARITONE • MARCHING BAND</span>
-            </div>
-          </td>
-        </tr>
-      </table>
+    <div style="background: #ffffff; border-radius: 28px; padding: 40px; box-shadow: 0 10px 30px rgba(48,16,80,0.06); border: 2px solid #FFE082; margin-bottom: 35px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 30px;">
+      <div style="flex: 1; min-width: 280px; text-align: left;">
+        <p style="color:#4C1D95; font-weight:700; letter-spacing:2px; margin-bottom:8px; font-size:0.9rem;">✦ MUSIC EDUCATION PROFILE</p>
+        <h1 style="font-size:36px; color:#1A0B2E; margin:0 0 8px 0;">SIRIWAN BUTSRI</h1>
+        <h2 style="color:#301050; font-weight:500; margin:0 0 15px 0; font-size:18px;">🎺 BARITONE & EUPHONIUM PLAYER</h2>
+        <p style="font-size:15px; color:#444; line-height:1.7; margin:0;">
+          นักเรียนชั้นมัธยมศึกษาปีที่ 6 โรงเรียนกระทุ่มแบน "วิเศษสมุทคุณ"<br>
+          มุ่งมั่นศึกษาต่อคณะครุศาสตร์ สาขาดนตรีศึกษา มหาวิทยาลัยศิลปากร
+        </p>
+      </div>
+      <div style="background:linear-gradient(135deg, #301050 0%, #1E3A8A 100%); border-radius:24px; padding:20px; box-shadow:0 8px 20px rgba(48,16,80,0.2); text-align:center; margin: 0 auto;">
+        <b style="color:white; font-size:15px;">🎺 MY MUSIC JOURNEY</b><br><br>
+        <img src="https://github.com/user-attachments/assets/18afa173-a4f8-4e4f-affe-79288cb37492" width="240" style="border-radius:14px; display:block; margin:0 auto;"><br>
+        <span style="color:#FDE047; font-weight:600; font-size:13px;">BARITONE • MARCHING BAND</span>
+      </div>
     </div>
 
     <!-- ABOUT + SKILLS -->
-    <table width="100%" style="margin-bottom: 35px;">
-      <tr>
-        <td width="48%" valign="top">
-          <div style="background:#ffffff; border-radius:24px; padding:25px; text-align:left; box-shadow:0 8px 25px rgba(48,16,80,0.06); border:1px solid #FFF59D; height:100%;">
-            <h2 style="color:#301050; margin-top:0; font-size:20px;">👋 ABOUT ME</h2>
-            <p style="color:#444; line-height:1.7; font-size:14px;">
-              ฉันเป็นนักเรียนที่มีความสนใจในด้านดนตรี โดยเฉพาะการบรรเลงเครื่องดนตรีประเภท Euphonium / Baritone และมีประสบการณ์กับวง Marching Band มาอย่างต่อเนื่องกว่า 6 ปี
-            </p>
-            <p style="color:#444; line-height:1.7; font-size:14px; margin-bottom:0;">
-              สิ่งที่ฉันอยากพัฒนาต่อไปคือ การนำความรักในดนตรีมาถ่ายทอดให้กับผู้อื่น และเติบโตเป็นครูดนตรีในอนาคต
-            </p>
-          </div>
-        </td>
-        <td width="4%"></td>
-        <td width="48%" valign="top">
-          <div style="background:#ffffff; border-radius:24px; padding:25px; text-align:left; box-shadow:0 8px 25px rgba(48,16,80,0.06); border:1px solid #FFF59D; height:100%;">
-            <h2 style="color:#301050; margin-top:0; font-size:20px;">✨ SPECIAL SKILLS</h2>
-            <p style="color:#333; margin:8px 0; font-size:14px;">🎺 <b>Baritone / Euphonium</b></p>
-            <p style="color:#333; margin:8px 0; font-size:14px;">🥁 <b>Marching Band</b></p>
-            <p style="color:#333; margin:8px 0; font-size:14px;">🎬 <b>Video Production</b></p>
-            <p style="color:#333; margin:8px 0; font-size:14px;">👥 <b>Leadership & Teamwork</b></p>
-            <p style="color:#333; margin:8px 0; font-size:14px;">🎓 <b>Creative Teaching</b></p>
-            <p style="color:#333; margin:8px 0; font-size:14px;">🎼 <b>Music Performance</b></p>
-          </div>
-        </td>
-      </tr>
-    </table>
+    <div style="display: flex; gap: 25px; margin-bottom: 35px; flex-wrap: wrap;">
+      <div style="flex: 1; min-width: 280px; background:#ffffff; border-radius:24px; padding:30px; text-align:left; box-shadow:0 8px 25px rgba(48,16,80,0.06); border:2px solid #FFE082;">
+        <h2 style="color:#301050; margin-top:0; font-size:20px;">👋 ABOUT ME</h2>
+        <p style="color:#444; line-height:1.7; font-size:14px;">
+          ฉันเป็นนักเรียนที่มีความสนใจในด้านดนตรี โดยเฉพาะการบรรเลงเครื่องดนตรีประเภท Euphonium / Baritone และมีประสบการณ์กับวง Marching Band มาอย่างต่อเนื่องกว่า 6 ปี
+        </p>
+        <p style="color:#444; line-height:1.7; font-size:14px; margin-bottom:0;">
+          สิ่งที่ฉันอยากพัฒนาต่อไปคือ การนำความรักในดนตรีมาถ่ายทอดให้กับผู้อื่น และเติบโตเป็นครูดนตรีในอนาคต
+        </p>
+      </div>
+      <div style="flex: 1; min-width: 280px; background:#ffffff; border-radius:24px; padding:30px; text-align:left; box-shadow:0 8px 25px rgba(48,16,80,0.06); border:2px solid #FFE082;">
+        <h2 style="color:#301050; margin-top:0; font-size:20px;">✨ SPECIAL SKILLS</h2>
+        <p style="color:#333; margin:10px 0; font-size:14px;">🎺 <b>Baritone / Euphonium</b></p>
+        <p style="color:#333; margin:10px 0; font-size:14px;">🥁 <b>Marching Band</b></p>
+        <p style="color:#333; margin:10px 0; font-size:14px;">🎬 <b>Video Production</b></p>
+        <p style="color:#333; margin:10px 0; font-size:14px;">👥 <b>Leadership & Teamwork</b></p>
+        <p style="color:#333; margin:10px 0; font-size:14px;">🎓 <b>Creative Teaching</b></p>
+        <p style="color:#333; margin:10px 0; font-size:14px;">🎼 <b>Music Performance</b></p>
+      </div>
+    </div>
 
-    <!-- MUSIC JOURNEY (ปรับขนาดฟอนต์และระยะใหม่ให้สวยเป๊ะทุกช่อง) -->
-    <div style="background:#ffffff; border-radius:28px; padding:30px 15px; box-shadow:0 10px 30px rgba(48,16,80,0.06); border:1px solid #FFF59D; margin-bottom:35px; text-align:center;">
+    <!-- MUSIC JOURNEY -->
+    <div style="background:#ffffff; border-radius:28px; padding:35px; box-shadow:0 10px 30px rgba(48,16,80,0.06); border:2px solid #FFE082; margin-bottom:35px; text-align:center;">
       <h2 style="color:#1A0B2E; font-size:24px; margin-bottom:5px;">✦ MY MUSIC JOURNEY ✦</h2>
-      <p style="color:#666; font-size:14px; margin-top:0; margin-bottom:25px;">จากวันที่เริ่มต้น → สู่ประสบการณ์บนเวที</p>
-      <table width="100%">
-        <tr>
-          <td align="center" width="25%" valign="top" style="padding: 0 5px;">
-            <h2 style="color:#4C1D95; margin:0; font-size:22px;">01</h2>
-            <h4 style="color:#301050; margin:5px 0; font-size:14px; white-space:nowrap;">🎵 START</h4>
-            <p style="color:#555; font-size:12px; margin:0; line-height:1.5;">เริ่มต้นเรียนรู้<br>และค้นพบความชอบ</p>
-          </td>
-          <td align="center" width="25%" valign="top" style="padding: 0 5px;">
-            <h2 style="color:#4C1D95; margin:0; font-size:22px;">02</h2>
-            <h4 style="color:#301050; margin:5px 0; font-size:14px; white-space:nowrap;">🎺 PRACTICE</h4>
-            <p style="color:#555; font-size:12px; margin:0; line-height:1.5;">ฝึกฝน Baritone<br>อย่างต่อเนื่อง</p>
-          </td>
-          <td align="center" width="25%" valign="top" style="padding: 0 5px;">
-            <h2 style="color:#4C1D95; margin:0; font-size:22px;">03</h2>
-            <h4 style="color:#301050; margin:5px 0; font-size:14px; white-space:nowrap;">🥁 BAND</h4>
-            <p style="color:#555; font-size:12px; margin:0; line-height:1.5;">ก้าวเข้าสู่วง<br>Marching Band</p>
-          </td>
-          <td align="center" width="25%" valign="top" style="padding: 0 5px;">
-            <h2 style="color:#4C1D95; margin:0; font-size:22px;">04</h2>
-            <h4 style="color:#301050; margin:5px 0; font-size:14px; white-space:nowrap;">✨ TODAY</h4>
-            <p style="color:#555; font-size:12px; margin:0; line-height:1.5;">นำประสบการณ์<br>ต่อยอดสู่อนาคต</p>
-          </td>
-        </tr>
-      </table>
+      <p style="color:#666; font-size:14px; margin-top:0; margin-bottom:30px;">จากวันที่เริ่มต้น → สู่ประสบการณ์บนเวที</p>
+      <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
+        <div style="flex: 1; min-width: 150px;">
+          <h2 style="color:#4C1D95; margin:0; font-size:26px;">01</h2>
+          <h4 style="color:#301050; margin:8px 0;">🎵 START</h4>
+          <p style="color:#555; font-size:13px; margin:0;">เริ่มต้นเรียนรู้<br>และค้นพบความชอบ</p>
+        </div>
+        <div style="flex: 1; min-width: 150px;">
+          <h2 style="color:#4C1D95; margin:0; font-size:26px;">02</h2>
+          <h4 style="color:#301050; margin:8px 0;">🎺 PRACTICE</h4>
+          <p style="color:#555; font-size:13px; margin:0;">ฝึกฝน Baritone<br>อย่างต่อเนื่อง</p>
+        </div>
+        <div style="flex: 1; min-width: 150px;">
+          <h2 style="color:#4C1D95; margin:0; font-size:26px;">03</h2>
+          <h4 style="color:#301050; margin:8px 0;">🥁 BAND</h4>
+          <p style="color:#555; font-size:13px; margin:0;">ก้าวเข้าสู่<br>Marching Band</p>
+        </div>
+        <div style="flex: 1; min-width: 150px;">
+          <h2 style="color:#4C1D95; margin:0; font-size:26px;">04</h2>
+          <h4 style="color:#301050; margin:8px 0;">✨ TODAY</h4>
+          <p style="color:#555; font-size:13px; margin:0;">นำประสบการณ์<br>ต่อยอดสู่อนาคต</p>
+        </div>
+      </div>
     </div>
 
     <!-- PORTFOLIO SECTION -->
-    <div style="background:#ffffff; border-radius:28px; padding:35px; box-shadow:0 10px 30px rgba(48,16,80,0.06); border:1px solid #FFF59D; margin-bottom:35px; text-align:center;">
+    <div style="background:#ffffff; border-radius:28px; padding:40px; box-shadow:0 10px 30px rgba(48,16,80,0.06); border:2px solid #FFE082; margin-bottom:35px; text-align:center;">
       <h2 style="color:#1A0B2E; font-size:26px; margin-bottom:5px;">📚 MY PORTFOLIO (7 PAGES)</h2>
-      <p style="color:#666; font-size:14px; margin-top:0; margin-bottom:30px;">คลิกเลือกดูผลงานแต่ละส่วนได้เลยครับ</p>
+      <p style="color:#666; font-size:14px; margin-top:0; margin-bottom:35px;">คลิกเลือกดูผลงานแต่ละส่วนได้เลยครับ</p>
 
-      <!-- ROW 1 -->
-      <table width="100%" style="margin-bottom: 30px;">
-        <tr>
-          <td width="33%" align="center" valign="top">
-            <h2 style="color:#301050; margin:0; font-size:22px;">01</h2>
-            <h4 style="color:#4C1D95; margin:5px 0 12px 0;">📖 COVER</h4>
-            <img src="https://github.com/user-attachments/assets/18afa173-a4f8-4e4f-affe-79288cb37492" width="220" style="border-radius:12px; box-shadow:0 5px 15px rgba(48,16,80,0.15); display:block; margin:0 auto;"><br>
-            <a href="ปก.md" style="color:#301050; text-decoration:none; font-size:13px;"><b>VIEW COVER (1/7) →</b></a>
-          </td>
-          <td width="33%" align="center" valign="top">
-            <h2 style="color:#301050; margin:0; font-size:22px;">02</h2>
-            <h4 style="color:#4C1D95; margin:5px 0 12px 0;">✍️ SOP</h4>
-            <img src="https://github.com/user-attachments/assets/727bc4cb-21e5-468f-b63f-885b2fae8c6f" width="220" style="border-radius:12px; box-shadow:0 5px 15px rgba(48,16,80,0.15); display:block; margin:0 auto;"><br>
-            <a href="sop.md" style="color:#301050; text-decoration:none; font-size:13px;"><b>VIEW SOP (2/7) →</b></a>
-          </td>
-          <td width="33%" align="center" valign="top">
-            <h2 style="color:#301050; margin:0; font-size:22px;">03</h2>
-            <h4 style="color:#4C1D95; margin:5px 0 12px 0;">👤 PROFILE</h4>
-            <img src="https://github.com/user-attachments/assets/8b5d025b-ba7c-4c51-872d-c6fe34352506" width="220" style="border-radius:12px; box-shadow:0 5px 15px rgba(48,16,80,0.15); display:block; margin:0 auto;"><br>
-            <a href="ประวัติส่วนตัว.md" style="color:#301050; text-decoration:none; font-size:13px;"><b>VIEW PROFILE (3/7) →</b></a>
-          </td>
-        </tr>
-      </table>
+      <!-- GRID CARDS -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 30px; justify-content: center;">
+        
+        <!-- 01 -->
+        <div style="background: #FAFAFA; padding: 25px; border-radius: 20px; border: 2px solid #FFE082; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+          <h2 style="color:#301050; margin:0; font-size:22px;">01</h2>
+          <h4 style="color:#4C1D95; margin:5px 0 15px 0;">📖 COVER</h4>
+          <img src="https://github.com/user-attachments/assets/18afa173-a4f8-4e4f-affe-79288cb37492" width="100%" style="border-radius:12px; box-shadow:0 5px 15px rgba(48,16,80,0.15); display:block; margin-bottom:15px;"><br>
+          <a href="ปก.md" style="background:#301050; color:#FFFFFF; padding: 8px 16px; border-radius: 20px; text-decoration:none; font-size:13px; display:inline-block; box-shadow:0 4px 10px rgba(48,16,80,0.2);"><b>VIEW COVER (1/7) ➔</b></a>
+        </div>
 
-      <!-- ROW 2 -->
-      <table width="100%" style="margin-bottom: 30px;">
-        <tr>
-          <td width="33%" align="center" valign="top">
-            <h2 style="color:#301050; margin:0; font-size:22px;">04</h2>
-            <h4 style="color:#4C1D95; margin:5px 0 12px 0;">🎓 EDUCATION</h4>
-            <img src="https://github.com/user-attachments/assets/7ef51d92-23e0-45af-ae03-2ca2b536aa64" width="220" style="border-radius:12px; box-shadow:0 5px 15px rgba(48,16,80,0.15); display:block; margin:0 auto;"><br>
-            <a href="ประวัติการศึกษา.md" style="color:#301050; text-decoration:none; font-size:13px;"><b>VIEW EDUCATION (4/7) →</b></a>
-          </td>
-          <td width="33%" align="center" valign="top">
-            <h2 style="color:#301050; margin:0; font-size:22px;">05</h2>
-            <h4 style="color:#4C1D95; margin:5px 0 12px 0;">🏆 ACHIEVEMENTS</h4>
-            <img src="https://github.com/user-attachments/assets/50b7dfc5-4b27-4776-ba3c-77f1a638f5d5" width="220" style="border-radius:12px; box-shadow:0 5px 15px rgba(48,16,80,0.15); display:block; margin:0 auto;"><br>
-            <a href="กิจกรรมที่ภาคภูมิใจ.md" style="color:#301050; text-decoration:none; font-size:13px;"><b>VIEW ACHIEVEMENTS (5/7) →</b></a>
-          </td>
-          <td width="33%" align="center" valign="top">
-            <h2 style="color:#301050; margin:0; font-size:22px;">06</h2>
-            <h4 style="color:#4C1D95; margin:5px 0 12px 0;">🌟 ACTIVITIES</h4>
-            <img src="https://github.com/user-attachments/assets/28b25a8a-ee9e-4b8e-9ee5-1753209f8b2a" width="220" style="border-radius:12px; box-shadow:0 5px 15px rgba(48,16,80,0.15); display:block; margin:0 auto;"><br>
-            <a href="กิจกรรมเข้าร่วม.md" style="color:#301050; text-decoration:none; font-size:13px;"><b>VIEW ACTIVITIES (6/7) →</b></a>
-          </td>
-        </tr>
-      </table>
+        <!-- 02 -->
+        <div style="background: #FAFAFA; padding: 25px; border-radius: 20px; border: 2px solid #FFE082; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+          <h2 style="color:#301050; margin:0; font-size:22px;">02</h2>
+          <h4 style="color:#4C1D95; margin:5px 0 15px 0;">✍️ SOP</h4>
+          <img src="https://github.com/user-attachments/assets/727bc4cb-21e5-468f-b63f-885b2fae8c6f" width="100%" style="border-radius:12px; box-shadow:0 5px 15px rgba(48,16,80,0.15); display:block; margin-bottom:15px;"><br>
+          <a href="sop.md" style="background:#301050; color:#FFFFFF; padding: 8px 16px; border-radius: 20px; text-decoration:none; font-size:13px; display:inline-block; box-shadow:0 4px 10px rgba(48,16,80,0.2);"><b>VIEW SOP (2/7) ➔</b></a>
+        </div>
 
-      <!-- BACK COVER -->
-      <table width="100%">
-        <tr>
-          <td align="center">
-            <h2 style="color:#301050; margin:0; font-size:22px;">07</h2>
-            <h4 style="color:#4C1D95; margin:5px 0 12px 0;">📘 BACK COVER</h4>
-            <img src="https://github.com/user-attachments/assets/58296d59-49a1-4596-b896-dad36da9a258" width="280" style="border-radius:12px; box-shadow:0 5px 15px rgba(48,16,80,0.15); display:block; margin:0 auto;"><br>
-            <a href="ปกหลัง.md" style="color:#301050; text-decoration:none; font-size:13px;"><b>VIEW BACK COVER (7/7) →</b></a>
-          </td>
-        </tr>
-      </table>
+        <!-- 03 -->
+        <div style="background: #FAFAFA; padding: 25px; border-radius: 20px; border: 2px solid #FFE082; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+          <h2 style="color:#301050; margin:0; font-size:22px;">03</h2>
+          <h4 style="color:#4C1D95; margin:5px 0 15px 0;">👤 PROFILE</h4>
+          <img src="https://github.com/user-attachments/assets/8b5d025b-ba7c-4c51-872d-c6fe34352506" width="100%" style="border-radius:12px; box-shadow:0 5px 15px rgba(48,16,80,0.15); display:block; margin-bottom:15px;"><br>
+          <a href="ประวัติส่วนตัว.md" style="background:#301050; color:#FFFFFF; padding: 8px 16px; border-radius: 20px; text-decoration:none; font-size:13px; display:inline-block; box-shadow:0 4px 10px rgba(48,16,80,0.2);"><b>VIEW PROFILE (3/7) ➔</b></a>
+        </div>
+
+        <!-- 04 -->
+        <div style="background: #FAFAFA; padding: 25px; border-radius: 20px; border: 2px solid #FFE082; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+          <h2 style="color:#301050; margin:0; font-size:22px;">04</h2>
+          <h4 style="color:#4C1D95; margin:5px 0 15px 0;">🎓 EDUCATION</h4>
+          <img src="https://github.com/user-attachments/assets/7ef51d92-23e0-45af-ae03-2ca2b536aa64" width="100%" style="border-radius:12px; box-shadow:0 5px 15px rgba(48,16,80,0.15); display:block; margin-bottom:15px;"><br>
+          <a href="ประวัติการศึกษา.md" style="background:#301050; color:#FFFFFF; padding: 8px 16px; border-radius: 20px; text-decoration:none; font-size:13px; display:inline-block; box-shadow:0 4px 10px rgba(48,16,80,0.2);"><b>VIEW EDUCATION (4/7) ➔</b></a>
+        </div>
+
+        <!-- 05 -->
+        <div style="background: #FAFAFA; padding: 25px; border-radius: 20px; border: 2px solid #FFE082; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+          <h2 style="color:#301050; margin:0; font-size:22px;">05</h2>
+          <h4 style="color:#4C1D95; margin:5px 0 15px 0;">🏆 ACHIEVEMENTS</h4>
+          <img src="https://github.com/user-attachments/assets/50b7dfc5-4b27-4776-ba3c-77f1a638f5d5" width="100%" style="border-radius:12px; box-shadow:0 5px 15px rgba(48,16,80,0.15); display:block; margin-bottom:15px;"><br>
+          <a href="กิจกรรมที่ภาคภูมิใจ.md" style="background:#301050; color:#FFFFFF; padding: 8px 16px; border-radius: 20px; text-decoration:none; font-size:13px; display:inline-block; box-shadow:0 4px 10px rgba(48,16,80,0.2);"><b>VIEW ACHIEVEMENTS (5/7) ➔</b></a>
+        </div>
+
+        <!-- 06 -->
+        <div style="background: #FAFAFA; padding: 25px; border-radius: 20px; border: 2px solid #FFE082; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+          <h2 style="color:#301050; margin:0; font-size:22px;">06</h2>
+          <h4 style="color:#4C1D95; margin:5px 0 15px 0;">🌟 ACTIVITIES</h4>
+          <img src="https://github.com/user-attachments/assets/28b25a8a-ee9e-4b8e-9ee5-1753209f8b2a" width="100%" style="border-radius:12px; box-shadow:0 5px 15px rgba(48,16,80,0.15); display:block; margin-bottom:15px;"><br>
+          <a href="กิจกรรมเข้าร่วม.md" style="background:#301050; color:#FFFFFF; padding: 8px 16px; border-radius: 20px; text-decoration:none; font-size:13px; display:inline-block; box-shadow:0 4px 10px rgba(48,16,80,0.2);"><b>VIEW ACTIVITIES (6/7) ➔</b></a>
+        </div>
+
+      </div>
+
+      <!-- BACK COVER (CENTER) -->
+      <div style="margin-top: 30px; background: #FAFAFA; padding: 25px; border-radius: 20px; border: 2px solid #FFE082; box-shadow: 0 4px 15px rgba(0,0,0,0.03); max-width: 350px; margin-left: auto; margin-right: auto;">
+        <h2 style="color:#301050; margin:0; font-size:22px;">07</h2>
+        <h4 style="color:#4C1D95; margin:5px 0 15px 0;">📘 BACK COVER</h4>
+        <img src="https://github.com/user-attachments/assets/58296d59-49a1-4596-b896-dad36da9a258" width="100%" style="border-radius:12px; box-shadow:0 5px 15px rgba(48,16,80,0.15); display:block; margin-bottom:15px;"><br>
+        <a href="ปกหลัง.md" style="background:#301050; color:#FFFFFF; padding: 8px 16px; border-radius: 20px; text-decoration:none; font-size:13px; display:inline-block; box-shadow:0 4px 10px rgba(48,16,80,0.2);"><b>VIEW BACK COVER (7/7) ➔</b></a>
+      </div>
+
     </div>
 
     <!-- FEATURED MUSIC -->
-    <div style="background: linear-gradient(135deg,#1A0B2E,#301050,#1E3A8A); border-radius:28px; padding:35px 25px; color:white; box-shadow:0 15px 35px rgba(48,16,80,0.25); margin-bottom:35px; text-align:center;">
+    <div style="background: linear-gradient(135deg,#1A0B2E,#301050,#1E3A8A); border-radius:28px; padding:40px 25px; color:white; box-shadow:0 15px 35px rgba(48,16,80,0.25); margin-bottom:35px; text-align:center; border: 2px solid rgba(254, 240, 138, 0.4);">
       <h2 style="color:#FDE047; font-size:24px; margin-top:0;">🎺 BEHIND THE MUSIC</h2>
-      <p style="font-size:15px; line-height:1.7; color:#EDE9FE; max-width:650px; margin:0 auto 20px auto;">
+      <p style="font-size:15px; line-height:1.7; color:#EDE9FE; max-width:650px; margin:0 auto 25px auto;">
         ประสบการณ์การเล่น Baritone และการเข้าร่วม Marching Band เป็นส่วนสำคัญที่ทำให้ฉันได้เรียนรู้ ทั้งเรื่องวินัย ความรับผิดชอบ การทำงานเป็นทีม และการกล้าแสดงออก
       </p>
-      <img src="https://github.com/user-attachments/assets/c349b998-7318-4776-a489-6cf48c401a37" width="100%" style="max-width:480px; border-radius:14px; display:block; margin:0 auto; box-shadow:0 8px 20px rgba(0,0,0,0.3);">
+      <img src="https://github.com/user-attachments/assets/c349b998-7318-4776-a489-6cf48c401a37" width="100%" style="max-width:500px; border-radius:14px; display:block; margin:0 auto; box-shadow:0 8px 20px rgba(0,0,0,0.3);">
     </div>
 
     <!-- CONTACT -->
-    <div style="background:#ffffff; border-radius:28px; padding:30px; box-shadow:0 10px 30px rgba(48,16,80,0.06); border:1px solid #FFF59D; text-align:center;">
+    <div style="background:#ffffff; border-radius:28px; padding:35px; box-shadow:0 10px 30px rgba(48,16,80,0.06); border:2px solid #FFE082; text-align:center;">
       <h2 style="color:#1A0B2E; margin-bottom:5px; font-size:24px;">📬 LET'S CONNECT</h2>
       <p style="color:#666; margin-top:0; font-size:14px;">Thank you for visiting my portfolio ♡</p><br>
       <p>
