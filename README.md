@@ -1,7 +1,7 @@
 <div align="center">
 
 # 💜 DIGITAL PORTFOLIO • 2026
-### **นางสาวศิริวรรณ บุตรศรี (น้องฟาง)**
+### **นางสาวศิริวรรณ บุตรศรี (น้องฝ้าง)**
 **คณะครุศาสตร์ สาขาวิชาดนตรีศึกษา มหาวิทยาลัยศิลปากร**
 
 [![Target](https://img.shields.io/badge/TARGET-SILPAKORN%20UNIVERSITY-3B0764?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fayy-cpu)
