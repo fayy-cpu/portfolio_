@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/TARGET-SILPAKORN%20UNIVERSITY-4B0082?style=for-the-badge&logo=github&logoColor=white" alt="Target">&nbsp;<img src="https://img.shields.io/badge/MAJOR-MUSIC%20EDUCATION-8A2BE2?style=for-the-badge" alt="Major">&nbsp;<img src="https://komarev.com/ghpvc/?username=fayy-cpu-portfolio&style=for-the-badge&color=FFD700&label=PORTFOLIO+VIEWS" alt="Visitor Counter">
   </div>
 
-  <!-- HERO BANNER -->
+  <!-- HERO BANNER (แบบเดิมที่ต้องการ) -->
   <div style="background:linear-gradient(135deg, #2A004E 0%, #4B0082 40%, #6A0DAD 70%, #8A2BE2 100%); padding:45px 30px; border-radius:32px; max-width:950px; box-shadow:0 20px 40px rgba(75,0,130,0.35); margin-bottom:30px; color:#ffffff; border:2px solid rgba(255,255,255,0.25); text-align:center;">
     <span style="background:rgba(255,255,255,0.18); padding:8px 24px; border-radius:30px; font-size:0.9rem; letter-spacing:2px; font-weight:600; border:1px solid rgba(255,255,255,0.3);">✨ DIGITAL PORTFOLIO 2026</span>
     <h1 style="font-size:3.2rem; margin:22px 0 10px 0; font-weight:700; color:#ffffff; text-shadow:0 5px 15px rgba(0,0,0,0.4);">Portfolio By Siriwan</h1>
@@ -36,7 +36,7 @@
     <a href="ปกหลัง.md" style="color:#4B0082; text-decoration:none; font-weight:600; padding:0 6px;">ปกหลัง (7/7)</a>
   </div>
 
-  <!-- PORTFOLIO GALLERY GRID (ครบทุกการ์ด 01 - 07 และย่อขนาดรูปให้พอดีตา) -->
+  <!-- PORTFOLIO GALLERY GRID (จัดเรียง 01 - 07 เรียบร้อย) -->
 
   <!-- CARD 01 -->
   <div style="background-color:#ffffff; padding:32px; border-radius:28px; box-shadow:0 12px 35px rgba(0,0,0,0.06); margin-bottom:45px; max-width:880px; text-align:left; border:1px solid #EAEAEA;">
@@ -47,8 +47,8 @@
       </div>
       <a href="ปก.md" style="background:#F3E8FF; color:#6A0DAD; padding:8px 18px; border-radius:20px; text-decoration:none; font-weight:600; font-size:0.9rem;">ดูหน้านี้ (1/7) ➔</a>
     </div>
-    <div style="background-color:#FAFAFA; padding:14px; border-radius:20px; border:2px dashed #E0E0E0; text-align:center;">
-      <img src="https://github.com/user-attachments/assets/18afa173-a4f8-4e4f-affe-79288cb37492" width="70%" style="border-radius:14px; display:inline-block;">
+    <div style="background-color:#FAFAFA; padding:14px; border-radius:20px; border:2px dashed #E0E0E0;">
+      <img src="https://github.com/user-attachments/assets/18afa173-a4f8-4e4f-affe-79288cb37492" width="100%" style="border-radius:14px; display:block;">
     </div>
   </div>
 
@@ -61,8 +61,8 @@
       </div>
       <a href="sop.md" style="background:#F3E8FF; color:#6A0DAD; padding:8px 18px; border-radius:20px; text-decoration:none; font-weight:600; font-size:0.9rem;">ดูหน้านี้ (2/7) ➔</a>
     </div>
-    <div style="background-color:#FAFAFA; padding:14px; border-radius:20px; border:2px dashed #E0E0E0; text-align:center;">
-      <img src="https://github.com/user-attachments/assets/727bc4cb-21e5-468f-b63f-885b2fae8c6f" width="70%" style="border-radius:14px; display:inline-block;">
+    <div style="background-color:#FAFAFA; padding:14px; border-radius:20px; border:2px dashed #E0E0E0;">
+      <img src="https://github.com/user-attachments/assets/727bc4cb-21e5-468f-b63f-885b2fae8c6f" width="100%" style="border-radius:14px; display:block;">
     </div>
   </div>
 
@@ -75,8 +75,8 @@
       </div>
       <a href="ประวัติส่วนตัว.md" style="background:#F3E8FF; color:#6A0DAD; padding:8px 18px; border-radius:20px; text-decoration:none; font-weight:600; font-size:0.9rem;">ดูหน้านี้ (3/7) ➔</a>
     </div>
-    <div style="background-color:#FAFAFA; padding:14px; border-radius:20px; border:2px dashed #E0E0E0; text-align:center;">
-      <img src="https://github.com/user-attachments/assets/8b5d025b-ba7c-4c51-872d-c6fe34352506" width="70%" style="border-radius:14px; display:inline-block;">
+    <div style="background-color:#FAFAFA; padding:14px; border-radius:20px; border:2px dashed #E0E0E0;">
+      <img src="https://github.com/user-attachments/assets/8b5d025b-ba7c-4c51-872d-c6fe34352506" width="100%" style="border-radius:14px; display:block;">
     </div>
   </div>
 
@@ -89,8 +89,8 @@
       </div>
       <a href="ประวัติการศึกษา.md" style="background:#F3E8FF; color:#6A0DAD; padding:8px 18px; border-radius:20px; text-decoration:none; font-weight:600; font-size:0.9rem;">ดูหน้านี้ (4/7) ➔</a>
     </div>
-    <div style="background-color:#FAFAFA; padding:14px; border-radius:20px; border:2px dashed #E0E0E0; text-align:center;">
-      <img src="https://github.com/user-attachments/assets/7ef51d92-23e0-45af-ae03-2ca2b536aa64" width="70%" style="border-radius:14px; display:inline-block;">
+    <div style="background-color:#FAFAFA; padding:14px; border-radius:20px; border:2px dashed #E0E0E0;">
+      <img src="https://github.com/user-attachments/assets/7ef51d92-23e0-45af-ae03-2ca2b536aa64" width="100%" style="border-radius:14px; display:block;">
     </div>
   </div>
 
@@ -103,10 +103,10 @@
       </div>
       <a href="กิจกรรมที่ภาคภูมิใจ.md" style="background:#F3E8FF; color:#6A0DAD; padding:8px 18px; border-radius:20px; text-decoration:none; font-weight:600; font-size:0.9rem;">ดูหน้านี้ (5/7) ➔</a>
     </div>
-    <div style="background-color:#FAFAFA; padding:14px; border-radius:20px; border:2px dashed #E0E0E0; text-align:center;">
-      <img src="https://github.com/user-attachments/assets/50b7dfc5-4b27-4776-ba3c-77f1a638f5d5" width="70%" style="border-radius:14px; display:block; margin:0 auto 15px auto;">
-      <img src="https://github.com/user-attachments/assets/c349b998-7318-4776-a489-6cf48c401a37" width="70%" style="border-radius:14px; display:block; margin:0 auto 15px auto;">
-      <img src="https://github.com/user-attachments/assets/cc8e98ef-047a-49ff-9141-475673359e09" width="70%" style="border-radius:14px; display:block; margin:0 auto;">
+    <div style="background-color:#FAFAFA; padding:14px; border-radius:20px; border:2px dashed #E0E0E0;">
+      <img src="https://github.com/user-attachments/assets/50b7dfc5-4b27-4776-ba3c-77f1a638f5d5" width="100%" style="border-radius:14px; display:block; margin-bottom:18px;">
+      <img src="https://github.com/user-attachments/assets/c349b998-7318-4776-a489-6cf48c401a37" width="100%" style="border-radius:14px; display:block; margin-bottom:18px;">
+      <img src="https://github.com/user-attachments/assets/cc8e98ef-047a-49ff-9141-475673359e09" width="100%" style="border-radius:14px; display:block;">
     </div>
   </div>
 
@@ -119,13 +119,13 @@
       </div>
       <a href="กิจกรรมเข้าร่วม.md" style="background:#F3E8FF; color:#6A0DAD; padding:8px 18px; border-radius:20px; text-decoration:none; font-weight:600; font-size:0.9rem;">ดูหน้านี้ (6/7) ➔</a>
     </div>
-    <div style="background-color:#FAFAFA; padding:14px; border-radius:20px; border:2px dashed #E0E0E0; text-align:center;">
-      <img src="https://github.com/user-attachments/assets/28b25a8a-ee9e-4b8e-9ee5-1753209f8b2a" width="70%" style="border-radius:14px; display:block; margin:0 auto 15px auto;">
-      <img src="https://github.com/user-attachments/assets/543a46e3-f216-4fa5-8a4a-2677857c2b80" width="70%" style="border-radius:14px; display:block; margin:0 auto;">
+    <div style="background-color:#FAFAFA; padding:14px; border-radius:20px; border:2px dashed #E0E0E0;">
+      <img src="https://github.com/user-attachments/assets/28b25a8a-ee9e-4b8e-9ee5-1753209f8b2a" width="100%" style="border-radius:14px; display:block; margin-bottom:18px;">
+      <img src="https://github.com/user-attachments/assets/543a46e3-f216-4fa5-8a4a-2677857c2b80" width="100%" style="border-radius:14px; display:block;">
     </div>
   </div>
 
-  <!-- CARD 07 -->
+  <!-- CARD 07 (ปรับสลับตำแหน่งรูป 2 รูปสุดท้ายถูกต้องเรียบร้อย) -->
   <div style="background-color:#ffffff; padding:32px; border-radius:28px; box-shadow:0 12px 35px rgba(0,0,0,0.06); margin-bottom:45px; max-width:880px; text-align:left; border:1px solid #EAEAEA;">
     <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:22px;">
       <div style="display:flex; align-items:center;">
@@ -134,8 +134,8 @@
       </div>
       <a href="ปกหลัง.md" style="background:#F3E8FF; color:#6A0DAD; padding:8px 18px; border-radius:20px; text-decoration:none; font-weight:600; font-size:0.9rem;">ดูหน้านี้ (7/7) ➔</a>
     </div>
-    <div style="background-color:#FAFAFA; padding:14px; border-radius:20px; border:2px dashed #E0E0E0; text-align:center;">
-      <img src="https://github.com/user-attachments/assets/58296d59-49a1-4596-b896-dad36da9a258" width="70%" style="border-radius:14px; display:inline-block;">
+    <div style="background-color:#FAFAFA; padding:14px; border-radius:20px; border:2px dashed #E0E0E0;">
+      <img src="https://github.com/user-attachments/assets/58296d59-49a1-4596-b896-dad36da9a258" width="100%" style="border-radius:14px; display:block;">
     </div>
   </div>
 
