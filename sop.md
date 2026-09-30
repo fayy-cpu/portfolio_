@@ -1,18 +1,26 @@
-<div align="center">
-  <br>
-  <h2 style="color: #6a1b9a;">📄 Statement of Purpose (SOP)</h2>
-  <hr style="width: 40%; border: 1px solid #e0e0e0;">
-  <br>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<div align="center" style="font-family:'Kanit',sans-serif; background-color:#FFFDE7; padding:40px 20px; min-height: 100vh;">
+  <div style="max-width: 950px; margin: 0 auto; width: 100%;">
+    
+    <!-- NAVIGATION BAR -->
+    <div style="background: #ffffff; padding: 16px 20px; border-radius: 50px; display: inline-block; box-shadow: 0 10px 30px rgba(48, 16, 80, 0.1); margin-bottom: 35px; border: 2px solid #FFF59D; text-align: center;">
+      <a href="README.md" style="color: #4C1D95; text-decoration: none; font-weight: 700; padding: 0 6px; font-size: 0.85rem;">🏠 หน้าหลัก</a> <span style="color: #ddd;">|</span> 
+      <a href="ปก.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 6px; font-size: 0.85rem;">01 ปก</a> <span style="color: #ddd;">|</span> 
+      <a href="sop.md" style="color: #FDE047; background: #301050; text-decoration: none; font-weight: 600; padding: 4px 10px; border-radius: 20px; font-size: 0.85rem;">02 SOP</a> <span style="color: #ddd;">|</span> 
+      <a href="ประวัติส่วนตัว.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 6px; font-size: 0.85rem;">03 ประวัติส่วนตัว</a> <span style="color: #ddd;">|</span> 
+      <a href="ประวัติการศึกษา.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 6px; font-size: 0.85rem;">04 ประวัติการศึกษา</a> <span style="color: #ddd;">|</span> 
+      <a href="กิจกรรมที่ภาคภูมิใจ.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 6px; font-size: 0.85rem;">05 ผลงานภาคภูมิใจ</a> <span style="color: #ddd;">|</span> 
+      <a href="กิจกรรมเข้าร่วม.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 6px; font-size: 0.85rem;">06 กิจกรรม</a> <span style="color: #ddd;">|</span> 
+      <a href="ปกหลัง.md" style="color: #301050; text-decoration: none; font-weight: 600; padding: 0 6px; font-size: 0.85rem;">07 ปกหลัง</a>
+    </div>
 
-  <p><em>เรียงความแสดงเจตจำนงและแรงบันดาลใจในการศึกษาต่อ...</em></p>
+    <!-- CONTENT -->
+    <div style="background:#ffffff; border-radius:28px; padding:40px; box-shadow:0 10px 30px rgba(48,16,80,0.06); border:2px solid #FFE082; text-align:center;">
+      <h2 style="color:#1A0B2E; font-size:28px; margin-bottom:15px;">✍️ 02 • แถลงการณ์เป้าหมาย (Statement of Purpose)</h2>
+      <img src="https://github.com/user-attachments/assets/727bc4cb-21e5-468f-b63f-885b2fae8c6f" width="100%" style="border-radius:16px; box-shadow:0 8px 25px rgba(48,16,80,0.2); max-width: 700px; display:block; margin: 0 auto 25px auto;">
+      <br>
+      <a href="README.md" style="background:#301050; color:#FFFFFF; padding: 10px 24px; border-radius: 30px; text-decoration:none; font-size:14px; display:inline-block;"><b>🏠 กลับหน้าหลัก</b></a>
+    </div>
 
-  <br><br>
-  <hr style="width: 80%; border: 0.5px solid #eee;">
-  <br>
-
-  <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
-    <a href="ประวัติการศึกษา.md" style="background: #424242; color: white; padding: 10px 20px; border-radius: 20px; text-decoration: none; font-weight: bold; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-3px)';" onmouseout="this.style.transform='translateY(0)';">← ย้อนกลับ</a>
-    <a href="กิจกรรมเข้าร่วม.md" style="background: #6a1b9a; color: white; padding: 10px 20px; border-radius: 20px; text-decoration: none; font-weight: bold; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-3px)';" onmouseout="this.style.transform='translateY(0)';">🏆 กิจกรรมเข้าร่วม →</a>
   </div>
-  <br>
 </div>
