@@ -5,7 +5,7 @@
 
 <div align="center" style="font-family:'Kanit',sans-serif; background-color:#FFFDE7; padding:40px 15px; min-height: 100vh;">
 
-  <!-- WRAPPER MAIN CONTAINER (คุมความกว้างให้อยู่ตรงกลางสวยงาม) -->
+  <!-- WRAPPER MAIN CONTAINER -->
   <div style="max-width: 900px; margin: 0 auto;">
 
     <!-- TOP BADGES -->
@@ -93,31 +93,31 @@
       </tr>
     </table>
 
-    <!-- MUSIC JOURNEY -->
-    <div style="background:#ffffff; border-radius:28px; padding:30px; box-shadow:0 10px 30px rgba(48,16,80,0.06); border:1px solid #FFF59D; margin-bottom:35px; text-align:center;">
+    <!-- MUSIC JOURNEY (ปรับขนาดฟอนต์และระยะใหม่ให้สวยเป๊ะทุกช่อง) -->
+    <div style="background:#ffffff; border-radius:28px; padding:30px 15px; box-shadow:0 10px 30px rgba(48,16,80,0.06); border:1px solid #FFF59D; margin-bottom:35px; text-align:center;">
       <h2 style="color:#1A0B2E; font-size:24px; margin-bottom:5px;">✦ MY MUSIC JOURNEY ✦</h2>
       <p style="color:#666; font-size:14px; margin-top:0; margin-bottom:25px;">จากวันที่เริ่มต้น → สู่ประสบการณ์บนเวที</p>
       <table width="100%">
         <tr>
-          <td align="center" width="25%" valign="top">
-            <h2 style="color:#4C1D95; margin:0; font-size:24px;">01</h2>
-            <h4 style="color:#301050; margin:5px 0;">🎵 START</h4>
-            <p style="color:#555; font-size:13px; margin:0;">เริ่มต้นเรียนรู้<br>และค้นพบความชอบ</p>
+          <td align="center" width="25%" valign="top" style="padding: 0 5px;">
+            <h2 style="color:#4C1D95; margin:0; font-size:22px;">01</h2>
+            <h4 style="color:#301050; margin:5px 0; font-size:14px; white-space:nowrap;">🎵 START</h4>
+            <p style="color:#555; font-size:12px; margin:0; line-height:1.5;">เริ่มต้นเรียนรู้<br>และค้นพบความชอบ</p>
           </td>
-          <td align="center" width="25%" valign="top">
-            <h2 style="color:#4C1D95; margin:0; font-size:24px;">02</h2>
-            <h4 style="color:#301050; margin:5px 0;">🎺 PRACTICE</h4>
-            <p style="color:#555; font-size:13px; margin:0;">ฝึกฝน Baritone<br>อย่างต่อเนื่อง</p>
+          <td align="center" width="25%" valign="top" style="padding: 0 5px;">
+            <h2 style="color:#4C1D95; margin:0; font-size:22px;">02</h2>
+            <h4 style="color:#301050; margin:5px 0; font-size:14px; white-space:nowrap;">🎺 PRACTICE</h4>
+            <p style="color:#555; font-size:12px; margin:0; line-height:1.5;">ฝึกฝน Baritone<br>อย่างต่อเนื่อง</p>
           </td>
-          <td align="center" width="25%" valign="top">
-            <h2 style="color:#4C1D95; margin:0; font-size:24px;">03</h2>
-            <h4 style="color:#301050; margin:5px 0;">🥁 BAND</h4>
-            <p style="color:#555; font-size:13px; margin:0;">ก้าวเข้าสู่<br>Marching Band</p>
+          <td align="center" width="25%" valign="top" style="padding: 0 5px;">
+            <h2 style="color:#4C1D95; margin:0; font-size:22px;">03</h2>
+            <h4 style="color:#301050; margin:5px 0; font-size:14px; white-space:nowrap;">🥁 BAND</h4>
+            <p style="color:#555; font-size:12px; margin:0; line-height:1.5;">ก้าวเข้าสู่วง<br>Marching Band</p>
           </td>
-          <td align="center" width="25%" valign="top">
-            <h2 style="color:#4C1D95; margin:0; font-size:24px;">04</h2>
-            <h4 style="color:#301050; margin:5px 0;">✨ TODAY</h4>
-            <p style="color:#555; font-size:13px; margin:0;">นำประสบการณ์<br>ต่อยอดสู่อนาคต</p>
+          <td align="center" width="25%" valign="top" style="padding: 0 5px;">
+            <h2 style="color:#4C1D95; margin:0; font-size:22px;">04</h2>
+            <h4 style="color:#301050; margin:5px 0; font-size:14px; white-space:nowrap;">✨ TODAY</h4>
+            <p style="color:#555; font-size:12px; margin:0; line-height:1.5;">นำประสบการณ์<br>ต่อยอดสู่อนาคต</p>
           </td>
         </tr>
       </table>
