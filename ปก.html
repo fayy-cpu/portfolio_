@@ -18,21 +18,22 @@
   color:#4A148C;
 ">
 
-  <!-- ===================== HEADER / MENU ===================== -->
-
   <div style="
     padding:25px 15px;
     text-align:center;
   ">
 
     <div style="
-      display:inline-block;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:12px;
+      flex-wrap:wrap;
       background:#ffffff;
       padding:14px 24px;
       border-radius:50px;
       border:2px solid #FFF59D;
       box-shadow:0 8px 25px rgba(48,16,80,0.12);
-      max-width:95%;
     ">
 
       <a href="./index.html"
@@ -40,61 +41,23 @@
         🏠 หน้าหลัก
       </a>
 
-      <span style="color:#ccc;"> | </span>
+      <span style="color:#ccc;">|</span>
 
-      <a href="./ปก.html"
-         style="text-decoration:none;color:#6A1B9A;font-weight:600;">
+      <b style="color:#6A1B9A;">
         01 ปก
-      </a>
+      </b>
 
-      <span style="color:#ccc;"> | </span>
+      <span style="color:#ccc;">|</span>
 
       <a href="./sop.html"
-         style="text-decoration:none;color:#6A1B9A;">
-        02 SOP
-      </a>
-
-      <span style="color:#ccc;"> | </span>
-
-      <a href="./ประวัติส่วนตัว.html"
-         style="text-decoration:none;color:#6A1B9A;">
-        03 ประวัติ
-      </a>
-
-      <span style="color:#ccc;"> | </span>
-
-      <a href="./ประวัติการศึกษา.html"
-         style="text-decoration:none;color:#6A1B9A;">
-        04 การศึกษา
-      </a>
-
-      <span style="color:#ccc;"> | </span>
-
-      <a href="./กิจกรรมที่ภาคภูมิใจ.html"
-         style="text-decoration:none;color:#6A1B9A;">
-        05 ผลงาน
-      </a>
-
-      <span style="color:#ccc;"> | </span>
-
-      <a href="./กิจกรรมเข้าร่วม.html"
-         style="text-decoration:none;color:#6A1B9A;">
-        06 กิจกรรม
-      </a>
-
-      <span style="color:#ccc;"> | </span>
-
-      <a href="./ปกหลัง.html"
-         style="text-decoration:none;color:#6A1B9A;">
-        07 ปกหลัง
+         style="text-decoration:none;color:#6A1B9A;font-weight:600;">
+        02 SOP →
       </a>
 
     </div>
 
   </div>
 
-
-  <!-- ===================== MAIN ===================== -->
 
   <main style="
     width:90%;
@@ -110,8 +73,6 @@
       box-shadow:0 15px 40px rgba(48,16,80,0.12);
     ">
 
-      <!-- หัวข้อ -->
-
       <div style="text-align:center;">
 
         <div style="
@@ -122,7 +83,6 @@
           border-radius:30px;
           font-size:14px;
           font-weight:600;
-          letter-spacing:1px;
         ">
           01 • COVER
         </div>
@@ -145,8 +105,7 @@
       </div>
 
 
-      <!-- ===================== รูปปก ===================== -->
-
+      <!-- รูปปก -->
       <div style="
         text-align:center;
         background:#FFFDE7;
@@ -171,21 +130,19 @@
       </div>
 
 
-      <!-- ===================== ปุ่มนำทาง ===================== -->
-
+      <!-- ปุ่ม -->
       <div style="
         display:flex;
         justify-content:space-between;
-        align-items:center;
         gap:15px;
         margin-top:30px;
+        flex-wrap:wrap;
       ">
-
-        <!-- กลับหน้าหลัก -->
 
         <a href="./index.html"
            style="
              flex:1;
+             min-width:180px;
              text-align:center;
              text-decoration:none;
              background:#6A1B9A;
@@ -193,17 +150,15 @@
              padding:15px 20px;
              border-radius:30px;
              font-weight:600;
-             box-shadow:0 7px 18px rgba(106,27,154,0.25);
            ">
           🏠 กลับหน้าหลัก
         </a>
 
 
-        <!-- ไปหน้าถัดไป -->
-
         <a href="./sop.html"
            style="
              flex:1;
+             min-width:180px;
              text-align:center;
              text-decoration:none;
              background:#FBC02D;
@@ -211,7 +166,6 @@
              padding:15px 20px;
              border-radius:30px;
              font-weight:600;
-             box-shadow:0 7px 18px rgba(251,192,45,0.3);
            ">
           SOP ต่อไป →
         </a>
@@ -219,15 +173,13 @@
       </div>
 
 
-      <!-- ตัวบอกหน้า -->
-
       <div style="
         text-align:center;
         margin-top:20px;
         color:#999;
         font-size:14px;
       ">
-        01 / 07
+        หน้า 01 / 07
       </div>
 
     </div>
@@ -235,13 +187,12 @@
   </main>
 
 
-  <!-- ===================== FOOTER ===================== -->
-
   <footer style="
     text-align:center;
     padding:25px 15px 40px;
     color:#6A1B9A;
   ">
+
     <div style="font-weight:600;">
       💜 Portfolio By Siriwan
     </div>
@@ -253,6 +204,7 @@
     ">
       Music Education • Silpakorn University
     </div>
+
   </footer>
 
 </body>
