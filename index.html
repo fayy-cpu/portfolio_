@@ -7,6 +7,63 @@
     <title>Portfolio By Siriwan | Music Education Silpakorn</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* ================================
+           ✨ APP-LIKE BOUNCE EFFECT
+           ไม่เปลี่ยนสี / รูป / layout เดิม
+        ================================= */
+
+        a {
+            transition:
+                transform 0.18s ease,
+                box-shadow 0.18s ease;
+        }
+
+        a:hover {
+            transform: translateY(-3px);
+        }
+
+        a:active {
+            transform: scale(0.93);
+        }
+
+        /* การ์ดผลงาน */
+        div[style*="border:2px solid #FFE082"] {
+            transition:
+                transform 0.2s ease,
+                box-shadow 0.2s ease;
+        }
+
+        div[style*="border:2px solid #FFE082"]:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 14px 30px rgba(48,16,80,.12) !important;
+        }
+
+        /* รูปภาพ */
+        img {
+            transition: transform 0.2s ease;
+        }
+
+        img:active {
+            transform: scale(0.97);
+        }
+
+        /* ปุ่มกดบนมือถือ */
+        @media (hover: none) {
+            a:hover {
+                transform: none;
+            }
+
+            a:active {
+                transform: scale(0.93);
+            }
+
+            div[style*="border:2px solid #FFE082"]:hover {
+                transform: none;
+            }
+        }
+    </style>
 </head>
 
 <body style="font-family:'Kanit',sans-serif; background-color:#FFFDE7; margin:0; padding:0;">
@@ -156,7 +213,7 @@ max-width:100%;
     <span style="color:#ddd;">|</span>
 
     <a href="./กิจกรรมที่ภาคภูมิใจ.html" style="color:#301050;text-decoration:none;font-weight:600;padding:0 6px;font-size:.85rem;">
-        05 ผลงานภาคภูมิใจ
+        05 กิจกรรมที่ภาคภูมิใจ
     </a>
 
     <span style="color:#ddd;">|</span>
